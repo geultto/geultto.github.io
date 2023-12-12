@@ -24,6 +24,7 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
     "@docusaurus/module-type-aliases": "3.0.1",
     "@docusaurus/tsconfig": "3.0.1",
     "@docusaurus/types": "3.0.1",
