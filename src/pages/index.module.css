@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  /* header: 60px, footer: 90px */
+  height: calc(100vh - 60px - 91px);
+
+  gap: 20px;
+}

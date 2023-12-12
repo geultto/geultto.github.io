@@ -24,8 +24,6 @@ const config: Config = {
     locales: ["ko"],
   },
 
-  plugins: ["docusaurus-plugin-vanilla-extract"],
-
   presets: [
     [
       "classic",
