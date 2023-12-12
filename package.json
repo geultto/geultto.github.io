@@ -24,22 +24,15 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.4.1",
     "@docusaurus/module-type-aliases": "3.0.1",
     "@docusaurus/tsconfig": "3.0.1",
     "@docusaurus/types": "3.0.1",
     "typescript": "~5.2.2"
   },
   "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 3 chrome version",
-      "last 3 firefox version",
-      "last 5 safari version"
-    ]
+    "production": [">0.5%", "not dead", "not op_mini all"],
+    "development": ["last 3 chrome version", "last 3 firefox version", "last 5 safari version"]
   },
   "engines": {
     "node": ">=18.0"
