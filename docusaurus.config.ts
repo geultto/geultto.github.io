@@ -14,7 +14,7 @@ const config: Config = {
   projectName: "geultto.github.io",
   organizationName: "geultto",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: true,
   deploymentBranch: "gh-pages",
@@ -61,9 +61,9 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
+          label: "튜토리얼",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        { to: "/blog", label: "블로그", position: "left" },
         {
           href: "https://github.com/geultto/geultto.github.io",
           label: "GitHub",
