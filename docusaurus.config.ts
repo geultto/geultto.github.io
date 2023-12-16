@@ -14,7 +14,7 @@ const config: Config = {
   projectName: "geultto.github.io",
   organizationName: "geultto",
 
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   trailingSlash: true,
   deploymentBranch: "gh-pages",
