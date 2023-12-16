@@ -1,5 +1,5 @@
 ---
-sidebar_position: 1
+draft: true # 개발모드에서만 보입니다.
 ---
 
 # Tutorial Intro
