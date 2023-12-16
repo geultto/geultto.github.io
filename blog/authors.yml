@@ -1,17 +1,7 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
-
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+# blog 포스트에서 사용할 author 정보를 정의합니다.
+# 포스트 md 파일의 frontmatter에 `authors: [author1, author2]` 형태로 사용합니다.
+정현수:
+  name: 정현수
+  title: Frontend Engineer @ Daangn
+  url: https://github.com/junghyeonsu
+  image_url: https://github.com/junghyeonsu.png
