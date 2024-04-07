@@ -18,8 +18,8 @@ last_update:
 
 글또 10기 관련 공지
 - 글또는 10기까지 운영될 예정입니다
-- 글또 모집이 시작될 때 메일을 받고 싶으시다면 https://forms.gle/NbmR2qvPEa4qn9GYA 에 설문을 작성 부탁드려요 :) 
-- 혹은 페이스북 그룹(https://www.facebook.com/groups/375431516259701) 또는 제 페이스북(facebook.com/zzsza), 인스타그램(https://www.instagram.com/data.scientist)에 올리기도 하니 참고하셔도 좋을 것 같아요-!
+- 글또 모집이 시작될 때 메일을 받고 싶으시다면 [설문](https://forms.gle/NbmR2qvPEa4qn9GYA)을 작성 부탁드려요 :) 
+- 혹은 [페이스북 그룹](https://www.facebook.com/groups/375431516259701) 또는 [글또 운영자 페이스북](facebook.com/zzsza), [인스타그램](https://www.instagram.com/data.scientist)에 올리기도 하니 참고하셔도 좋을 것 같아요-!
 - 9기 활동자 : 450명
 
 :::
@@ -29,8 +29,6 @@ last_update:
 - 개발자들의 성장을 지원하는 커뮤니티
 - 각자의 직군에서 얻을 수 있는 내용을 토대로 글쓰기 진행
   - 부가적으로 삶의 철학, 여러 고민을 나누는 커뮤니티
-
-
 
 
 ## 글또 히스토리
@@ -49,15 +47,15 @@ last_update:
   - 글또 8기(336명) 진행
   - 글 제출, 패스 자동화
   - 커피챗과 피드백을 합친 커피드백
-  - 빌리지 반상회 : https://github.com/geultto/Village-Neighborhood-Meeting
-  - 큐레이션 : https://github.com/geultto/geultto-curation
+  - [빌리지 반상회 발표 자료](https://github.com/geultto/Village-Neighborhood-Meeting)
+  - [큐레이션 모음](https://github.com/geultto/geultto-curation)
 - 2022년 5월 ~ 2022년 10월
   - 글또 7기(182명) 진행
   - 글 제출을 편하게 진행하기 위한 또봇 개발
   - 익명 슬랙 메세지 전송을 위한 대나무숲 봇 개발
   - 같은 직군별 커피챗
   - 글또 내부 컨퍼런스 (글또콘)
-      - 글또콘 컨텐츠 : https://github.com/geultto/geultto-conference
+      - [글또콘 발표 자료](https://github.com/geultto/geultto-conference)
 - 2021년 8월 ~ 2022년 1월
   - 글또 6기(132명) 진행
 - 2020년 11월 ~ 2021년 5월
@@ -87,8 +85,7 @@ last_update:
 - 2019년 4월
   - 마이크로소프트웨어 396호에 "개발자 글쓰기 모임, 글또" 투고
 - 2019년 3월
-  - Write the Docs Seoul : 글쓰는 개발자 모임, 글또 발표
-  - https://www.slideshare.net/zzsza/ss-137831892
+  - [Write the Docs Seoul : 글쓰는 개발자 모임, 글또 발표](https://www.slideshare.net/zzsza/ss-137831892)
 - 2018년 11월 ~ 2019년 5월
   - 글또 2기(25명) 진행
   - 슬랙에서 활동
