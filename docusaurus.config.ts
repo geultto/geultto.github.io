@@ -61,7 +61,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "튜토리얼",
+          label: "글또 소개",
         },
         { to: "/blog", label: "블로그", position: "left" },
         {
@@ -106,7 +106,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © ${new Date().getFullYear()} 글또`,
+      copyright: `Copyright © 2017 글또`,
     },
     prism: {
       theme: prismThemes.github,
