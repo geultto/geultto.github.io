@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Logo from "../../static/img/logo.svg";
 
 import styles from "./index.module.css";
+import React from "react";
 
 export default function Home() {
   return (
