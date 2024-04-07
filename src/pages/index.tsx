@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
   useEffect(() => {
     // 페이지가 로드될 때 /intro (또는 해당 baseUrl을 포함한 경로)로 리디렉션
     history.push(introUrl);
-  }, [history, introUrl]);
+  }, []);
 
   return (
     <Layout title="홈" description="글또 Document">
