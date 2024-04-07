@@ -18,7 +18,7 @@ last_update:
 - `1_대나무숲_고민_공유` 채널에서 `/대나무숲`을 입력하면 익명으로 메세지를 보낼 수 있습니다
   - 누군가의 익명 메세지 우측에 `스레드 달기`를 입력하시면 익명으로 답글을 달 수 있습니다
 
-<iframe src="https://drive.google.com/file/d/1t2aT1gVeTcHG_WdeYUFTtvnGRejuyjkZ/preview" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1t2aT1gVeTcHG_WdeYUFTtvnGRejuyjkZ/preview" width="900" height="480" allow="autoplay"></iframe>
 
 
 ## 커피챗
@@ -33,5 +33,6 @@ last_update:
 
 ## 큐레이션
 - 제출한 글을 대상으로 잘 작성되었다고 생각하는 글을 큐레이션합니다
+- 글또 기간 중에 큐레이션에 선정되는 것을 목표로 하는 분도 계셔요
 
 <img src="https://capture.dropbox.com/t38juHzaRNbacKOf?raw=1" />
