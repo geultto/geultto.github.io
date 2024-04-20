@@ -44,7 +44,7 @@ const config: Config = {
           customCss: "./src/css/custom.css",
         },
         gtag: {
-          trackingID: 'G-1QK15KQ7TH',
+          trackingID: "G-1QK15KQ7TH",
           anonymizeIP: true,
         },
       } satisfies Preset.Options,
@@ -110,7 +110,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: `Copyright © 2017 글또`,
+      copyright: "Copyright © 2017 글또",
     },
     prism: {
       theme: prismThemes.github,
