@@ -1,0 +1,75 @@
+.contentList {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  margin-top: 2rem;
+}
+
+.contentListItem {
+  margin-bottom: 2rem;
+}
+
+
+.metadataContainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  column-gap: 1rem;
+}
+
+.rowFlexContainer {
+  display: flex;
+  
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.caption {
+  font-size: 0.9rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.thumbnailList {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.thumbnailItem {
+  display: flex;
+  align-items: center;
+
+  gap: 0.3rem;
+}
+
+.thumbnail {
+  border-radius: 9999px;
+  height: 24px;
+  width: 24px;
+
+  object-fit: cover;
+}
+
+.authorName {
+  font-size: 0.9rem;
+}
+
+.tagList {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.tag {
+  font-size: 0.9rem;
+}
+
+.contentDescription {
+  margin-top: 0.5rem;
+
+  font-size: 1rem;
+}
