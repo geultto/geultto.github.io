@@ -28,6 +28,23 @@ last_update:
 - 코어 채널 : 같은 직무 중, 조를 나눈 코어 채널. Prefix는 `3_`
 - 소모임 채널 : 글또 참여하는 분들이 원하는 소모임을 만드는 채널입니다. 자유롭게 만드셔도 됩니다. 감사-회고해또, 냥또, 멍또, 비즈니스_노리또 등. Prefix는 `4_`
 
+## 10기 글 제출 일정
+- 아래 일자의 23:59까지
+  - [구글 캘린더](https://calendar.google.com/calendar/embed?src=ou1hdujbqrejr61hlfk94gobdg%40group.calendar.google.com&ctz=Asia%2FSeoul)
+- 24년 10월 13일
+- 24년 10월 27일
+- 24년 11월 10일
+- 24년 11월 24일
+- 24년 12월 8일
+- 24년 12월 22일
+- 25년 1월 5일
+- 25년 1월 19일
+- 25년 2월 2일
+- 25년 2월 16일
+- 25년 3월 2일
+- 25년 3월 16일
+
+
 
 ## 글 제출
 - **2주**에 글 1개씩 작성해서 공유합니다
@@ -54,6 +71,28 @@ last_update:
 
 <iframe src="https://drive.google.com/file/d/1vS9xolWU_VfAZFP73CWqELD25lzx4Sj7/preview" width="900" height="480" allow="autoplay"></iframe>
 
+## 포인트 시스템(10기 New)
+- 10기엔 포인트 시스템이 도입되었습니다. 특정 Trigger가 될 경우 포인트가 지급됩니다
+- 또봇의 홈 탭
+  - <img src="https://www.dropbox.com/s/bis60hh6i8qk6ox/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.45.57.png?raw=1" />
+- 공지사항에 :noti-check: 이모지를 남길 경우 포인트, 글 제출시 포인트, 커피챗 인증시 포인트 등 다양하게 설계
+
+## 종이비행기(10기 New)
+- 누군가에게 감사함을 표시하고 싶을 때, 종이비행기를 보내보세요
+- 특정 주기로 재충전이 되며, 주고받은 종이비행기를 확인할 수 있어요
+
+<img src="https://www.dropbox.com/s/td56te91ckdxnk1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.39.png?raw=1" />
+
+<img src="https://www.dropbox.com/s/3nnbfw7mhegn6ca/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.55.png?raw=1" />
+<img src="https://www.dropbox.com/s/8aaifrttzjm2bz2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.50.02.png?raw=1" />
+
+
+
+## 커피챗 인증(10기 New)
+- `1_커피챗_또는_모임_후기` 채널에 메시지를 올려주시면 또봇이 커피챗 인증을 도와줍니다
+
+<iframe src="https://drive.google.com/file/d/18FmBKEyDtge9vcg1DECjEsg_uODKstjE/preview" width="900" height="480" allow="autoplay"></iframe>
+
 
 ## 예치금 현황 파악
 - 자신이 속한 코어 채널에서 `/예치금`을 입력합니다
@@ -73,11 +112,11 @@ last_update:
 
 
 ## 태그 후, 누가 반응하지 않았는지 확인하고 싶다면
-- 태그한 후, 쓰레드에 `@글팽이 이모지체크` 라고 하면 태그 대상 중 이모지를 하지 않은 사람에게 댓글을 달아달라고 합니다
+- 태그한 후, 쓰레드에 `@글팽이 체크` 라고 하면 태그 대상 중 이모지를 하지 않은 사람에게 댓글을 달아달라고 합니다
 
-<iframe src="https://drive.google.com/file/d/13DPC3Hn7SRHjkSaX3fCGvbLXwOdl2i9P/preview" width="900" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1y-SlQuE-_bkkEjZUjASKkJqBqrR_FrUZ/preview" width="900" height="480" allow="autoplay"></iframe>
 
 - 모두 반응했다면, 모두 반응했다고 응답합니다
 
-<iframe src="https://drive.google.com/file/d/1eHpXb3rgZiTGZyl6V4G0nSlofatuLsGh/preview" width="900" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1OrtJP3rB9OZq6PH4OeYzIyytbXM96Fkg/preview" width="900" height="480" allow="autoplay"></iframe>
 
