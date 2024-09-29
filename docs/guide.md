@@ -74,7 +74,7 @@ last_update:
 ## 포인트 시스템(10기 New)
 - 10기엔 포인트 시스템이 도입되었습니다. 특정 Trigger가 될 경우 포인트가 지급됩니다
 - 또봇의 홈 탭
-  - <img src="https://www.dropbox.com/s/bis60hh6i8qk6ox/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.45.57.png?raw=1">
+  - <img src="https://www.dropbox.com/s/bis60hh6i8qk6ox/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.45.57.png?raw=1" />
 - 공지사항에 :noti-check: 이모지를 남길 경우 포인트, 글 제출시 포인트, 커피챗 인증시 포인트 등 다양하게 설계
 
 ## 종이비행기(10기 New)
