@@ -34,6 +34,10 @@ last_update:
 ## 글또 히스토리
 <img src="https://capture.dropbox.com/7pI6T8Bl3mFjLH7B?raw=1" />
 
+- 글또 10기(약 650명)
+  - 포인트 시스템 개발
+  - 감사함을 표현하는 종이비행기 개발
+  - 길벗 / 튜링의 사과와 협업
 - 2023년 11월 ~ 현재
   - 글또 9기 진행 중(452명)
   - CRM Push 메세지 봇 데달부 개발
