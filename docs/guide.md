@@ -81,11 +81,10 @@ last_update:
 - 누군가에게 감사함을 표시하고 싶을 때, 종이비행기를 보내보세요
 - 특정 주기로 재충전이 되며, 주고받은 종이비행기를 확인할 수 있어요
 
-<img src="https://www.dropbox.com/s/td56te91ckdxnk1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.39.png?raw=1">
+<img src="https://www.dropbox.com/s/td56te91ckdxnk1/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.39.png?raw=1" />
 
-<img src="https://www.dropbox.com/s/3nnbfw7mhegn6ca/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.55.png?raw=1">
-
-<img src="https://www.dropbox.com/s/8aaifrttzjm2bz2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.50.02.png?raw=1">
+<img src="https://www.dropbox.com/s/3nnbfw7mhegn6ca/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.49.55.png?raw=1" />
+<img src="https://www.dropbox.com/s/8aaifrttzjm2bz2/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-09-30%20%EC%98%A4%EC%A0%84%2012.50.02.png?raw=1" />
 
 
 
