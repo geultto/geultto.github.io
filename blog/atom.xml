@@ -2,16 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://geultto.github.io/blog/</id>
     <title>글또 Document Blog</title>
-    <updated>2024-10-03T12:18:25.000Z</updated>
+    <updated>2024-10-03T13:30:07.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://geultto.github.io/blog/"/>
     <subtitle>글또 Document Blog</subtitle>
     <icon>https://geultto.github.io/img/favicon.ico</icon>
+    <rights>Copyright © 2024 글또</rights>
     <entry>
         <title type="html"><![CDATA[글또(개발자 글쓰기 모임) 소개]]></title>
         <id>https://geultto.github.io/blog/geultto-summary/</id>
         <link href="https://geultto.github.io/blog/geultto-summary/"/>
-        <updated>2024-10-03T12:18:25.000Z</updated>
+        <updated>2024-10-03T13:30:07.000Z</updated>
         <summary type="html"><![CDATA[글또 소개]]></summary>
         <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="글또-소개">글또 소개<a href="https://geultto.github.io/blog/geultto-summary/#%EA%B8%80%EB%98%90-%EC%86%8C%EA%B0%9C" class="hash-link" aria-label="글또 소개에 대한 직접 링크" title="글또 소개에 대한 직접 링크">​</a></h2>
 <ul>
