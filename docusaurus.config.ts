@@ -29,19 +29,31 @@ const config: Config = {
       "classic",
       {
         docs: {
-          path: "contents/docs",
+          path: "docs",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/docs",
         },
         blog: {
-          path: "contents/blog",
+          path: "blog",
           blogTitle: "글또 블로그",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/blog",
+          feedOptions: {
+            type: "all",
+            copyright: `Copyright © ${new Date().getFullYear()} 글또`,
+            createFeedItems: async (params) => {
+              const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+              return defaultCreateFeedItems({
+                // keep only the 10 most recent blog posts in the feed
+                blogPosts: blogPosts.filter((_, index) => index < 10),
+                ...rest,
+              });
+            },
+          },
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -70,6 +82,11 @@ const config: Config = {
           label: "가이드",
         },
         { to: "/blog", label: "블로그", position: "left" },
+        {
+          to: "/faq",
+          label: "FAQ",
+          position: "left",
+        },
         {
           href: "https://github.com/geultto/geultto.github.io",
           label: "GitHub",
@@ -112,7 +129,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: "Copyright © 2024 글또",
+      copyright: `Copyright © ${new Date().getFullYear()} 글또`,
     },
     prism: {
       theme: prismThemes.github,
