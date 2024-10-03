@@ -29,12 +29,14 @@ const config: Config = {
       "classic",
       {
         docs: {
+          path: "contents/docs",
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/docs",
         },
         blog: {
+          path: "contents/blog",
           blogTitle: "글또 블로그",
           showReadingTime: true,
           // Please change this to your repo.
