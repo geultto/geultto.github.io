@@ -6,7 +6,6 @@ import { HtmlClassNameProvider, PageMetadata, ThemeClassNames } from "@docusauru
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 import type { Props } from "@theme/BlogListPage";
-import BlogListPageStructuredData from "@theme/BlogListPage/StructuredData";
 import Layout from "@theme/Layout";
 import SearchMetadata from "@theme/SearchMetadata";
 import styles from "./styles.module.css";
@@ -98,7 +97,6 @@ export default function BlogListPage(props: Props): JSX.Element {
   return (
     <HtmlClassNameProvider className={clsx(ThemeClassNames.wrapper.blogPages, ThemeClassNames.page.blogListPage)}>
       <BlogListPageMetadata {...props} />
-      <BlogListPageStructuredData {...props} />
       <BlogListPageContent {...props} />
     </HtmlClassNameProvider>
   );

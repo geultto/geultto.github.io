@@ -56,7 +56,6 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/geultto-social-card.png",
     navbar: {
-      title: "글또",
       logo: {
         alt: "글또 Logo",
         src: "img/logo.svg",
@@ -66,7 +65,7 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "글또 소개",
+          label: "가이드",
         },
         { to: "/blog", label: "블로그", position: "left" },
         {
@@ -111,7 +110,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      copyright: "Copyright © 2017 글또",
+      copyright: "Copyright © 2024 글또",
     },
     prism: {
       theme: prismThemes.github,
