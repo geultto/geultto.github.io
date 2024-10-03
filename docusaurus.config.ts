@@ -81,7 +81,15 @@ const config: Config = {
           position: "left",
           label: "가이드",
         },
-        { to: "/blog", label: "블로그", position: "left" },
+        {
+          to: "/blog",
+          label: "블로그",
+          position: "left",
+          items: [
+            { to: "/blog", label: "전체" },
+            { to: "/blog/authors", label: "글또 작가들" },
+          ],
+        },
         {
           to: "/faq",
           label: "FAQ",
