@@ -17,3 +17,15 @@
   url: https://github.com/zzsza
   page: true
   image_url: https://github.com/zzsza.png
+
+이용선:
+  name: 이용선(rio)
+  title: 글또 운영진 / Backend Engineer
+  url: https://github.com/dldydtjs2965
+  image_url: https://github.com/dldydtjs2965.png
+  page: true
+  socials:
+    linkedin: leeyongseon
+    github: dldydtjs2965
+    blog: https://codediary21.tistory.com/
+
