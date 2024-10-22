@@ -1,7 +1,7 @@
 ---
 sidebar_position: 5
 last_update:
-  date: 22/10/2024
+  date: 10/22/2024
   author: 변성윤
 ---
 
