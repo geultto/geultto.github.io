@@ -91,6 +91,12 @@ const config: Config = {
           ],
         },
         {
+          to: "/curation",
+          label: "큐레이션",
+          position: "left",
+          items: [{ to: "/curation/10th", label: "10기" }],
+        },
+        {
           to: "/faq",
           label: "FAQ",
           position: "left",
