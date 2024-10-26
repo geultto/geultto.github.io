@@ -1,6 +1,7 @@
 import { themes as prismThemes } from "prism-react-renderer";
 import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
+import type { Options as DocsOptions } from "@docusaurus/plugin-content-docs";
 
 const config: Config = {
   title: "글또 Document",
@@ -66,6 +67,21 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      "content-docs",
+      {
+        id: "curation",
+        path: "curation",
+        routeBasePath: "curation",
+        editCurrentVersion: true,
+        sidebarPath: "./sidebarsCuration.js",
+        showLastUpdateAuthor: true,
+        showLastUpdateTime: true,
+      } satisfies DocsOptions,
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: "img/geultto-social-card.png",
@@ -89,6 +105,13 @@ const config: Config = {
             { to: "/blog", label: "전체" },
             { to: "/blog/authors", label: "글또 작가들" },
           ],
+        },
+        {
+          to: "/curation",
+          label: "큐레이션",
+          position: "left",
+          // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
+          activeBaseRegex: `/curation/`,
         },
         {
           to: "/faq",
