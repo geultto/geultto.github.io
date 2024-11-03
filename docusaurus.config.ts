@@ -38,8 +38,10 @@ const config: Config = {
         },
         blog: {
           path: "blog",
-          blogTitle: "글또 블로그",
+
+          blogTitle: "글또 컨텐츠",
           showReadingTime: true,
+          authorsMapPath: "../static/authors.yml",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/blog",
@@ -67,20 +69,7 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      "content-docs",
-      {
-        id: "curation",
-        path: "curation",
-        routeBasePath: "curation",
-        editCurrentVersion: true,
-        sidebarPath: "./sidebarsCuration.js",
-        showLastUpdateAuthor: true,
-        showLastUpdateTime: true,
-      } satisfies DocsOptions,
-    ],
-  ],
+  plugins: [],
 
   themeConfig: {
     // Replace with your project's social card
@@ -110,8 +99,6 @@ const config: Config = {
           to: "/curation",
           label: "큐레이션",
           position: "left",
-          // biome-ignore lint/style/noUnusedTemplateLiteral: <explanation>
-          activeBaseRegex: `/curation/`,
         },
         {
           to: "/faq",

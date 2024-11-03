@@ -1,0 +1,104 @@
+10th:
+  1st:
+    PMPO:
+      - 제목: 끝맺음을 잘하자 (글또 다짐)
+        작가: 임지환
+        주소: https://habwa.tistory.com/entry/%EB%81%9D%EB%A7%BA%EC%9D%8C%EC%9D%84-%EC%9E%98%ED%95%98%EC%9E%90-%EA%B8%80%EB%98%90-%EB%8B%A4%EC%A7%90
+      - 제목: 침대 위에서 눈물을 훔치며 본 내동생 결혼식
+        작가: 신지혜
+        주소: https://brunch.co.kr/@smol/13
+      - 제목: 당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께)
+        작가: 정현수
+        주소: https://junghyeonsu.com/posts/daangn-tech-meetup-retrospect/
+        설명: # 추후에 한줄평?
+    
+    Frontend:
+      - 제목: "[Web Workers] AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?"
+        주소: https://pkw-may.tistory.com/65
+        작가: 박경원
+        설명: 
+      - 제목: 함수는 어디까지 접근 가능한가? - Closure와 this 이해하기
+        주소: https://www.oooooroblog.com/posts/90-js-this-closure
+        작가: 조예진
+        설명: 
+      - 제목: Shadow DOM으로 스타일 충돌 해결하기
+        주소: https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom
+        작가: 강주혁
+        설명: 
+        
+    Backend:
+      - 제목: Redis의 Increment는 왜 원자적으로 동작하는 것일까?
+        주소: https://strong-park.tistory.com/entry/Redis%EC%9D%98-Increment%EB%8A%94-%EC%99%9C-%EC%9B%90%EC%9E%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%BC%EA%B9%8C
+        작가: 박세진a
+        설명: 
+      - 제목: 계약에 의한 설계(Design by Contract)를 실전에 적용하기
+        주소: https://jinseong-dev.tistory.com/49
+        작가: 황진성
+        설명: 
+      - 제목: 스트림은 느긋하고 싶다
+        주소: https://yatta.tistory.com/10
+        작가: 이종은
+        설명: 
+        
+    Data:
+      - 제목: Airflow를 활용해서 API로 데이터 수집하기
+        주소: https://velog.io/@chltpdus48/Airflow%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4%EC%84%9C-API%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0
+        작가: 최세연
+        설명: 
+      - 제목: 마이크로소프트 연구원이 말하는 AI에 대한 치명적 착각
+        주소: https://brunch.co.kr/@hnote/154
+        작가: 이소희a
+        설명: 
+        
+    Fullstack:
+      - 제목: 소프트웨어 파괴의 미학
+        주소: https://kciter.so/posts/the-aesthetics-of-destroying-software/
+        작가: 이선협
+        설명: The 1th Fullstack is a great event
+      - 제목: 사라진 Python 웹 프레임워크의 Redis Cluster 캐시 구현체
+        주소: https://medium.com/@sudosubin/%EC%82%AC%EB%9D%BC%EC%A7%84-python-%EC%9B%B9-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%9D%98-redis-cluster-%EC%BA%90%EC%8B%9C-%EA%B5%AC%ED%98%84%EC%B2%B4-8439a473e16b
+        작가: 김수빈
+        설명: The 1th Fullstack is a great event
+      - 제목: 랭체인v0.3 하이퍼클로바x 연동하기
+        주소: https://chucoding.tistory.com/149
+        작가: 서현석
+        설명: The 1th Fullstack is a great event
+
+  2nd:
+    PMPO:
+      - 제목: The 2th PMPO
+        주소: https://www.google.com
+        설명: The 2th PMPO is a great event
+        작가: 
+    
+    Frontend:
+      - 제목: The 2th Frontend
+        주소: https://www.google.com
+        설명: The 2th Frontend is a great event
+        작가: 
+        
+    Backend:
+      - 제목: The 2th Backend
+        주소: https://www.google.com
+        설명: The 2th Backend is a great event
+        작가: 
+        
+    Data:
+      - 제목: The 2th Data
+        주소: https://www.google.com
+        설명: The 2th Data is a great event
+        작가: 
+        
+    Fullstack:
+      - 제목: The 2th Fullstack
+        주소: https://www.google.com
+        설명: The 2th Fullstack is a great event
+        작가:
+  3rd:
+  4th:
+  5th:
+  6th:
+  7th:
+  8th:
+  9th:
+  10th:
