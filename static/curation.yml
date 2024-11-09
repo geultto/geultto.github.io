@@ -4,65 +4,67 @@
       - 제목: 끝맺음을 잘하자 (글또 다짐)
         작가: 임지환
         주소: https://habwa.tistory.com/entry/%EB%81%9D%EB%A7%BA%EC%9D%8C%EC%9D%84-%EC%9E%98%ED%95%98%EC%9E%90-%EA%B8%80%EB%98%90-%EB%8B%A4%EC%A7%90
+        설명: 🚀 끝맺음의 중요성을 강조하며, 대목표와 소목표 설정, 수치화, 그리고 커뮤니티와 함께 성장하는 전략적인 자기계발 접근법을 제시합니다.
       - 제목: 침대 위에서 눈물을 훔치며 본 내동생 결혼식
         작가: 신지혜
         주소: https://brunch.co.kr/@smol/13
+        설명: 👰 언택트 시대의 혁신적인 결혼식 경험을 UX 관점에서 생생하게 풀어낸 감동적이고 실용적인 온라인 결혼식 이야기!
+    
+    Frontend:
       - 제목: 당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께)
         작가: 정현수
         주소: https://junghyeonsu.com/posts/daangn-tech-meetup-retrospect/
-        설명: # 추후에 한줄평?
-    
-    Frontend:
-      - 제목: "[Web Workers] AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?"
+        설명: 🎤 발표 준비부터 실전까지의 상세한 노하우를 담은 실용적인 글로, 발표를 앞둔 사람들에게 장표 제작, 발표 기법, 마인드셋까지 종합적인 인사이트를 제공합니다.
+      - 제목: [Web Workers] AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?
         주소: https://pkw-may.tistory.com/65
         작가: 박경원
-        설명: 
+        설명: 🚀 AI 모델의 백그라운드 실행의 장단점을 실험적으로 탐구하며, 실시간 이미지 추론에서는 메인 스레드가 더 효율적일 수 있음을 깨달은 인사이트 있는 글입니다.
       - 제목: 함수는 어디까지 접근 가능한가? - Closure와 this 이해하기
         주소: https://www.oooooroblog.com/posts/90-js-this-closure
         작가: 조예진
-        설명: 
+        설명: 🧠 자바스크립트의 스코프, 클로저, this의 동작 원리를 깊이 있게 이해할 수 있는 심도 있는 기술 블로그 포스트로, 개발자의 JavaScript 기본기를 탄탄하게 다질 수 있는 글입니다.
       - 제목: Shadow DOM으로 스타일 충돌 해결하기
         주소: https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom
         작가: 강주혁
-        설명: 
+        설명: 🎨 웹 컴포넌트의 스타일 격리를 위한 Shadow DOM의 개념과 활용법을 명확하게 설명한 유용한 글입니다.
         
     Backend:
       - 제목: Redis의 Increment는 왜 원자적으로 동작하는 것일까?
         주소: https://strong-park.tistory.com/entry/Redis%EC%9D%98-Increment%EB%8A%94-%EC%99%9C-%EC%9B%90%EC%9E%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%BC%EA%B9%8C
         작가: 박세진a
-        설명: 
+        설명: 🔍 Redis의 INCR 명령어가 원자적으로 동작하는 원리를 깊이 있게 탐구하여, 동시성 제어의 내부 메커니즘을 명확히 이해할 수 있는 기술 블로그 포스팅입니다.
       - 제목: 계약에 의한 설계(Design by Contract)를 실전에 적용하기
         주소: https://jinseong-dev.tistory.com/49
         작가: 황진성
-        설명: 
+        설명: 📝 계약에 의한 설계(Design by Contract)의 핵심 개념과 실전 적용 방법을 상세히 설명한 유익한 기술 문서입니다.
       - 제목: 스트림은 느긋하고 싶다
         주소: https://yatta.tistory.com/10
         작가: 이종은
-        설명: 
+        설명: 🎯 Stream의 지연 연산 특성을 이해하고 성능 최적화를 위한 핵심 메커니즘을 학습할 수 있는 깊이 있는 기술 가이드입니다.
         
     Data:
       - 제목: Airflow를 활용해서 API로 데이터 수집하기
         주소: https://velog.io/@chltpdus48/Airflow%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4%EC%84%9C-API%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0
         작가: 최세연
-        설명: 
+        설명: 🔄 Airflow를 활용한 API 데이터 수집의 체계적이고 효율적인 접근 방법을 상세히 설명하는 기술 블로그로, 비동기 처리, 세마포어, 오류 관리 등 실무에 바로 적용 가능한 인사이트를 제공합니다.
       - 제목: 마이크로소프트 연구원이 말하는 AI에 대한 치명적 착각
         주소: https://brunch.co.kr/@hnote/154
         작가: 이소희a
-        설명: 
+        설명: 🤖 AI의 기술적, 사회적 영향을 깊이 있게 탐구하며, 마이크로소프트 연구원의 비판적 시각으로 AI의 숨겨진 위험성과 윤리적 문제를 통찰력 있게 분석한 책입니다.
         
     Fullstack:
       - 제목: 소프트웨어 파괴의 미학
         주소: https://kciter.so/posts/the-aesthetics-of-destroying-software/
         작가: 이선협
-        설명: The 1th Fullstack is a great event
+        설명: 🎯 소프트웨어 개발에서 불가피한 코드 파괴를 받아들이고, 변화에 유연하게 대응할 수 있는 혁신적인 개발 철학을 제시하는 깊이 있는 기술 에세이입니다.
       - 제목: 사라진 Python 웹 프레임워크의 Redis Cluster 캐시 구현체
         주소: https://medium.com/@sudosubin/%EC%82%AC%EB%9D%BC%EC%A7%84-python-%EC%9B%B9-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%9D%98-redis-cluster-%EC%BA%90%EC%8B%9C-%EA%B5%AC%ED%98%84%EC%B2%B4-8439a473e16b
         작가: 김수빈
-        설명: The 1th Fullstack is a great event
+        설명: 💡 Redis Cluster 지원이 부족한 Python 웹 프레임워크에서 Django와 FastAPI를 위한 맞춤형 캐시 백엔드를 직접 구현하여 성능과 안정성을 높인 혁신적인 기술 접근 사례
       - 제목: 랭체인v0.3 하이퍼클로바x 연동하기
         주소: https://chucoding.tistory.com/149
         작가: 서현석
-        설명: The 1th Fullstack is a great event
+        설명: 🔧 랭체인 v0.3과 하이퍼클로바X를 커스텀 모델로 연동하고, 배치 처리를 통한 성능 개선 사례를 제시하여, AI 개발자들에게 실용적인 가이드를 제공합니다.
 
   2nd:
     PMPO:
