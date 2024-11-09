@@ -9,7 +9,7 @@ interface CurationContent {
   주소: string;
   작가: string;
   직군: string;
-  설명?: string;
+  설명: string;
 }
 
 type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack";
@@ -126,7 +126,7 @@ export const Curation = ({ 회차, 기수 = 10, 직군 }: CurationProps) => {
 };
 
 const CurationContent = (props: CurationContent) => {
-  const { 제목, 주소, 작가 } = props;
+  const { 제목, 주소, 작가, 설명 } = props;
   const authors = React.useContext(CurationContext).authors;
   const author = authors[작가];
 
@@ -148,6 +148,9 @@ const CurationContent = (props: CurationContent) => {
           <a className={styles.curationContentLink} href={주소}>
             {제목}
           </a>
+          <p>
+            {설명}
+          </p>
         </>
       )}
     </div>
