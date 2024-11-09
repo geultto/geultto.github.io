@@ -30,9 +30,6 @@ function BlogListPageMetadata(props: Props): JSX.Element {
 function BlogListPageContent(props: Props): JSX.Element {
   const { items, metadata } = props;
 
-  console.log("items", items);
-  console.log("metadata", metadata);
-
   return (
     <Layout {...props}>
       <div className="container margin-vert--lg">
@@ -41,7 +38,6 @@ function BlogListPageContent(props: Props): JSX.Element {
           {items.map(({ content }) => {
             const { metadata } = content;
             const { authors, date, title, description, permalink } = metadata;
-            console.log("metadata", metadata);
 
             return (
               <div className={clsx(styles.contentListItem)} key={permalink}>
