@@ -1,0 +1,41 @@
+# blog 포스트에서 사용할 author 정보를 정의합니다.
+# 포스트 md 파일의 frontmatter에 `authors: [author1, author2]` 형태로 사용합니다.
+정현수:
+  name: 정현수
+  title: Frontend Engineer @ Daangn
+  url: https://github.com/junghyeonsu
+  image_url: https://github.com/junghyeonsu.png
+  page: true
+  socials:
+    linkedin: hyeonsu-jung-5483911a5
+    github: junghyeonsu
+    blog: https://junghyeonsu.com/
+
+변성윤:
+  name: 변성윤
+  title: 글또 운영자 / 데이터 과학자 / 코치
+  url: https://github.com/zzsza
+  page: true
+  image_url: https://github.com/zzsza.png
+
+이용선:
+  name: 이용선(rio)
+  title: 글또 운영진 / Backend Engineer
+  url: https://github.com/dldydtjs2965
+  image_url: https://github.com/dldydtjs2965.png
+  page: true
+  socials:
+    linkedin: leeyongseon
+    github: dldydtjs2965
+    blog: https://codediary21.tistory.com/
+
+임지훈:
+  name: 임지훈
+  title: 글또 운영진 / Cloud Engineer
+  url: https://github.com/heuristicwave
+  image_url: https://github.com/heuristicwave.png
+  page: true
+  socials:
+    linkedin: heuristicwave
+    github: heuristicwave
+    blog: https://heuristicwave.github.io/
