@@ -41,6 +41,7 @@ function BlogListPageContent(props: Props): JSX.Element {
           {items.map(({ content }) => {
             const { metadata } = content;
             const { authors, date, title, description, permalink } = metadata;
+            console.log("metadata", metadata);
 
             return (
               <div className={clsx(styles.contentListItem)} key={permalink}>
