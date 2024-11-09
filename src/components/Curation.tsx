@@ -141,6 +141,9 @@ const CurationContent = (props: CurationContent) => {
           <a className={styles.curationContentLink} href={주소}>
             {제목}
           </a>
+          <p>
+            {설명}
+          </p>
         </>
       ) : (
         <>
