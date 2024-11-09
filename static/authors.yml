@@ -39,3 +39,101 @@
     linkedin: heuristicwave
     github: heuristicwave
     blog: https://heuristicwave.github.io/
+
+금정민:
+  name: 금정민
+  title: OpenSource Contributor | Frontend Engineer @ GLN, HANA financial group
+  url: https://github.com/KumJungMin
+  image_url: https://github.com/KumJungMin.png
+  page: true
+  socials:
+    linkedin: 정민-금-51aa492b9
+    github: KumJungMin
+    blog: https://mong-blog.tistory.com/
+
+곽승예:
+  name: 곽승예
+  title: Data Scientist
+  url: https://github.com/seungye-kwak
+  image_url: https://github.com/seungye-kwak.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/seungye-kwak/
+    github: seungye-kwak
+    blog: https://login-data.tistory.com/
+
+김수빈:
+  name: 김수빈
+  title: Software Engineer @ Daangn
+  url: https://github.com/sudosubin
+  image_url: https://github.com/sudosubin.png
+  page: true
+  socials:
+    linkedin: sudosubin
+    github: sudosubin
+    blog: https://medium.com/@sudosubin
+
+이소희a:
+  name: 이소희
+  title: Data Architect @ En-core
+  url: https://brunch.co.kr/@hnote
+  image_url: http://t1.daumcdn.net/brunch/service/user/9KD2/image/Tct739DmVJSMp5Sv4xCdqCHb9IA.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/soheeee/
+    blog: https://wvwv.tistory.com/
+
+박경원:
+  name: 박경원
+  title: Frontend Engineer
+  url: https://github.com/pkw-May
+  image_url: https://github.com/pkw-May.png
+  page: true
+  socials:
+    linkedin: kyungwon-park-6315b81b7
+    github: pkw-May
+    blog: https://pkw-may.tistory.com/
+
+서현석:
+  name: 서현석
+  title: Full-Stack Developer @ konantechnology
+  url: https://github.com/chucoding
+  image_url: https://github.com/chucoding.png
+  page: true
+  socials:
+    linkedin: https://linkedin.com/in/chucoding
+    github: chucoding
+    blog: chucoding.tistory.com
+
+이종은:
+  name: 이종은
+  title: Backend Engineer
+  url: https://github.com/jongeuni
+  image_url: https://github.com/jongeuni.png
+  page: true
+  socials:
+    linkedin: 종은-이-6a166623b
+    github: jongeuni
+    blog: https://yatta.tistory.com/
+
+최세연:
+  name: 최세연
+  title: Data Engineer
+  url: https://github.com/barabobbob
+  image_url: https://github.com/barabobbob.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/%EC%84%B8%EC%97%B0-%EC%B5%9C-471b9823b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+    github: barabobbob
+    blog: https://velog.io/@chltpdus48
+
+강주혁:
+  name: 강주혁
+  title: Frontend Developer Assistant(UX) @ Viva Republica
+  url: https://github.com/kangju2000
+  image_url: https://github.com/kangju2000.png
+  page: true
+  socials:
+    linkedin: kangju2000
+    github: kangju2000
+    blog: https://kangju.dev/
