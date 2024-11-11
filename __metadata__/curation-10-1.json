@@ -1,0 +1,142 @@
+[
+  {
+    "category": "PMPO",
+    "author": "임지환",
+    "originalTitle": "끝맺음을 잘하자 (글또 다짐)",
+    "originalDescription": "🚀 끝맺음의 중요성을 강조하며, 대목표와 소목표 설정, 수치화, 그리고 커뮤니티와 함께 성장하는 전략적인 자기계발 접근법을 제시합니다.",
+    "url": "https://habwa.tistory.com/entry/%EB%81%9D%EB%A7%BA%EC%9D%8C%EC%9D%84-%EC%9E%98%ED%95%98%EC%9E%90-%EA%B8%80%EB%98%90-%EB%8B%A4%EC%A7%90",
+    "ogTitle": "끝맺음을 잘하자 (글또 다짐)",
+    "ogDescription": "글또 OT 중에 성윤님이 \"끝이 있어 달릴 수 있다.\"라는 말씀을 하셨다. 사실 나도 끝의 존재를 중요하게 생각하는 편이라서 내가 생각하는 끝을 말하고 자연스럽게 글또에서의 다짐도 다루어볼까 한다.  끝에 대한 생각, 끝맺음 대부분의 사람들은 다짐을 하기 전에 '끝'의 존재를 무시한 채 시작한다. 실제로 우리는 연초에 다이어트, 영어 공부를 수도 없이 시도한다. 시작을 결정하고 준비하기 위해서 학원이나 헬스장을 등록한다. 다이어리를 사서 계획표를 세우고 알람을 맞추기도 한다. 이렇게 시작에는 많은 시간과 돈을 투자하며, 결정을 내리는 데에도 상당한 기회비용을 들인다. '시작이 반이다.'라는 말이 있듯이 많은 사람들은 시작에 많은 집중을 한다.  하지만, 연말이라는 끝에서는 내가 연초 대비 몇 kg를 뺐고..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FYwdeU%2FbtsJRciVtgi%2FIND54Qkhvj2iV4QWRvpIX0%2Fimg.png"
+  },
+  {
+    "category": "PMPO",
+    "author": "신지혜",
+    "originalTitle": "침대 위에서 눈물을 훔치며 본 내동생 결혼식",
+    "originalDescription": "👰 언택트 시대의 혁신적인 결혼식 경험을 UX 관점에서 생생하게 풀어낸 감동적이고 실용적인 온라인 결혼식 이야기!",
+    "url": "https://brunch.co.kr/@smol/13",
+    "ogTitle": "침대 위에서 눈물을 훔치며 본 내동생 결혼식",
+    "ogDescription": "언택트시대 온라인 결혼식 UX관점으로 바라보기 | \"언니 나 결혼해!\"   미국에 사는 사촌동생이 결혼한다는 기쁜 소식을 알려왔다. 때는 바야흐로 2020년 1월. 우리 모두가 아는 블록버스터급 재난 영화같은 코로나가 발생했던 그때였다. 사실 2월 초까지만 해도 코로나를 곧 사라질 전염병 정도로 가볍게 여겼다. 나 역시도 동생을 축하하기 위해 8월에는 미국으로 날아갈 생각에 들떠있었다.   하지만 모두의 ",
+    "ogImage": "https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/4nUc/image/Gs4SEz71duo8cZY29yFnnLM5-zQ.jpg"
+  },
+  {
+    "category": "Frontend",
+    "author": "정현수",
+    "originalTitle": "당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께)",
+    "originalDescription": "🎤 발표 준비부터 실전까지의 상세한 노하우를 담은 실용적인 글로, 발표를 앞둔 사람들에게 장표 제작, 발표 기법, 마인드셋까지 종합적인 인사이트를 제공합니다.",
+    "url": "https://junghyeonsu.com/posts/daangn-tech-meetup-retrospect/",
+    "ogTitle": "당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께) - 정현수 기술 블로그",
+    "ogDescription": "당근 테크밋업 \"아이콘, 브랜딩 에셋까지 디자인시스템으로\" 발표하고 나서 배운 점과 발표를 앞둔 사람들에게",
+    "ogImage": "https://junghyeonsu.com/static/418eacd16118869a71ba2b2412e31018/2c808/cover.png"
+  },
+  {
+    "category": "Frontend",
+    "author": "박경원",
+    "originalTitle": "Web Workers, AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?",
+    "originalDescription": "🚀 AI 모델의 백그라운드 실행의 장단점을 실험적으로 탐구하며, 실시간 이미지 추론에서는 메인 스레드가 더 효율적일 수 있음을 깨달은 인사이트 있는 글입니다.",
+    "url": "https://pkw-may.tistory.com/65",
+    "ogTitle": "[Web Workers] AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?",
+    "ogDescription": "TL; DR브라우저의 Web Workers API를 이용해백그라운드에서 Google의\u001cMediaPipe 비전 AI 모델을 로드/초기화/추론을 진행하고추론의 결과값을 UI에 실시간으로 표시하는 경우,메인 스레드에서 AI 모델 로드/초기화/추론을 진행한 것보다FPS가 감소하고,추론 소요 시간이 증가한다.(원인은 본문에서 알아본다)이 때문에비전 AI 모델을 활용하며,이미지 추론이 실시간으로 이뤄져야하고,그 추론의 결과 값이 UI에 또 실시간으로 반영되어야 하는 경우브라우저의 백그라운드에서 AI 모델 연산을 실행하는 것은 적합하지 않을 수 있다.그러나,브라우저의 백그라운드에서 AI 모델 연산을 실행하는 것이메인 스레드의 과부하를 감소시키는 데 도움이 되므로,상황에 따라 실행 위치를 적절히 결정해야 한다. 이 글..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F56Qdg%2FbtsJTflMPDl%2FyJQrK0rSqNDqddTDxm3or1%2Fimg.gif"
+  },
+  {
+    "category": "Frontend",
+    "author": "조예진",
+    "originalTitle": "함수는 어디까지 접근 가능한가? - Closure와 this 이해하기",
+    "originalDescription": "🧠 자바스크립트의 스코프, 클로저, this의 동작 원리를 깊이 있게 이해할 수 있는 심도 있는 기술 블로그 포스트로, 개발자의 JavaScript 기본기를 탄탄하게 다질 수 있는 글입니다.",
+    "url": "https://www.oooooroblog.com/posts/90-js-this-closure",
+    "ogTitle": "함수는 어디까지 접근 가능한가? - Closure와 this 이해하기",
+    "ogDescription": "함수는 여러가지 변수를 참조하며 그 역할을 수행합니다. 그런데 함수는 함수 밖의 변수를 어디까지 참조할 수 있을까요? 이 글에서는 스코프와 실행 컨텍스트의 관점에서 Closure와 this에 대해 알아봅니다.",
+    "ogImage": null
+  },
+  {
+    "category": "Frontend",
+    "author": "강주혁",
+    "originalTitle": "Shadow DOM으로 스타일 충돌 해결하기",
+    "originalDescription": "🎨 웹 컴포넌트의 스타일 격리를 위한 Shadow DOM의 개념과 활용법을 명확하게 설명한 유용한 글입니다.",
+    "url": "https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom",
+    "ogTitle": "Shadow DOM으로 스타일 충돌 해결하기 | kangju.dev",
+    "ogDescription": "또 !important 쓰려고요? Shadow DOM을 써보세요",
+    "ogImage": "https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom/thumbnail.png"
+  },
+  {
+    "category": "Backend",
+    "author": "박세진a",
+    "originalTitle": "Redis의 Increment는 왜 원자적으로 동작하는 것일까?",
+    "originalDescription": "🔍 Redis의 INCR 명령어가 원자적으로 동작하는 원리를 깊이 있게 탐구하여, 동시성 제어의 내부 메커니즘을 명확히 이해할 수 있는 기술 블로그 포스팅입니다.",
+    "url": "https://strong-park.tistory.com/entry/Redis%EC%9D%98-Increment%EB%8A%94-%EC%99%9C-%EC%9B%90%EC%9E%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%BC%EA%B9%8C",
+    "ogTitle": "Redis의 Increment는 왜 원자적으로 동작하는 것일까?",
+    "ogDescription": "저는 Redis가 싱글 스레드로 동작하는데도 불구하고, 특정 명령어를 사용할때 동시성 제어가 필요있고 없고의 차이점에 명확하게 아하! 모먼트를 가질 수는 없었습니다. 이러한 고민을 해결하기 위해 Redis 명령어들이 어떻게 동작하는지 살펴보았습니다. 이번 포스팅에서는 이 주제에 대해 알아보고자 합니다. 📌 왜 GET과 SET을 같이 사용하는 것은 동시성 이슈가 발생할까?Spring Boot 프로젝트에서 Redis를 사용하다 보면, GET과 SET 명령어를 함께 사용할 때 동시성 이슈가 발생하는 경우가 있습니다. 그 이유는 Redis는 멀티플렉싱 I/O를 활용하여 여러 요청을 받으면서, 실제 요청들은 싱글 스레드로 순차적으로 처리하기 때문입니다.참고: 아래 예시에서는 GET 대신 SCARD를, SET 대..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fb3H4QC%2FbtsJ3N2HT1g%2FHbTLceCIYX16hpSk61NFv1%2Fimg.png"
+  },
+  {
+    "category": "Backend",
+    "author": "황진성",
+    "originalTitle": "계약에 의한 설계(Design by Contract)를 실전에 적용하기",
+    "originalDescription": "📝 계약에 의한 설계(Design by Contract)의 핵심 개념과 실전 적용 방법을 상세히 설명한 유익한 기술 문서입니다.",
+    "url": "https://jinseong-dev.tistory.com/49",
+    "ogTitle": "계약에 의한 설계(Design by Contract)를 실전에 적용하기",
+    "ogDescription": "퇴근길, 지하철을 타고 집으로 향하던 중 문득 이런 생각이 스쳤다.지하철은 나를 안전하게, 정해진 시간 안에, 내가 원하는 역까지 데려다줄 것이다.지하철 기관사는 성실하게 그 임무를 수행할 것이다.개찰구에 카드를 태그 하면 결제가 완료되고 문이 열릴 것이다.운행 시간이 지나면 지하철을 이용할 수 없을 것이다.이 모든 것은 사회 속에서 정해진 규칙 덕분에 자연스럽게 이루어지는 일들이다. 우리는 그 규칙들을 믿고 다양한 서비스를 사용하며, 그 규칙이 지켜질 것이라는 전제 아래 다른 사람들과 협력하고 살아간다. 소프트웨어 세계에서도 이런 규칙을 적용할 수 있다. 바로 “계약에 의한 설계(Design by Contract)“라는 프로그래밍 패러다임이 그렇다. 이번 글에서는 이 패러다임이 소프트웨어에서 어떻게 작..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fsq2ii%2FbtsJ28tKiKt%2FmyKPXUpC3VpRkrz2PFmaZk%2Fimg.png"
+  },
+  {
+    "category": "Backend",
+    "author": "이종은",
+    "originalTitle": "스트림은 느긋하고 싶다",
+    "originalDescription": "🎯 Stream의 지연 연산 특성을 이해하고 성능 최적화를 위한 핵심 메커니즘을 학습할 수 있는 깊이 있는 기술 가이드입니다.",
+    "url": "https://yatta.tistory.com/10",
+    "ogTitle": "스트림은 느긋하고 싶다",
+    "ogDescription": "Stream API는 2014년 Java8과 함께 혜성처럼 등장했습니다. ☄️그리고 현재까지 자바 개발자들의 사랑을 듬뿍 받고 있죠. 스트림은 병렬처리, 무한 데이터 등 많은 것을 지원해줍니다. 하지만 누군가가 그 중 꼭 알아야 할 스트림의 특징이 뭐야?라고 묻는다면 전 딱 이렇게 말할 것 같습니다. 스트림은 느긋하다고. Streams are lazy. computation on the source data is only performed when the terminal operation is initiated, and source elements are consumed only as needed. purpose지연 연산의 특징을 알아보고 Stream의 동작 방식에 대해 이해합니다.  어느날, 개발자 A..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FFj537%2FbtsJ3XY3syj%2FyF1Ak00sxHMvu3zVp5Ho61%2Fimg.jpg"
+  },
+  {
+    "category": "Data",
+    "author": "최세연",
+    "originalTitle": "Airflow를 활용해서 API로 데이터 수집하기",
+    "originalDescription": "🔄 Airflow를 활용한 API 데이터 수집의 체계적이고 효율적인 접근 방법을 상세히 설명하는 기술 블로그로, 비동기 처리, 세마포어, 오류 관리 등 실무에 바로 적용 가능한 인사이트를 제공합니다.",
+    "url": "https://velog.io/@chltpdus48/Airflow%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4%EC%84%9C-API%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0",
+    "ogTitle": "Airflow를 활용해서 API로 데이터 수집하기",
+    "ogDescription": "오픈 API나 크롤링을 통해 데이터를 수집한다면 어떻게 해야할까?그냥 무작정 크롤링 하는 코드만 있으면 될까?오픈 API나 크롤링을 통해 데이터를 수집할 때, 단순히 코드 작성만으로는 관리와 유지보수가 어려워진다. 특히 외부 요인에 대한 의존성이 크므로, 전체 프로세스",
+    "ogImage": "https://velog.velcdn.com/images/chltpdus48/post/ebe7574e-5669-494c-8cb9-0c7bbb85747d/image.png"
+  },
+  {
+    "category": "Data",
+    "author": "이소희a",
+    "originalTitle": "마이크로소프트 연구원이 말하는 AI에 대한 치명적 착각",
+    "originalDescription": "🤖 AI의 기술적, 사회적 영향을 깊이 있게 탐구하며, 마이크로소프트 연구원의 비판적 시각으로 AI의 숨겨진 위험성과 윤리적 문제를 통찰력 있게 분석한 책입니다.",
+    "url": "https://brunch.co.kr/@hnote/154",
+    "ogTitle": "마이크로소프트 연구원이 말하는 AI에 대한 치명적 착각",
+    "ogDescription": "그는 왜 AI를 비판하는가, 케이트 크로퍼드의「AI 지도책」 | 꽤 긴 기간 동안 북클럽 책들만 읽어오다가 오랜만에 직접 책을 골라 읽었다. 요즘 독서생활에 한 발짝의 자유나 한 틈의 여유도 없었다. 독서로 한가로이 보내던 오전 시간에 요새 강의를 듣고 있다 보니 독서를 하고 싶다는 마음만큼 시간을 내기가 어려웠다. 어느 날 책꽂이를 보면서 화들짝 놀랐다. 어느새 관심도 없는 책들만이 줄줄 꽂혀있었다. 내 것이라고 인정",
+    "ogImage": "https://img1.daumcdn.net/thumb/R1280x0/?fname=http://t1.daumcdn.net/brunch/service/user/9KD2/image/sxT7lR4j9bXQom85zOQFJa_X7p0.png"
+  },
+  {
+    "category": "Fullstack",
+    "author": "이선협",
+    "originalTitle": "소프트웨어 파괴의 미학",
+    "originalDescription": "🎯 소프트웨어 개발에서 불가피한 코드 파괴를 받아들이고, 변화에 유연하게 대응할 수 있는 혁신적인 개발 철학을 제시하는 깊이 있는 기술 에세이입니다.",
+    "url": "https://kciter.so/posts/the-aesthetics-of-destroying-software/",
+    "ogTitle": "소프트웨어 파괴의 미학",
+    "ogDescription": "새는 알에서 나오기 위해 투쟁한다. 알은 세계이다. 태어나려고 하는 자는 누구든 하나의 세계를 파괴하지 않으면 안된다. - 헤르만 헤세, 데미안 소프트웨어 개발은 많은 부분이 애매모호하다라는 생각을 해본적이 있는가? 무엇을 만들어야 하는지, 어떤…",
+    "ogImage": "https://kciter.so/images/2024-10-12-the-aesthetics-of-destroying-software/thumbnail.png"
+  },
+  {
+    "category": "Fullstack",
+    "author": "김수빈",
+    "originalTitle": "사라진 Python 웹 프레임워크의 Redis Cluster 캐시 구현체",
+    "originalDescription": "💡 Redis Cluster 지원이 부족한 Python 웹 프레임워크에서 Django와 FastAPI를 위한 맞춤형 캐시 백엔드를 직접 구현하여 성능과 안정성을 높인 혁신적인 기술 접근 사례",
+    "url": "https://medium.com/@sudosubin/%EC%82%AC%EB%9D%BC%EC%A7%84-python-%EC%9B%B9-%ED%94%84%EB%A0%88%EC%9E%84%EC%9B%8C%ED%81%AC%EC%9D%98-redis-cluster-%EC%BA%90%EC%8B%9C-%EA%B5%AC%ED%98%84%EC%B2%B4-8439a473e16b",
+    "ogTitle": "사라진 Python 웹 프레임워크의 Redis Cluster 캐시 구현체",
+    "ogDescription": "백엔드 개발을 하다 보면 캐시를 붙이게 되는 경우가 생긴다. 트래픽이 늘어날수록, DB 접근이 많아질수록, 외부 시스템 요청 등의 I/O가 늘어날수록 성능과 비용을 개선하기 위해 캐시를 도입하게 된다.",
+    "ogImage": "https://miro.medium.com/v2/resize:fit:1200/1*EBBNK5KuCE641cux6rBCoA.png"
+  },
+  {
+    "category": "Fullstack",
+    "author": "서현석",
+    "originalTitle": "랭체인v0.3 하이퍼클로바x 연동하기",
+    "originalDescription": "🔧 랭체인 v0.3과 하이퍼클로바X를 커스텀 모델로 연동하고, 배치 처리를 통한 성능 개선 사례를 제시하여, AI 개발자들에게 실용적인 가이드를 제공합니다.",
+    "url": "https://chucoding.tistory.com/149",
+    "ogTitle": "랭체인v0.3 하이퍼클로바x 연동하기",
+    "ogDescription": "AI 업계에서 일하고 계신 분들이라면 랭체인(LangChain)이라는 단어가 낯설지 않을 텐데요. 요즘은 개발자부터 MLOps 엔지니어까지 여러 다양한 직군의 채용공고만 보아도 랭체인이라는 단어가 심심치 않게 등장하고 있습니다. 그만큼 랭체인은 AI 서비스를 개발하는 데 있어 중요한 프레임워크로 빠르게 자리 잡아가고 있는 것 같습니다. 랭체인의 장점은 모듈화 된 구조로 인해 모델과 프롬프트를 자유자재로 교체해서 사용할 수 있다는 점과 배치 처리, 비동기호출 같은 다양한 함수들을 활용하여 답변을 생성할 수 있기 때문에 백엔드 개발에 필요한 여러 많은 작업들을 최소화시켜준다는 점입니다. 특히, 많은 사람들이 사용하고 있는 클로드나 GPT 같은 저명한 오픈소스 모델 연동 모듈은 랭체인 커뮤니티에서 써드파티 라..",
+    "ogImage": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FnuyKM%2FbtsJ4RKz7N2%2FqICwUXxuvBoRc70YK58l2K%2Fimg.png"
+  }
+]
