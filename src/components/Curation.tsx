@@ -80,7 +80,7 @@ export const Curation = ({ 회차, 기수 = 10, 직군 }: CurationProps) => {
       }
     };
     loadJson();
-  });
+  }, [기수, 회차]);
 
   React.useEffect(() => {
     const loadYamlFile = async () => {
