@@ -95,11 +95,11 @@ const config: Config = {
             { to: "/blog/authors", label: "글또 작가들" },
           ],
         },
-        {
-          to: "/curation",
-          label: "큐레이션",
-          position: "left",
-        },
+        // {
+        //   to: "/curation",
+        //   label: "큐레이션",
+        //   position: "left",
+        // },
         {
           to: "/faq",
           label: "FAQ",
