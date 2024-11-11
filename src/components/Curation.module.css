@@ -29,3 +29,10 @@
   font-size: 20px;
   font-weight: 600;
 }
+
+.curationContentThumbnail {
+  width: 400px;
+  height: 260px;
+  object-fit: contain;
+  margin-top: 10px;
+}

@@ -137,3 +137,57 @@
     linkedin: kangju2000
     github: kangju2000
     blog: https://kangju.dev/
+
+황진성:
+  name: 황진성
+  title: Software Engineer @Kurly
+  url: https://github.com/JinseongHwang
+  image_url: https://avatars.githubusercontent.com/u/52629158?v=4
+  page: true
+  socials:
+    linkedin: jinseong-hwang
+    github: JinseongHwang
+    blog: https://jinseong-dev.tistory.com/
+
+임지환:
+  name: 임지환
+  title: Product Manager 
+  url: https://habwa.tistory.com/
+  image_url: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/%EC%A7%80%ED%99%98-%EC%9E%84-76b69924b/
+    blog: https://habwa.tistory.com/
+
+이선협:
+  name: 이선협
+  title: CTO @ CoBALT
+  url: https://github.com/kciter
+  image_url: https://github.com/kciter.png
+  page: true
+  socials:
+    linkedin: kciter
+    github: kciter
+    blog: https://kciter.so
+
+조예진:
+  name: 조예진
+  title: Frontend Engineer @ Miridih
+  url: https://github.com/ooooorobo
+  image_url: https://github.com/ooooorobo.png
+  page: true
+  socials:
+    linkedin: yejin-cho-b741a3222
+    github: ooooorobo
+    blog: https://www.oooooroblog.com/
+
+곽희진:
+  name: 곽희진
+  title: Technical Architect
+  url: https://github.com/new-h2
+  image_url: https://github.com/new-h2.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/fromondo
+    github: new-h2
+    blog: https://m.blog.naver.com/from_ondo
