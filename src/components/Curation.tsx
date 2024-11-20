@@ -146,7 +146,8 @@ const CurationContent = (props: CurationContent) => {
   const authors = React.useContext(CurationContext).authors;
   const metadata = React.useContext(CurationContext).metadata as CurationMetadata[];
   const author = authors[작가];
-  const thumbnail = metadata.find((m) => m.author === 작가)?.ogImage;
+  const thumbnail = metadata?.find((m) => m.author === 작가)?.ogImage;
+
 
   return (
     <div className={styles.curationContent}>
