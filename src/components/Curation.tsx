@@ -13,11 +13,12 @@ export interface CurationContent {
   설명: string;
 }
 
-type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack";
+type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack" | "AIML";
 
 export interface CurationYml {
   [글또기수: string]: {
     [회차: string]: {
+      AIML: CurationContent[];
       PMPO: CurationContent[];
       Frontend: CurationContent[];
       Backend: CurationContent[];
@@ -146,7 +147,8 @@ const CurationContent = (props: CurationContent) => {
   const authors = React.useContext(CurationContext).authors;
   const metadata = React.useContext(CurationContext).metadata as CurationMetadata[];
   const author = authors[작가];
-  const thumbnail = metadata.find((m) => m.author === 작가)?.ogImage;
+  const thumbnail = metadata?.find((m) => m.author === 작가)?.ogImage;
+
 
   return (
     <div className={styles.curationContent}>
