@@ -68,34 +68,71 @@
 
   2nd:
     PMPO:
-      - 제목: The 2th PMPO
-        주소: https://www.google.com
-        설명: The 2th PMPO is a great event
-        작가: 
+      - 제목: SEO (검색 엔진 최적화) 24년 버전 BERT를 곁들인
+        주소: https://habwa.tistory.com/entry/SEO-%EA%B2%80%EC%83%89-%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-24%EB%85%84-%EB%B2%84%EC%A0%84BERT%EB%A5%BC-%EA%B3%81%EB%93%A4%EC%9D%B8
+        설명: 🔍 SEO의 9가지 핵심 요소를 체계적으로 정리하고 BERT를 고려한 자연스러운 콘텐츠 작성법까지 상세히 설명한 유익한 글로, 웹사이트 최적화를 위한 실용적인 가이드라인을 제공합니다.
+        작가: 임지환
     
     Frontend:
-      - 제목: The 2th Frontend
-        주소: https://www.google.com
-        설명: The 2th Frontend is a great event
-        작가: 
+      - 제목: 모바일에서 연속 입력시 값이 무시되는 이유(feat. click, touch, pointer event)
+        주소: https://mong-blog.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%97%90%EC%84%9C-%EC%97%B0%EC%86%8D-%EC%9E%85%EB%A0%A5%EC%8B%9C-%EA%B0%92%EC%9D%B4-%EB%AC%B4%EC%8B%9C%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0feat-touch-pointer-event
+        설명: 📱 모바일 환경에서 이벤트 처리의 미묘한 차이를 이해하고, touchend나 pointerup 같은 대안적 이벤트로 사용자 경험을 개선할 수 있는 통찰력 있는 글!
+        작가: 금정민
+      - 제목: JavaScript에서 이진 데이터 이해하기 - ArrayBuffer, TypedArray, Blob, File
+        주소: https://bichoninthefront.vercel.app/2024-jsBinaryDataTypes
+        설명: 💡 이진 데이터 처리를 위한 JavaScript의 다양한 타입(ArrayBuffer, TypedArray, Blob, File)을 상세히 설명하여 웹 개발자가 파일 처리와 데이터 조작에 필요한 핵심 개념을 이해하기 쉽게 정리한 유용한 글입니다.
+        작가: 김민지a 
         
     Backend:
-      - 제목: The 2th Backend
-        주소: https://www.google.com
-        설명: The 2th Backend is a great event
-        작가: 
+      - 제목: 팩트체크와 나
+        주소: https://proofby.ac/misinformation/
+        설명: 🕵️ 정보의 정확성을 위해 끊임없이 오정보와 싸우는 저자의 열정과 노력을 담은 글로, 건전한 지식 생태계를 위한 중요한 메시지를 전달하고 있어 추천합니다.
+        작가: 박재온
+      - 제목: 리더가 MSA 전환을 하자고 했다. 그리고 처참히 실패했다.
+        주소: https://imksh.com/127#google_vignette
+        설명: 🤔 MSA 전환은 기술적 역량과 조직 문화 변화가 필수적이며, 실무진의 기술력과 경영진의 지원, 부서간 협력이 뒷받침되어야 성공할 수 있다는 현실적인 조언을 담은 글입니다.
+        작가: 강승현
+      - 제목: 에러 없이 서버가 죽는다고? 병렬 다운로드 환경에서 발생한 장애 대응기
+        주소: https://www.uwoobeat.dev/server-crashes-sliently-in-parallel-download
+        설명: 🗂️ 병렬 다운로드 환경의 복잡한 서버 장애 대응 과정을 실무적이고 깊이 있게 다루는 기술 블로그 포스트로, 백엔드 개발자들에게 실질적인 인사이트를 제공합니다.
+        작가: 안재현
+      - 제목: 서버리스 환경의 프로젝트는 어떻게 관리해야 될까?
+        주소: https://codediary21.tistory.com/155
+        설명: 🚀 서버리스 환경의 복잡한 프로젝트 관리를 위한 핵심 전략과 실무 인사이트를 제공하는 유용한 기술 블로그 포스트!
+        작가: 이용선
+      - 제목: C언어에서의 다차원 데이터 메모리 할당 방법
+        주소: https://chinensis.tistory.com/entry/C%EC%96%B8%EC%96%B4%EC%97%90%EC%84%9C%EC%9D%98-%EB%8B%A4%EC%B0%A8%EC%9B%90-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%A9%94%EB%AA%A8%EB%A6%AC-%ED%95%A0%EB%8B%B9-%EB%B0%A9%EB%B2%95
+        설명: 🧩 C언어에서 다차원 데이터 메모리 할당, 1차원으로 데이터를 저장하고 인덱스 계산을 통해 접근하는 방식이 가장 효율적이고 성능이 우수합니다.
+        작가: 이승민b
+      - 제목: 코드가 깔끔해지는 VO(Value Object)를 써야하는 이유
+        주소: https://dongmin-sim.github.io/posts/what-is-vo/
+        설명: 💊 VO(Value Object)는 도메인 개념을 더 명확하게 표현하고 캡슐화를 통해 코드의 신뢰성과 테스트 용이성을 높여주는 불변 객체로, 비즈니스 로직을 더 깔끔하게 구현할 수 있게 해줍니다.
+        작가: 심동민
+      - 제목: WebFlux에서 chunked 스트리밍 request 받기
+        주소: https://welcometodannas.tistory.com/91
+        설명: 🔄 WebFlux의 chunked 스트리밍 request 처리 방법을 다룬 백엔드 기술 글로, 실시간 데이터 처리가 필요한 개발자에게 유용한 참고 자료가 될 것 같습니다.
+        작가: 이다은
+      - 제목: Python - FastAPI와 Dependency Injector
+        주소: https://libertbaek.tistory.com/entry/FastAPI%EC%99%80-Dependency-Injector
+        설명: 🛠️ FastAPI와 Dependency Injector를 활용하여 Python 웹 애플리케이션의 의존성 관리와 테스트 용이성을 개선하는 방법을 상세히 설명한 기술 가이드입니다.
+        작가: 백승주
         
-    Data:
-      - 제목: The 2th Data
-        주소: https://www.google.com
-        설명: The 2th Data is a great event
-        작가: 
+    AIML:
+      - 제목: Kubernetes - 파드의 리소스 자원 사용량을 제한시켜보자
+        주소: https://techblog-history-younghunjo1.tistory.com/585
+        설명: 💡 쿠버네티스에서 파드의 리소스 사용량을 제한하고 관리하는 방법을 상세히 설명하며, requests/limits를 통한 오버커밋과 QoS 클래스를 활용한 우선순위 설정, ResourceQuota/LimitRange를 통한 네임스페이스별 자원 관리까지 실무에 필요한 핵심 개념들을 체계적으로 다룬 유용한 글입니다.
+        작가: 조영훈
         
     Fullstack:
-      - 제목: The 2th Fullstack
-        주소: https://www.google.com
-        설명: The 2th Fullstack is a great event
-        작가:
+      - 제목: 음악 검색 시스템 만들기
+        주소: https://kciter.so/posts/music-recognition-system/
+        설명: 🎵 Shazam과 같은 음악 검색 시스템의 마법 같은 원리를 FFT, 스펙트로그램, 소리 지문 등을 활용해 직접 구현하는 흥미로운 기술 해설!
+        작가: 이선협
+      - 제목: 추상화를 통해 외부 시스템의 결합도를 낮추고 테스트 가능성(Testability) 높이기
+        주소: https://velog.io/@langoustine/abstraction-to-testability
+        설명: 🎯 추상화를 통해 외부 시스템과의 결합도를 낮추고, 테스트 용이성을 높여 더 유연하고 확장 가능한 애플리케이션 구조를 만드는 사례입니다.
+        작가: 문태준
+        
   3rd:
   4th:
   5th:
