@@ -134,6 +134,77 @@
         작가: 문태준
         
   3rd:
+    AIML:
+      - 제목: 결정트리 모델(Decision Tree)이 나의 문제를 해결해줄 수 있을까?
+        주소: https://woocosmos.github.io/decision-tree/
+        작가: 우연수
+        설명: 🌳 제한된 범위의 정수 응답 데이터에 결정트리가 적합한 이유와 비모수적 모델로서 어떤 특징을 가지고 있는지 설명하는 유익한 글입니다.
+    
+    Backend:
+      - 제목: Hibernate 의 ‘불편한’ 편의 기능들.
+        주소: https://monday9pm.com/hibernate-%EC%9D%98-%EB%B6%88%ED%8E%B8%ED%95%9C-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EB%93%A4-06a1fbc7492a/
+        작가: 최현구
+        설명: 🤔 Hibernate의 편의성이 오히려 불편함을 초래할 수 있다는 점을 ActionQueue의 SQL 정렬과 JPQL의 즉시 flush 현상을 통해 설명하며, 실용적 대안으로 queryDSL과 직접 SQL 작성을 추천합니다.
+      - 제목: Kotlin, Collection vs Sequence - 최적의 선택 기준
+        주소: https://velog.io/@wisepine/Kotlin-Collection-vs-Sequence-%EC%B5%9C%EC%A0%81%EC%9D%98-%EC%84%A0%ED%83%9D-%EA%B8%B0%EC%A4%80/
+        작가: 김혜송
+        설명: 🔍 컬렉션과 시퀀스의 장단점을 비교하여 작은 데이터셋은 컬렉션이, 큰 데이터셋은 시퀀스가 유리하며 병렬처리가 필요하거나 정렬이 필요한 경우는 컬렉션을 추천합니다.
+      - 제목: spring kafka auto-commit 동작원리 - 데이터 유실과 중복처리
+        주소: https://junuuu.tistory.com/1028/
+        작가: 김준우
+        설명: 🔍 Kafka의 auto-commit은 poll() 메서드 호출 시점에 commit이 이루어져 메시지 중복은 발생할 수 있으나 유실은 방지할 수 있다는 내용에 대한 글입니다.
+      - 제목: 서버에서 Graceful Shutdown은 왜 필요할까
+        주소: https://milkymilky0116.github.io/posts/Graceful_Shutdown/
+        작가: 이성진
+        설명: 🛑 서버의 안정성과 사용자 경험을 보장하기 위해 Graceful Shutdown은 필수적이며, 진행 중인 요청을 안전하게 처리하고 자원을 정리하여 예기치 못한 서버 종료 상황에서도 신뢰성 있는 서비스를 제공할 수 있습니다.
+      - 제목: 퇴사를 고민하는 주니어에게,
+        주소: https://imksh.com/128/
+        작가: 강승현
+        설명: 🤔 주니어 개발자의 퇴사 고민을 건강, 자기 효능감, 성장이라는 3가지 관점에서 분석하며 신중한 결정을 돕는 실용적인 조언글
+    
+    Data:
+      - 제목: Garbage In, Garbage Out! 당신의 데이터 믿을만한가요?
+        주소: https://suminii.tistory.com/entry/Garbage-In-Garbage-Out-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AF%BF%EC%9D%84%EB%A7%8C%ED%95%9C%EA%B0%80%EC%9A%94/
+        작가: 김수민b
+        설명: 📊 데이터 품질의 중요성을 강조하며 'Garbage In, Garbage Out' 원칙을 통해 신뢰할 수 있는 데이터 관리의 필요성을 설명하는 유익한 글입니다.
+      - 제목: Text-to-SQL를 알아보자
+        주소: https://ivoryrabbit.github.io/posts/Text-to-SQL/
+        작가: 이동규
+        설명: 🔍 SQL 지식이 없는 비개발자도 자연어로 데이터를 조회할 수 있게 해주는 Text-to-SQL 기술을 Python으로 구현하는 방법을 상세히 설명한 글로, OpenAI API와 Vector Database를 활용한 실용적인 예제를 제공합니다.
+      - 제목: A/B 테스트로 팝업 성과 측정하기
+        주소: https://www.actionspeak.kr/blog/guide/abt/
+        작가: 조해창
+        설명: 📊 A/B 테스트로 팝업의 효과를 객관적으로 측정하여 데이터 기반의 의사결정을 할 수 있도록 GTM, GA4, BigQuery, Tableau를 활용한 상세한 분석 가이드를 제공합니다.
+    
+    Frontend:
+      - 제목: JS 탐구생활 - 클로저 시리즈 1. 클로저란 무엇인가?
+        주소: https://witch.work/posts/javascript-closure-deep-dive-application/
+        작가: 김성현a
+        설명: 🔍 클로저의 핵심 개념과 활용을 명확하게 설명한 글로, 일급 객체 함수와 렉시컬 스코프를 사용하는 언어에서 표현식의 평가 결과로서 외부 환경에 대한 참조를 함께 묶어 정보 은닉, 전달, 추적 등에 활용할 수 있음을 상세히 다룹니다.
+      - 제목: JS 탐구생활 - 클로저 시리즈 2. 수학자들의 꿈에서 JS의 스타가 되기까지
+        주소: https://witch.work/posts/javascript-closure-deep-dive-history/
+        작가: 김성현a
+        설명: 🔍 클로저의 역사를 추적하며 수학자들의 꿈에서 시작해 JavaScript의 핵심 기능이 되기까지의 여정을 다룬 글로, 람다 계산법과 함수형 프로그래밍의 발전 과정을 통해 클로저의 중요성을 이해할 수 있습니다.
+      - 제목: React Hook Form과 유사한 인터페이스 만들기
+        주소: https://d5ng-blog.vercel.app/React/rhf/
+        작가: 이동현
+        설명: 🔧 React Hook Form과 유사한 인터페이스를 직접 구현하여 일관성 있는 폼 관리를 가능하게 했고, 제어/비제어 컴포넌트의 장단점을 고려한 성능 최적화와 타입 안정성을 확보했습니다.
+      - 제목: 🍔 ദി=´∀｀) 안녕하새용저는햄부기애용
+        주소: https://sungpaks.github.io/draggable-and-auto-walking-character-chrome-extension/
+        작가: 조성훈
+        설명: 🎮 드래그 앤 드롭으로 움직이고 랜덤하게 걷는 모션을 보여주는 귀여운 햄버거 캐릭터를 크롬 확장프로그램으로 구현한 재미있는 프로젝트입니다.
+    
+    Fullstack:
+      - 제목: 데이터 스트림이 무엇이냐는 질문에 제대로 대답해보기
+        주소: https://velog.io/@broccolism/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%83%90%EB%8A%94-%EC%A7%88%EB%AC%B8%EC%97%90-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%8C%80%EB%8B%B5%ED%95%B4%EB%B3%B4%EA%B8%B0/
+        작가: 손영인
+        설명: 🔄 데이터 스트림의 개념과 특징을 명확하게 설명한 글로, 변경 이벤트의 연속성과 무한한 데이터 처리라는 핵심을 이해하기 쉽게 고스톱 예시와 함께 설명하여 추천합니다.
+    
+    Infra:
+      - 제목: 싱글톤에 대한 오해
+        주소: https://eeeasycode.github.io/do_you_know_singleton/
+        작가: 이창민
+        설명: 🔍 정적 팩토리 메서드 패턴만으로는 싱글톤이 보장되지 않는다는 오해를 바로잡고, NestJS와 Spring Core의 싱글톤 객체 관리 방식을 상세히 분석한 유익한 글입니다.  
   4th:
   5th:
   6th:
