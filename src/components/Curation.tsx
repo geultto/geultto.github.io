@@ -13,7 +13,7 @@ export interface CurationContent {
   설명: string;
 }
 
-type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack" | "AIML";
+type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack" | "AIML" | "Infra";
 
 export interface CurationYml {
   [글또기수: string]: {
@@ -24,6 +24,7 @@ export interface CurationYml {
       Backend: CurationContent[];
       Data: CurationContent[];
       Fullstack: CurationContent[];
+      Infra: CurationContent[];
     };
   };
 }
