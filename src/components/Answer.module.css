@@ -1,0 +1,44 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+
+  &.right {
+    grid-template-columns: 100px 1fr;
+  }
+  &.center {
+    grid-template-columns: auto;
+    justify-items: center;
+    text-align: center;
+  }
+  p {
+    line-height: 1.8;
+  }
+}
+
+.container .profile {
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 1px solid var(--ifm-color-secondary-dark);
+  &.left {
+    margin-right: 1rem;
+  }
+  &.right {
+    margin-left: 1rem;
+  }
+}
+
+.container {
+  .name {
+    width: 80px;
+    text-align: center;
+    padding-top: 0.4rem;
+    font-weight: 600;
+    color: var(--ifm-color-primary-lightest);
+  }
+
+  .content {
+    word-break: auto-phrase;
+  }
+}
