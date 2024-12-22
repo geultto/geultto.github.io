@@ -197,8 +197,8 @@
   title: Product Owner
   url: https://brunch.co.kr/@smol
   image_url: https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/4nUc/image/ofdjXHDTRU0PABI6o856SDsOtbk.jpg
-  page:
+  page: true
   socials:
     linkedin: https://www.linkedin.com/in/anne-jihye-shin-1b4162271/
-    github:
     blog: https://nomadmango.tistory.com/
+    blog2: https://brunch.co.kr/@smol
