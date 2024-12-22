@@ -17,7 +17,7 @@ export const Answer = (props: AnswerProps) => {
     <div className={clsx(styles.container, styles[direction])}>
       {direction === "left" && <div className={styles.content}>{children}</div>}
       {profileImg && (
-        <div>
+        <div className={styles.profileContainer}>
           <div className={styles.profile}>
             <img src={profileImg} alt="profile" />
           </div>

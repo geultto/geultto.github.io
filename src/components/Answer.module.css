@@ -10,6 +10,9 @@
     justify-items: center;
     text-align: center;
   }
+  @media (max-width: 768px) {
+    grid-template-columns: auto !important;
+  }
   p {
     line-height: 1.8;
   }
@@ -27,6 +30,9 @@
   &.right {
     margin-left: 1rem;
   }
+  @media (max-width: 768px) {
+    margin: 0 auto !important;
+  }
 }
 
 .container {
@@ -36,9 +42,21 @@
     padding-top: 0.4rem;
     font-weight: 600;
     color: var(--ifm-color-primary-lightest);
+    @media (max-width: 768px) {
+      margin: 0 auto !important;
+    }
+  }
+
+  .profileContainer {
+    @media (max-width: 768px) {
+      order: 0;
+    }
   }
 
   .content {
     word-break: auto-phrase;
+    @media (max-width: 768px) {
+      order: 1;
+    }
   }
 }
