@@ -1,34 +1,21 @@
-.container {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.title {
-  color: var(--ifm-color-primary-dark);
-  text-decoration: underline;
-}
-
 .tooltip {
   position: absolute;
-  width: 500px;
-  bottom: 110%;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: var(--ifm-color-primary-contrast-foreground);
-  color: var(--ifm-color-emphasis-100);
+  z-index: 1000;
   padding: 8px 12px;
   border-radius: 4px;
-  z-index: 1000;
-  opacity: 0.9;
+  font-size: 14px;
+  max-width: 200px;
+  word-wrap: break-word;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: var(--ifm-color-primary-contrast-foreground);
+  color: var(--ifm-color-emphasis-100);
+  pointer-events: none; 
+  transition: opacity 0.2s ease-in-out;
 }
 
-@media (max-width: 768px) {
-  .tooltip {
-    bottom: 130%;
-    width: 300px;
-    left: 100%;
-    transform: translateX(-50%);
-  }
+.target {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+  position: relative;
+  cursor: "pointer";
 }
