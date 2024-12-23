@@ -14,7 +14,7 @@ export const Answer = (props: AnswerProps) => {
   const { children, profileImg, name = "", direction = "right" } = props;
 
   return (
-    <div className={clsx(styles.container, styles[direction])}>
+    <div className={clsx(styles.answerContainer, styles[direction])}>
       {direction === "left" && <div className={styles.content}>{children}</div>}
       {profileImg && (
         <div className={styles.profileContainer}>
