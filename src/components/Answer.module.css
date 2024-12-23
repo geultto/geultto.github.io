@@ -17,10 +17,6 @@
   text-align: center;
 }
 
-.container.right {
-  grid-template-columns: 100px 1fr;
-}
-
 .answerContainer .profile {
   width: 80px;
   height: 80px;
