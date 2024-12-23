@@ -1,10 +1,8 @@
 .container {
   display: grid;
-  grid-template-columns: 1fr 100px;
-
-  &.right {
-    grid-template-columns: 100px 1fr;
-  }
+  /* TODO: 배치 오류 수정하기 */
+  /* grid-template-columns: 1fr 100px; */
+  grid-template-columns: 100px 1fr;
   &.center {
     grid-template-columns: auto;
     justify-items: center;
@@ -24,12 +22,8 @@
   overflow: hidden;
   border-radius: 50%;
   border: 1px solid var(--ifm-color-secondary-dark);
-  &.left {
-    margin-right: 1rem;
-  }
-  &.right {
-    margin-left: 1rem;
-  }
+  margin-right: 1rem;
+
   @media (max-width: 768px) {
     margin: 0 auto !important;
   }
