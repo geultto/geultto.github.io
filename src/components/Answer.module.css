@@ -50,6 +50,10 @@
     margin: 0 auto !important;
   }
 
+  .answerContainer.center {
+    text-align: left;
+  }
+
   .answerContainer .content {
     order: 1;
   }
