@@ -1,19 +1,20 @@
 .answerContainer {
   display: grid;
-  /* TODO: 배치 오류 수정하기 */
-  /* grid-template-columns: 1fr 100px; */
+  line-height: 1.8;
+}
+
+.answerContainer.right {
   grid-template-columns: 100px 1fr;
-  /* &.center {
-    grid-template-columns: auto;
-    justify-items: center;
-    text-align: center;
-  } */
-  @media (max-width: 768px) {
-    grid-template-columns: auto !important;
-  }
-  p {
-    line-height: 1.8;
-  }
+}
+
+.answerContainer.left {
+  grid-template-columns: 1fr 100px;
+}
+
+.answerContainer.center {
+  grid-template-columns: auto;
+  justify-items: center;
+  text-align: center;
 }
 
 .answerContainer .profile {
@@ -23,34 +24,37 @@
   border-radius: 50%;
   border: 1px solid var(--ifm-color-secondary-dark);
   margin-right: 1rem;
-
-  @media (max-width: 768px) {
-    margin: 0 auto !important;
-  }
 }
 
-.answerContainer {
-  .name {
-    width: 80px;
-    text-align: center;
-    padding-top: 0.4rem;
-    font-weight: 600;
-    color: var(--ifm-color-primary-lightest);
-    @media (max-width: 768px) {
-      margin: 0 auto !important;
-    }
+.answerContainer .name {
+  width: 80px;
+  text-align: center;
+  padding-top: 0.4rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary-lightest);
+}
+
+.answerContainer .content {
+  word-break: auto-phrase;
+}
+
+
+@media (max-width: 768px) {
+  .answerContainer {
+    order: 0;
+    grid-template-columns: auto !important;
   }
 
-  .profileContainer {
-    @media (max-width: 768px) {
-      order: 0;
-    }
+  .answerContainer .profile,
+  .answerContainer .name {
+    margin: 0 auto !important;
   }
 
-  .content {
-    word-break: auto-phrase;
-    @media (max-width: 768px) {
-      order: 1;
-    }
+  .answerContainer.center {
+    text-align: left;
+  }
+
+  .answerContainer .content {
+    order: 1;
   }
 }

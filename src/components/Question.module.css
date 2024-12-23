@@ -7,20 +7,18 @@
   padding: 1.3rem;
   margin-bottom: 1rem;
   align-items: center;
-  p {
-    margin: 0;
-  }
 }
 
-.questionContainer {
-  .title {
-    font-size: 1.25rem;
-    font-weight: bold;
-    padding-right: 0.5rem;
-  }
+.questionContainer p {
+  margin: 0;
+}
 
+.questionContainer .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  padding-right: 0.5rem;
+}
 
-  .content.center {
-    text-align: center;
-  }
+.questionContainer .content.center {
+  text-align: center;
 }
