@@ -1,13 +1,13 @@
-.container {
+.answerContainer {
   display: grid;
   /* TODO: 배치 오류 수정하기 */
   /* grid-template-columns: 1fr 100px; */
   grid-template-columns: 100px 1fr;
-  &.center {
+  /* &.center {
     grid-template-columns: auto;
     justify-items: center;
     text-align: center;
-  }
+  } */
   @media (max-width: 768px) {
     grid-template-columns: auto !important;
   }
@@ -16,7 +16,7 @@
   }
 }
 
-.container .profile {
+.answerContainer .profile {
   width: 80px;
   height: 80px;
   overflow: hidden;
@@ -29,7 +29,7 @@
   }
 }
 
-.container {
+.answerContainer {
   .name {
     width: 80px;
     text-align: center;
