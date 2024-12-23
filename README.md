@@ -4,4 +4,4 @@
 
 ## 기여하기
 
-- [기여하기](CONTRIBUTING.md)
+- [기여하기](https://github.com/geultto/geultto.github.io/tree/main/guides)
