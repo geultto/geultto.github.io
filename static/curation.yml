@@ -206,6 +206,78 @@
         작가: 이창민
         설명: 🔍 정적 팩토리 메서드 패턴만으로는 싱글톤이 보장되지 않는다는 오해를 바로잡고, NestJS와 Spring Core의 싱글톤 객체 관리 방식을 상세히 분석한 유익한 글입니다.  
   4th:
+    AIML:
+      - 제목: LLM Evaluation이 중요한 이유
+        주소: https://jasonkang14.github.io/llm/why-evaluation-is-important
+        작가: 강병진
+        설명: 🤖 대규모 언어 모델(LLM) 애플리케이션 개발에서 평가의 중요성은 일관성 없는 출력, 환각 위험, 예측 불가능한 사용자 상호작용을 관리하고 품질을 통제하여 신뢰할 수 있는 AI 서비스를 구축하는 핵심 과정입니다.
+      - 제목: 코딩테스트를 위한 대표 유형 중급 알고리즘 정리(by.백준 플래티넘)
+        주소: https://velog.io/@8804who/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%8C%80%ED%91%9C-%EC%9C%A0%ED%98%95-%EC%A4%91%EA%B8%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A6%ACby.%EB%B0%B1%EC%A4%80-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98
+        작가: 김주성
+        설명: 🚀 코딩테스트 준비의 핵심 알고리즘들을 중급 수준에서 체계적으로 정리하여, 다익스트라/플로이드워셜/크루스칼/스위핑/위상정렬 등 핵심 알고리즘을 실전 예제와 함께 상세히 설명한 유용한 학습 자료입니다.   
+        
+    Backend:
+      - 제목: 해시 자료구조와 HashMap이 해시 충돌을 해결하는 방법 | Codongmin
+        주소: https://dongmin-sim.github.io/posts/hash-data-structure/
+        작가: 심동민
+        설명: 🧠 해시 자료구조의 핵심 원리와 Java HashMap의 해시 충돌 해결 방식을 깊이 있게 이해할 수 있는 완벽한 가이드로, 개발자들에게 해시 메커니즘의 내부 동작과 최적화 전략을 제공하는 필수 학습 자료입니다.
+      - 제목: [MySQL] 인덱스가 B+Tree 를 선택한 이유
+        주소: https://hugehoo-blog.vercel.app/blog/Database/B%20tree%20as%20Index
+        작가: 임성후
+        설명: 🌳 데이터베이스 성능의 비밀, B+Tree! 노드당 여러 키를 저장하여 트리 깊이를 낮추고 Disk I/O를 획기적으로 줄여 MySQL 인덱스의 검색 속도와 효율성을 극대화하는 혁신적인 자료구조입니다.
+      - 제목: C언어로 알아보는 객체 지향 프로그래밍: 가상 함수 테이블(vtable)과 메서드 구현
+        주소: https://chinensis.tistory.com/entry/C%EC%96%B8%EC%96%B4%EB%A1%9C-%EC%95%8C%EC%95%84%EB%B3%B4%EB%8A%94-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D
+        작가: 이승민b
+        설명: 🎮 C언어로 객체 지향 프로그래밍의 핵심 원리를 탐구하며, 구조체와 함수 포인터를 활용해 가상 함수 테이블과 동적 메서드 호출 방식을 게임 개발을 통해 실제적으로 구현하고 설명하는 심도 있는 기술 탐험 가이드입니다.
+      - 제목: 카드 발동 제네릭 와일드카드?(feat. 이펙티브 자바)
+        주소: https://velog.io/@prettylee620/%EC%B9%B4%EB%93%9C-%EB%B0%9C%EB%8F%99-%EC%A0%9C%EB%84%A4%EB%A6%AD-%EC%99%80%EC%9D%BC%EB%93%9C%EC%B9%B4%EB%93%9Cfeat.-%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C-%EC%9E%90%EB%B0%94
+        작가: 이금주
+        설명: 🚀 제네릭의 핵심은 타입 안전성을 높이고 코드 재사용성을 강화하는 자바의 강력한 타입 시스템 기능으로, 컴파일 시점에 타입 검사를 통해 런타임 오류를 사전에 방지하는 중요한 개념입니다.     
+
+    Data:
+      - 제목: 3달 간의 SQL스터디를 마무리하며... (부제: 모더레이터로써의 스터디 후기)
+        주소: https://spaceofyujin.tistory.com/42
+        작가: 서유진
+        설명: 🌟 3개월간의 SQL 스터디를 통해 동료들과 함께 성장하고, 모더레이터로서 데이터 기반 업무 문화 확산에 기여한 감동적인 학습 여정을 소개합니다.
+
+    Frontend:
+      - 제목: 왜 Object.keys는 string[] 타입을 리턴하나요?
+        주소: https://velog.io/@wns450/%EC%99%9C-Object.keys%EB%8A%94-string-%ED%83%80%EC%9E%85%EC%9D%84-%EB%A6%AC%ED%84%B4%ED%95%98%EB%82%98%EC%9A%94
+        작가: 황낙준
+        설명: 🔍 타입스크립트의 Object.keys()가 항상 string[]을 반환하는 이유는 런타임 동작을 보존하고, 열린 구조의 타입 시스템을 유지하기 위한 의도적인 설계로, 구조적 타이핑의 유연성을 최대한 반영한 선택입니다.
+      - 제목: 다형성 컴포넌트 구현에 문제가 있나요?
+        주소: https://blog.sjoleee.info/posts/polymorphic-components
+        작가: 이상조
+        설명: 🚀 다형성 컴포넌트로 디자인 시스템의 재사용성과 유연성을 극대화하여, 컴포넌트의 확장성과 타입 안전성을 높이는 혁신적인 React 컴포넌트 구현 방법을 소개합니다!
+      - 제목: 면접관께서 가로되, 번들러가 무엇이냐 물으니
+        주소: https://sungpaks.github.io/what-and-why-and-how-bundler/
+        작가: 조성훈
+        설명: 📚 웹 개발자의 필수 지식인 번들러의 개념과 역할을 기술 면접 경험을 통해 상세히 설명한 글로, 번들러의 등장 배경부터 실제 활용까지 체계적으로 이해할 수 있어 추천합니다.
+      - 제목: [年間 회고] 신입 개발자 생존기: 희노애락 365일
+        주소: https://velog.io/@blcklamb/%E5%B9%B4%E9%96%93-%ED%9A%8C%EA%B3%A0-%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%83%9D%EC%A1%B4%EA%B8%B0-%ED%9D%AC%EB%85%B8%EC%95%A0%EB%9D%BD-365%EC%9D%BC
+        작가: 김채정
+        설명: 🌱 신입 개발자의 솔직하고 감동적인 1년 회고로, 성장의 고민과 희망을 진솔하게 담아낸 성장 스토리를 소개합니다!
+      - 제목: 실전 오픈소스를 기여하며 느끼고 배운 것
+        주소: https://www.gyumong.info/daily/open-source-contribution-2
+        작가: 김민규
+        설명: 🚀 오픈소스 기여를 통해 기술적 성장, 재미, 그리고 도파민 충전까지! 전 세계 개발자들과 함께 성장하며 라이브러리의 결함들을 개선하는 즐거운 여정을 소개합니다.
+      - 제목: 나만의 간판 생성 프로젝트 개발기 (feat. 풀스택 도전기)
+        주소: https://kwonbomi.xyz/blog/blog3
+        작가: 권보미
+        설명: 💡 간판 이미지를 활용한 풀스택 프로젝트로, Supabase를 활용해 DB 구축부터 API 개발, 이미지 렌더링까지 직접 구현한 개발 과정을 상세히 다룬 기술 블로그입니다.
+
+    Fullstack:
+      - 제목: TypeScript Namespace Deep Dive
+        주소: https://www.verycosy.net/posts/2024/11/typescript-namespace-deep-dive
+        작가: 장진호
+        설명: 🧩 TypeScript의 namespace는 타입 계층 표현과 편의성을 위해 여전히 유용하며, 특히 타입 전용으로 사용할 때 강력한 도구로 활용할 수 있는 TypeScript의 숨은 기능입니다.
+
+    PMPO:
+      - 제목: 스타트업의 QA 프로세스 개선 (1) : 우리 모두가 QA입니다😉
+        주소: https://chaerangja.tistory.com/27
+        작가: 김채은
+        설명: 🚀 스타트업의 QA 프로세스 개선, 모든 팀원이 품질 보증의 주체가 되어 효율성과 협업을 높이는 혁신적인 접근 방식을 소개합니다!
+
   5th:
   6th:
   7th:
