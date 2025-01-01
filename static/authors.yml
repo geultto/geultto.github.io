@@ -202,3 +202,14 @@
     linkedin: https://www.linkedin.com/in/anne-jihye-shin-1b4162271/
     blog: https://nomadmango.tistory.com/
     blog2: https://brunch.co.kr/@smol
+
+이호동:
+  name: 이호동
+  title: Cloud Engineer
+  url: https://github.com/nauco
+  image_url: https://github.com/nauco.png
+  page: true
+  socials:
+    linkedin: hodong-lee
+    github: nauco
+    blog: https://nauco.tistory.com/
