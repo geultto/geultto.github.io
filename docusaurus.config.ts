@@ -1,7 +1,6 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
-import type { Options as DocsOptions } from "@docusaurus/plugin-content-docs";
+import type { Config } from "@docusaurus/types";
+import { themes as prismThemes } from "prism-react-renderer";
 
 const config: Config = {
   title: "글또 Document",
@@ -32,18 +31,13 @@ const config: Config = {
         docs: {
           path: "docs",
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/docs",
         },
         blog: {
           path: "blog",
-
           blogTitle: "글또 컨텐츠",
           showReadingTime: true,
           authorsMapPath: "../static/authors.yml",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
           editUrl: "https://github.com/geultto/geultto.github.io/tree/main/blog",
           feedOptions: {
             type: "all",
@@ -69,7 +63,30 @@ const config: Config = {
     ],
   ],
 
-  plugins: [],
+  plugins: [
+    [
+      '@docusaurus/plugin-content-blog',
+      {
+        id: 'curation',
+        blogTitle: "글또 큐레이션",
+        authorsMapPath: '../static/authors.yml',
+        routeBasePath: 'curation',
+        path: './curation',
+        feedOptions: {
+          type: "all",
+          copyright: `Copyright © ${new Date().getFullYear()} 글또`,
+          createFeedItems: async (params) => {
+            const { blogPosts, defaultCreateFeedItems, ...rest } = params;
+            return defaultCreateFeedItems({
+              // keep only the 10 most recent blog posts in the feed
+              blogPosts: blogPosts.filter((_, index) => index < 10),
+              ...rest,
+            });
+          },
+        },
+      },
+    ],
+  ],
 
   themeConfig: {
     // Replace with your project's social card
@@ -95,11 +112,11 @@ const config: Config = {
             { to: "/blog/authors", label: "글또 작가들" },
           ],
         },
-        // {
-        //   to: "/curation",
-        //   label: "큐레이션",
-        //   position: "left",
-        // },
+        {
+          to: "/curation",
+          label: "큐레이션",
+          position: "left",
+        },
         {
           to: "/faq",
           label: "FAQ",
