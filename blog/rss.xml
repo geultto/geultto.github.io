@@ -8,7 +8,7 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
-        <copyright>Copyright © 2024 글또</copyright>
+        <copyright>Copyright © 2025 글또</copyright>
         <item>
             <title><![CDATA[오픈소스 기여 시리즈 2, 퍼포먼스를 위해 주도적으로 기여하는 병진님을 만나다 🚀]]></title>
             <link>https://geultto.github.io/blog/open-source/jasonkang14-interview/</link>
@@ -139,6 +139,20 @@ CI 테스트나 코드 체크를 다시 통과해야 하는데,<br>
 <a class="profileCard_Gab7" href="https://www.52g.gs/"><img src="https://static.typecdn.com/3571ca4b-f6d8-4010-89a6-c41b2432f2e5/2PKAXy6M8kiESynNExfgxwBii0b_52g_logo.png" alt="Profile"><div class="content_iM_e"><h3>52g</h3><p>https://www.52g.gs</p></div></a>]]></content:encoded>
             <category>openSource</category>
             <category>interview</category>
+            <category>10th</category>
+        </item>
+        <item>
+            <title><![CDATA[큐레이션 10기 4회차]]></title>
+            <link>https://geultto.github.io/blog/curation/10th/4th/</link>
+            <guid>https://geultto.github.io/blog/curation/10th/4th/</guid>
+            <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[10기 4회차에 글또에서 선정된 글을 소개합니다.]]></description>
+            <content:encoded><![CDATA[<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>노트</div><div class="admonitionContent_BuS1"><p>글또 10기의 네 번째 큐레이션을 소개합니다. 📣</p><p>선정된 글들의 요약 설명은 두 가지 언어 모델을 활용하여 작성되었습니다.</p><ul>
+<li>anthropic.claude-3-5-haiku-20241022-v1:0</li>
+<li>anthropic.claude-3-5-sonnet-20241022-v2:0</li>
+</ul><p>해당 기능은 현재 실험중인 기능으로, 일부 오류가 있을 수 있어요. 여러분의 소중한 피드백을 통해 지속적으로 개선해 나가겠습니다. 🙏</p></div></div>
+<div>Loading...</div>]]></content:encoded>
+            <category>curation</category>
             <category>10th</category>
         </item>
         <item>
