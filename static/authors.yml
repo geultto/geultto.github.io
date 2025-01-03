@@ -213,13 +213,3 @@
     linkedin: hodong-lee
     github: nauco
     blog: https://nauco.tistory.com/
-
-문준용:
-  name: 문준용
-  title: Backend Engineer
-  url: https://github.com/devFancy
-  image_url: https://github.com/devFancy.png
-  page: true
-  socials:
-    github: devFancy
-    blog: https://devfancy.github.io/
