@@ -38,7 +38,7 @@ last_update:
 <img src="https://capture.dropbox.com/t38juHzaRNbacKOf?raw=1" />
 
 
-## 자유로운상담소
+## 자유로운 담소
 - 일상 속 고민과 궁금증을 나누고, 서로 도움과 응원을 주고받는 따뜻한 공간입니다
 - 개인적인 이야기부터 정보 공유까지 자유롭게 이야기하는 채널입니다
 
