@@ -1,0 +1,215 @@
+# blog 포스트에서 사용할 author 정보를 정의합니다.
+# 포스트 md 파일의 frontmatter에 `authors: [author1, author2]` 형태로 사용합니다.
+정현수:
+  name: 정현수
+  title: Frontend Engineer @ Daangn
+  url: https://github.com/junghyeonsu
+  image_url: https://github.com/junghyeonsu.png
+  page: true
+  socials:
+    linkedin: hyeonsu-jung-5483911a5
+    github: junghyeonsu
+    blog: https://junghyeonsu.com/
+
+변성윤:
+  name: 변성윤
+  title: 글또 운영자 / 데이터 과학자 / 코치
+  url: https://github.com/zzsza
+  page: true
+  image_url: https://github.com/zzsza.png
+
+이용선:
+  name: 이용선(rio)
+  title: 글또 운영진 / Backend Engineer
+  url: https://github.com/dldydtjs2965
+  image_url: https://github.com/dldydtjs2965.png
+  page: true
+  socials:
+    linkedin: leeyongseon
+    github: dldydtjs2965
+    blog: https://codediary21.tistory.com/
+
+임지훈:
+  name: 임지훈
+  title: 글또 운영진 / Cloud Engineer
+  url: https://github.com/heuristicwave
+  image_url: https://github.com/heuristicwave.png
+  page: true
+  socials:
+    linkedin: heuristicwave
+    github: heuristicwave
+    blog: https://heuristicwave.github.io/
+
+금정민:
+  name: 금정민
+  title: OpenSource Contributor | Frontend Engineer @ GLN, HANA financial group
+  url: https://github.com/KumJungMin
+  image_url: https://github.com/KumJungMin.png
+  page: true
+  socials:
+    linkedin: 정민-금-51aa492b9
+    github: KumJungMin
+    blog: https://mong-blog.tistory.com/
+
+곽승예:
+  name: 곽승예
+  title: Data Scientist
+  url: https://github.com/seungye-kwak
+  image_url: https://github.com/seungye-kwak.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/seungye-kwak/
+    github: seungye-kwak
+    blog: https://login-data.tistory.com/
+
+김수빈:
+  name: 김수빈
+  title: Software Engineer @ Daangn
+  url: https://github.com/sudosubin
+  image_url: https://github.com/sudosubin.png
+  page: true
+  socials:
+    linkedin: sudosubin
+    github: sudosubin
+    blog: https://medium.com/@sudosubin
+
+이소희a:
+  name: 이소희
+  title: Data Architect @ En-core
+  url: https://brunch.co.kr/@hnote
+  image_url: http://t1.daumcdn.net/brunch/service/user/9KD2/image/Tct739DmVJSMp5Sv4xCdqCHb9IA.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/soheeee/
+    blog: https://wvwv.tistory.com/
+
+박경원:
+  name: 박경원
+  title: Frontend Engineer
+  url: https://github.com/pkw-May
+  image_url: https://github.com/pkw-May.png
+  page: true
+  socials:
+    linkedin: kyungwon-park-6315b81b7
+    github: pkw-May
+    blog: https://pkw-may.tistory.com/
+
+서현석:
+  name: 서현석
+  title: Full-Stack Developer @ konantechnology
+  url: https://github.com/chucoding
+  image_url: https://github.com/chucoding.png
+  page: true
+  socials:
+    linkedin: https://linkedin.com/in/chucoding
+    github: chucoding
+    blog: chucoding.tistory.com
+
+이종은:
+  name: 이종은
+  title: Backend Engineer
+  url: https://github.com/jongeuni
+  image_url: https://github.com/jongeuni.png
+  page: true
+  socials:
+    linkedin: 종은-이-6a166623b
+    github: jongeuni
+    blog: https://yatta.tistory.com/
+
+최세연:
+  name: 최세연
+  title: Data Engineer
+  url: https://github.com/barabobbob
+  image_url: https://github.com/barabobbob.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/%EC%84%B8%EC%97%B0-%EC%B5%9C-471b9823b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
+    github: barabobbob
+    blog: https://velog.io/@chltpdus48
+
+강주혁:
+  name: 강주혁
+  title: Frontend Developer Assistant(UX) @ Viva Republica
+  url: https://github.com/kangju2000
+  image_url: https://github.com/kangju2000.png
+  page: true
+  socials:
+    linkedin: kangju2000
+    github: kangju2000
+    blog: https://kangju.dev/
+
+황진성:
+  name: 황진성
+  title: Software Engineer @Kurly
+  url: https://github.com/JinseongHwang
+  image_url: https://avatars.githubusercontent.com/u/52629158?v=4
+  page: true
+  socials:
+    linkedin: jinseong-hwang
+    github: JinseongHwang
+    blog: https://jinseong-dev.tistory.com/
+
+임지환:
+  name: 임지환
+  title: Product Manager 
+  url: https://habwa.tistory.com/
+  image_url: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/%EC%A7%80%ED%99%98-%EC%9E%84-76b69924b/
+    blog: https://habwa.tistory.com/
+
+이선협:
+  name: 이선협
+  title: CTO @ CoBALT
+  url: https://github.com/kciter
+  image_url: https://github.com/kciter.png
+  page: true
+  socials:
+    linkedin: kciter
+    github: kciter
+    blog: https://kciter.so
+
+조예진:
+  name: 조예진
+  title: Frontend Engineer @ Miridih
+  url: https://github.com/ooooorobo
+  image_url: https://github.com/ooooorobo.png
+  page: true
+  socials:
+    linkedin: yejin-cho-b741a3222
+    github: ooooorobo
+    blog: https://www.oooooroblog.com/
+
+곽희진:
+  name: 곽희진
+  title: Technical Architect
+  url: https://github.com/new-h2
+  image_url: https://github.com/new-h2.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/fromondo
+    github: new-h2
+    blog: https://m.blog.naver.com/from_ondo
+
+신지헤:
+  name: 신지혜
+  title: Product Owner
+  url: https://brunch.co.kr/@smol
+  image_url: https://img1.daumcdn.net/thumb/C500x500/?fname=http://t1.daumcdn.net/brunch/service/user/4nUc/image/ofdjXHDTRU0PABI6o856SDsOtbk.jpg
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/anne-jihye-shin-1b4162271/
+    blog: https://nomadmango.tistory.com/
+    blog2: https://brunch.co.kr/@smol
+
+이호동:
+  name: 이호동
+  title: Cloud Engineer
+  url: https://github.com/nauco
+  image_url: https://github.com/nauco.png
+  page: true
+  socials:
+    linkedin: hodong-lee
+    github: nauco
+    blog: https://nauco.tistory.com/
