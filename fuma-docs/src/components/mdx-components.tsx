@@ -4,6 +4,12 @@ import { Tab, Tabs } from "fumadocs-ui/components/tabs";
 import defaultMdxComponents from "fumadocs-ui/mdx";
 import { AtomIcon } from "lucide-react";
 
+import { Question } from "./Question";
+import { Answer } from "./Answer";
+import { Divider } from "./Divider";
+import { ProfileCard } from "./ProfileCard";
+import { HintTooltip } from "./HintTooltip";
+
 export const mdxComponents = {
   ...defaultMdxComponents,
   Tab,
@@ -14,4 +20,9 @@ export const mdxComponents = {
   Folder,
   Files,
   AtomIcon,
+  Question,
+  Answer,
+  Divider,
+  ProfileCard,
+  HintTooltip,
 };

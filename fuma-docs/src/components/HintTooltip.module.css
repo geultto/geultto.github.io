@@ -1,0 +1,21 @@
+.tooltip {
+  position: absolute;
+  z-index: 1000;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 200px;
+  word-wrap: break-word;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  background-color: var(--ifm-color-primary-contrast-foreground);
+  color: var(--ifm-color-emphasis-100);
+  pointer-events: none; 
+  transition: opacity 0.2s ease-in-out;
+}
+
+.target {
+  color: var(--ifm-color-primary-dark);
+  text-decoration: underline;
+  position: relative;
+  cursor: "pointer";
+}

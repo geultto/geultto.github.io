@@ -6,6 +6,7 @@ import { withContentCollections } from '@content-collections/next';
 const config = {
   output: 'export',
   reactStrictMode: true,
+  images: { unoptimized: true },
 };
 
 export default withContentCollections(config);
