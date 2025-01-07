@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 
 import type { Metadata } from "next";
 import type { MDXComponents } from "mdx/types";
+import Author from "@/src/components/Author";
 
 export default function Page({
   params,
@@ -25,7 +26,7 @@ export default function Page({
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       {authors.map((author) => (
-        <div key={author}>{author}</div>
+        <Author name={author} />
       ))}
       <DocsBody>
         <MDXContent
