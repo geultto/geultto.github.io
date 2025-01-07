@@ -9,6 +9,10 @@
     "postinstall": "fumadocs-mdx"
   },
   "dependencies": {
+    "@content-collections/core": "^0.8.0",
+    "@content-collections/mdx": "^0.2.0",
+    "@content-collections/next": "^0.2.4",
+    "@fumadocs/content-collections": "^1.1.6",
     "feed": "^4.2.2",
     "fumadocs-core": "14.7.0",
     "fumadocs-mdx": "11.2.2",

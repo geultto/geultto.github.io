@@ -1,6 +1,6 @@
-import { createMDX } from 'fumadocs-mdx/next';
+import { withContentCollections } from '@content-collections/next';
 
-const withMDX = createMDX();
+// const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
@@ -8,4 +8,4 @@ const config = {
   reactStrictMode: true,
 };
 
-export default withMDX(config);
+export default withContentCollections(config);

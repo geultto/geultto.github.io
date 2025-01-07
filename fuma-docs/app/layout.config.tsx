@@ -1,5 +1,5 @@
 import { guideSource } from '@/src/lib/source';
-import { DocsLayoutProps } from 'fumadocs-ui/layouts/docs';
+import type { DocsLayoutProps } from 'fumadocs-ui/layouts/docs';
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 
 /**

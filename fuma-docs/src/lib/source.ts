@@ -1,18 +1,18 @@
-import { blog, blogMeta, curation, curationMeta, guide, guideMeta } from '@/.source';
-import { createMDXSource } from 'fumadocs-mdx';
+import { createMDXSource } from '@fumadocs/content-collections';
 import { loader } from 'fumadocs-core/source';
+import { allBlogs, allBlogMetas, allGuides, allGuideMetas, allCurations, allCurationMetas } from '.content-collections/generated';
 
 export const guideSource = loader({
   baseUrl: '/guide',
-  source: createMDXSource(guide, guideMeta),
+  source: createMDXSource(allGuides, allGuideMetas),
 });
 
 export const blogSource = loader({
   baseUrl: '/blog',
-  source: createMDXSource(blog, blogMeta),
+  source: createMDXSource(allBlogs, allBlogMetas),
 });
 
 export const curationSource = loader({
   baseUrl: '/curation',
-  source: createMDXSource(curation, curationMeta),
+  source: createMDXSource(allCurations, allCurationMetas),
 });

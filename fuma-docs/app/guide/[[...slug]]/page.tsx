@@ -1,10 +1,12 @@
 import { mdxComponents } from "@/src/components/mdx-components";
 import { guideSource } from "@/src/lib/source";
+import { MDXContent } from '@content-collections/mdx/react';
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from "fumadocs-ui/page";
 import { notFound } from "next/navigation";
 
-import type { MDXComponents } from "mdx/types";
 import type { Metadata } from "next";
+import type { MDXComponents } from "mdx/types";
+
 
 export default async function Page({
   params,
@@ -16,14 +18,15 @@ export default async function Page({
   const page = guideSource.getPage(params.slug);
   if (!page) notFound();
 
-  const MDX = page.data.body;
-
   return (
     <DocsPage toc={page.data.toc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDX components={mdxComponents as MDXComponents} />
+        <MDXContent
+          code={page.data.body}
+          components={{ ...mdxComponents as MDXComponents }}
+        />
       </DocsBody>
     </DocsPage>
   );
