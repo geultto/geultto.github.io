@@ -16,7 +16,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "content-collections/*": ["./.content-collections/*"]
     },
     "plugins": [
       {
