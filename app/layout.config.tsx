@@ -1,4 +1,4 @@
-import { guideSource } from '@/src/lib/source';
+import { docsSource } from '@/src/lib/source';
 import type { DocsLayoutProps } from 'fumadocs-ui/layouts/docs';
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
 import Link from 'next/link';
@@ -16,8 +16,8 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     {
-      text: '가이드',
-      url: '/guide',
+      text: '가이드 문서',
+      url: '/docs',
       active: 'nested-url',
     },
     {
@@ -34,7 +34,7 @@ export const baseOptions: BaseLayoutProps = {
 };
 
 export const docsOptions: DocsLayoutProps = {
-  tree: guideSource.pageTree,
+  tree: docsSource.pageTree,
   nav: {
     children: (
       <Link href="/">
@@ -45,8 +45,8 @@ export const docsOptions: DocsLayoutProps = {
   sidebar: {
     tabs: [
       {
-        title: "가이드",
-        url: "/guide",
+        title: "가이드 문서",
+        url: "/docs",
       },
       {
         title: "블로그",

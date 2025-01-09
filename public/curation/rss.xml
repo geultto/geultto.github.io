@@ -4,7 +4,7 @@
         <title>글또 큐레이션</title>
         <link>https://geultto.github.io/</link>
         <description>글또 큐레이션 RSS 피드</description>
-        <lastBuildDate>Thu, 09 Jan 2025 11:36:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jan 2025 11:39:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -13,35 +13,35 @@
             <title><![CDATA[큐레이션 10기 1회차]]></title>
             <link>https://geultto.github.io/curation/1st</link>
             <guid>https://geultto.github.io/curation/1st</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[10기 1회차에 글또에서 선정된 글을 소개합니다.]]></description>
         </item>
         <item>
             <title><![CDATA[큐레이션 10기 2회차]]></title>
             <link>https://geultto.github.io/curation/2nd</link>
             <guid>https://geultto.github.io/curation/2nd</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Wed, 20 Nov 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[10기 2회차에 글또에서 선정된 글을 소개합니다.]]></description>
         </item>
         <item>
             <title><![CDATA[큐레이션 10기 3회차]]></title>
             <link>https://geultto.github.io/curation/3rd</link>
             <guid>https://geultto.github.io/curation/3rd</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Mon, 02 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[10기 3회차에 글또에서 선정된 글을 소개합니다.]]></description>
         </item>
         <item>
             <title><![CDATA[큐레이션 10기 4회차]]></title>
             <link>https://geultto.github.io/curation/4th</link>
             <guid>https://geultto.github.io/curation/4th</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[10기 4회차에 글또에서 선정된 글을 소개합니다.]]></description>
         </item>
         <item>
             <title><![CDATA[큐레이션]]></title>
             <link>https://geultto.github.io/curation/</link>
             <guid>https://geultto.github.io/curation/</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
             <description><![CDATA[글또 큐레이션을 소개합니다.]]></description>
         </item>
     </channel>

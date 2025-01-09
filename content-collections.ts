@@ -31,9 +31,9 @@ const blogMeta = defineCollection({
 });
 
 // 가이드 컬렉션
-const guide = defineCollection({
-  name: 'guide',
-  directory: 'content/guide',
+const docs = defineCollection({
+  name: 'docs',
+  directory: 'content/docs',
   include: '**/*.mdx',
   schema: (z) => {
     return {
@@ -47,9 +47,9 @@ const guide = defineCollection({
   transform: transformMDX,
 });
 
-const guideMeta = defineCollection({
-  name: 'guideMeta', 
-  directory: 'content/guide',
+const docsMeta = defineCollection({
+  name: 'docsMeta', 
+  directory: 'content/docs',
   include: '**/meta.json',
   parser: 'json',
   schema: createMetaSchema,
@@ -84,8 +84,8 @@ export default defineConfig({
   collections: [
     blog, 
     blogMeta,
-    guide,
-    guideMeta, 
+    docs,
+    docsMeta, 
     curation,
     curationMeta
   ],

@@ -1,5 +1,5 @@
 {
   "title": "블로그",
-  "pages": ["interviews", "information" ],
+  "pages": ["open-source", "writing", "recommended"],
   "defaultOpen": true
 }

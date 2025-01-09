@@ -1,5 +1,5 @@
 import { mdxComponents } from "@/src/components/mdx-components";
-import { guideSource } from "@/src/lib/source";
+import { docsSource } from "@/src/lib/source";
 import { MDXContent } from '@content-collections/mdx/react';
 import { DocsBody, DocsDescription, DocsPage, DocsTitle } from "fumadocs-ui/page";
 import { notFound } from "next/navigation";
@@ -14,7 +14,7 @@ export default async function Page({
 }: {
   params: { slug?: string[] };
 }) {
-  const page = guideSource.getPage(params.slug);
+  const page = docsSource.getPage(params.slug);
   if (!page) notFound();
 
   const authors = page.data.authors || [];
@@ -23,6 +23,10 @@ export default async function Page({
     <DocsPage toc={page.data.toc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
+      {page.data.updatedAt ?
+        <span className="text-sm text-gray-500">해당 글은 {page.data.updatedAt}에 수정되었습니다.</span> :
+        page.data.createdAt ? <span className="text-sm text-gray-500">해당 글은 {page.data.createdAt}에 작성되었습니다.</span> : null
+      }
       <div className="flex gap-4">
         {authors.map((author) => (
           <Author key={author} name={author} />
@@ -39,11 +43,11 @@ export default async function Page({
 }
 
 export async function generateStaticParams() {
-  return guideSource.generateParams();
+  return docsSource.generateParams();
 }
 
 export function generateMetadata({ params }: { params: { slug?: string[] } }) {
-  const page = guideSource.getPage(params.slug);
+  const page = docsSource.getPage(params.slug);
   if (!page) notFound();
 
   return {

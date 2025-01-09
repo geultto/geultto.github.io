@@ -22,6 +22,10 @@ export default async function Page({
     <DocsPage toc={page.data.toc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
+      {page.data.updatedAt ?
+        <span className="text-sm text-gray-500">해당 글은 {page.data.updatedAt}에 수정되었습니다.</span> :
+        page.data.createdAt ? <span className="text-sm text-gray-500">해당 글은 {page.data.createdAt}에 작성되었습니다.</span> : null
+      }
       <div className="flex gap-4">
         {authors.map((author) => (
           <Author key={author} name={author} />

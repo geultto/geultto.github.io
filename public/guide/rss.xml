@@ -4,7 +4,7 @@
         <title>글또 가이드</title>
         <link>https://geultto.github.io/</link>
         <description>글또 가이드 RSS 피드</description>
-        <lastBuildDate>Thu, 09 Jan 2025 11:36:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jan 2025 11:39:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -13,32 +13,32 @@
             <title><![CDATA[글또의 다양한 활동]]></title>
             <link>https://geultto.github.io/guide/activities</link>
             <guid>https://geultto.github.io/guide/activities</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[글또 행동 강령(Code of Conduct)]]></title>
             <link>https://geultto.github.io/guide/code-of-conduct</link>
             <guid>https://geultto.github.io/guide/code-of-conduct</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[글또 활동 가이드]]></title>
             <link>https://geultto.github.io/guide/guide</link>
             <guid>https://geultto.github.io/guide/guide</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[글또 소개]]></title>
             <link>https://geultto.github.io/guide/</link>
             <guid>https://geultto.github.io/guide/</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
             <description><![CDATA[글또를 소개합니다.]]></description>
         </item>
         <item>
             <title><![CDATA[글 작성 가이드]]></title>
             <link>https://geultto.github.io/guide/writing-guide</link>
             <guid>https://geultto.github.io/guide/writing-guide</guid>
-            <pubDate>Thu, 09 Jan 2025 11:36:25 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 11:39:26 GMT</pubDate>
         </item>
     </channel>
 </rss>

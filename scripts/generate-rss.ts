@@ -1,4 +1,4 @@
-import { blogSource, curationSource, guideSource } from '../src/lib/source';
+import { blogSource, curationSource, docsSource } from '../src/lib/source';
 import { generateFeed } from '../src/lib/rss';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -12,7 +12,7 @@ async function generateRSSFeeds() {
       posts: blogSource.getPages().map(page => ({
         title: page.data.title,
         description: page.data.description || "",
-        date: new Date(Date.now()),
+        date: new Date(page.data.createdAt || Date.now()),
         url: `https://geultto.github.io/blog/${page.slugs.join('/')}`,
       }))
     }),
@@ -22,17 +22,17 @@ async function generateRSSFeeds() {
       posts: curationSource.getPages().map(page => ({
         title: page.data.title,
         description: page.data.description || "",
-        date: new Date(Date.now()),
+        date: new Date(page.data.createdAt || Date.now()),
         url: `https://geultto.github.io/curation/${page.slugs.join('/')}`,
       }))
     }),
     guide: generateFeed({
       title: '글또 가이드',
       description: '글또 가이드 RSS 피드',
-      posts: guideSource.getPages().map(page => ({
+      posts: docsSource.getPages().map(page => ({
         title: page.data.title,
         description: page.data.description || "",
-        date: new Date(Date.now()),
+        date: new Date(page.data.createdAt || Date.now()),
         url: `https://geultto.github.io/guide/${page.slugs.join('/')}`,
       }))
     })
