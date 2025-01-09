@@ -14,9 +14,6 @@ const config = {
     });
     return config;
   },
-  typescript: {
-    ignoreBuildErrors: true,
-  }
 };
 
 export default withContentCollections(config);

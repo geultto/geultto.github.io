@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 import type { MDXComponents } from "mdx/types";
 import Author from "@/src/components/Author";
 
-export default function Page({
+export default async function Page({
   params,
 }: {
   params: { slug?: string[] };
@@ -45,7 +45,7 @@ export async function generateStaticParams() {
   return blogSource.generateParams();
 }
 
-export function generateMetadata({ params }: { params: { slug?: string[] } }): Promise<Metadata> {
+export function generateMetadata({ params }: { params: { slug?: string[] } }) {
   const page = blogSource.getPage(params.slug);
   if (!page) notFound();
 

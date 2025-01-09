@@ -26,7 +26,7 @@ async function generateRSSFeeds() {
         url: `https://geultto.github.io/curation/${page.slugs.join('/')}`,
       }))
     }),
-    guide: generateFeed({
+    docs: generateFeed({
       title: '글또 문서',
       description: '글또 문서 RSS 피드',
       posts: docsSource.getPages().map(page => ({
