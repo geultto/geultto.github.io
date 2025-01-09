@@ -17,7 +17,7 @@ export default function Page({
   if (!page) notFound();
 
   const authors = page.data.authors || [];
-  
+
   return (
     <DocsPage toc={page.data.toc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
@@ -45,9 +45,8 @@ export async function generateStaticParams() {
   return blogSource.generateParams();
 }
 
-export function generateMetadata({ params }: { params: { slug?: string[] } }) {
+export function generateMetadata({ params }: { params: { slug?: string[] } }): Promise<Metadata> {
   const page = blogSource.getPage(params.slug);
-  
   if (!page) notFound();
 
   return {

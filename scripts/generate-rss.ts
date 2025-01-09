@@ -27,13 +27,13 @@ async function generateRSSFeeds() {
       }))
     }),
     guide: generateFeed({
-      title: '글또 가이드',
-      description: '글또 가이드 RSS 피드',
+      title: '글또 문서',
+      description: '글또 문서 RSS 피드',
       posts: docsSource.getPages().map(page => ({
         title: page.data.title,
         description: page.data.description || "",
         date: new Date(page.data.createdAt || Date.now()),
-        url: `https://geultto.github.io/guide/${page.slugs.join('/')}`,
+        url: `https://geultto.github.io/docs/${page.slugs.join('/')}`,
       }))
     })
   };
