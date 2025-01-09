@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Build content collections
+        run: yarn fumadocs-mdx
+
       - name: Generate RSS
         run: yarn generate-rss
 
