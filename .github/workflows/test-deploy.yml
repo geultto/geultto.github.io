@@ -22,7 +22,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Build content collections
-        run: yarn fumadocs-mdx
+        run: yarn content-collections:build
 
       - name: Generate RSS
         run: yarn generate-rss

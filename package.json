@@ -7,6 +7,7 @@
     "dev": "next dev",
     "start": "next start",
     "postinstall": "fumadocs-mdx",
+    "content-collections:build": "yarn content-collections build",
     "crawling-curation": "yarn vite-node ./scripts/crawling-curation.ts",
     "generate-rss": "yarn vite-node ./scripts/generate-rss.ts"
   },
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
+    "@content-collections/cli": "^0.1.6",
     "@types/mdx": "^2.0.13",
     "@types/node": "22.10.5",
     "@types/react": "^19.0.2",
