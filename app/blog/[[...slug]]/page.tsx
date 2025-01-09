@@ -8,12 +8,10 @@ import type { Metadata } from "next";
 import type { MDXComponents } from "mdx/types";
 import Author from "@/src/components/Author";
 
-export default async function Page({
-  params,
-}: {
-  params: { slug?: string[] };
-}) {
-  const page = blogSource.getPage(params.slug);
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+export default async function Page(props: any) {
+  const { slug } = props.params as { slug?: string[] };
+  const page = blogSource.getPage(slug);
   if (!page) notFound();
 
   const authors = page.data.authors || [];
@@ -45,8 +43,11 @@ export async function generateStaticParams() {
   return blogSource.generateParams();
 }
 
-export function generateMetadata({ params }: { params: { slug?: string[] } }) {
-  const page = blogSource.getPage(params.slug);
+// NOTE: This is a workaround to fix the type error.
+// biome-ignore lint/suspicious/noExplicitAny: <explanation>
+export function generateMetadata(props: any) {
+  const { slug } = props.params as { slug?: string[] };
+  const page = blogSource.getPage(slug);
   if (!page) notFound();
 
   return {

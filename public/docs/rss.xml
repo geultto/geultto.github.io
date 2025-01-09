@@ -4,7 +4,7 @@
         <title>글또 문서</title>
         <link>https://geultto.github.io/</link>
         <description>글또 문서 RSS 피드</description>
-        <lastBuildDate>Thu, 09 Jan 2025 12:37:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jan 2025 12:51:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -31,7 +31,7 @@
             <title><![CDATA[글또 가이드]]></title>
             <link>https://geultto.github.io/docs/</link>
             <guid>https://geultto.github.io/docs/</guid>
-            <pubDate>Thu, 09 Jan 2025 12:37:27 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 12:51:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[글 작성 가이드]]></title>

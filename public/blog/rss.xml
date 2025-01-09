@@ -4,7 +4,7 @@
         <title>글또 블로그</title>
         <link>https://geultto.github.io/</link>
         <description>글또 블로그 RSS 피드</description>
-        <lastBuildDate>Thu, 09 Jan 2025 12:37:27 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 09 Jan 2025 12:51:11 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -13,7 +13,7 @@
             <title><![CDATA[글또 블로그]]></title>
             <link>https://geultto.github.io/blog/</link>
             <guid>https://geultto.github.io/blog/</guid>
-            <pubDate>Thu, 09 Jan 2025 12:37:27 GMT</pubDate>
+            <pubDate>Thu, 09 Jan 2025 12:51:11 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[오픈소스 기여 시리즈 1, MDN 오거나이저 상철님을 만나다 🚀]]></title>
@@ -26,7 +26,7 @@
             <title><![CDATA[오픈소스 기여 시리즈 3, 선한 영향력으로 기여하는 인제님을 만나다 🚀]]></title>
             <link>https://geultto.github.io/blog/open-source/injae-kim-interview</link>
             <guid>https://geultto.github.io/blog/open-source/injae-kim-interview</guid>
-            <pubDate>Thu, 09 Jan 2025 12:37:27 GMT</pubDate>
+            <pubDate>Mon, 06 Jan 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[오픈소스 생태계의 확산과 성장을 위해 노력하는 인제님을 만나 이야기를 나눠보았습니다 🥳]]></description>
         </item>
         <item>
