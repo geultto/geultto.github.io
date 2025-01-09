@@ -20,5 +20,9 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+
+      - name: Generate RSS
+        run: yarn generate-rss
+
       - name: Test build website
         run: yarn build
