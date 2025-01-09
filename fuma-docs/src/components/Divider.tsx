@@ -1,8 +1,7 @@
-"use client";
+import type * as React from "react";
 
-import React from "react";
-import styles from "./Divider.module.css";
-
-export const Divider = () => {
-  return <div className={styles.divider} />;
-};
+export function Divider() {
+  return (
+    <div className="w-full max-w-[200px] h-px border-t border-primary-lightest my-16 mx-auto" />
+  );
+} 

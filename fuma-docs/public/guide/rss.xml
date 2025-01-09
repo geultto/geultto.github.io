@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>글또 가이드</title>
+        <link>https://geultto.github.io/</link>
+        <description>글또 가이드 RSS 피드</description>
+        <lastBuildDate>Thu, 09 Jan 2025 08:54:34 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ko</language>
+        <copyright>Copyright © 2025 글쓰는 또라이</copyright>
+        <item>
+            <title><![CDATA[Docs]]></title>
+            <link>https://geultto.github.io/guide/</link>
+            <guid>https://geultto.github.io/guide/</guid>
+            <pubDate>Thu, 09 Jan 2025 08:54:34 GMT</pubDate>
+            <description><![CDATA[Your first document]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Components]]></title>
+            <link>https://geultto.github.io/guide/test</link>
+            <guid>https://geultto.github.io/guide/test</guid>
+            <pubDate>Thu, 09 Jan 2025 08:54:34 GMT</pubDate>
+            <description><![CDATA[Components]]></description>
+        </item>
+    </channel>
+</rss>

@@ -13,21 +13,20 @@ export default function Page({
 }: {
   params: { slug?: string[] };
 }) {
-  console.log(params);
-  
   const page = blogSource.getPage(params.slug);
   if (!page) notFound();
 
   const authors = page.data.authors || [];
-  console.log("authors", authors);
   
   return (
     <DocsPage toc={page.data.toc} full={page.data.full}>
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
-      {authors.map((author) => (
-        <Author name={author} />
-      ))}
+      <div className="flex gap-4">
+        {authors.map((author) => (
+          <Author key={author} name={author} />
+        ))}
+      </div>
       <DocsBody>
         <MDXContent
           code={page.data.body}
@@ -46,12 +45,6 @@ export function generateMetadata({ params }: { params: { slug?: string[] } }) {
   const page = blogSource.getPage(params.slug);
   
   if (!page) notFound();
-  console.log("page?.data", page?.data);
-  console.log("page", page);
-  const authors = page.data.authors || [];
-
-  console.log("authors", authors);
-  
 
   return {
     title: page.data.title,

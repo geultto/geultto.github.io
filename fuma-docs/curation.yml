@@ -284,3 +284,33 @@
   8th:
   9th:
   10th:
+
+11th:
+  1st:
+    PMPO:
+      - 제목: 끝맺음을 잘하자 (글또 다짐)
+        작가: 임지환
+        주소: https://habwa.tistory.com/entry/%EB%81%9D%EB%A7%BA%EC%9D%8C%EC%9D%84-%EC%9E%98%ED%95%98%EC%9E%90-%EA%B8%80%EB%98%90-%EB%8B%A4%EC%A7%90
+        설명: 🚀 끝맺음의 중요성을 강조하며, 대목표와 소목표 설정, 수치화, 그리고 커뮤니티와 함께 성장하는 전략적인 자기계발 접근법을 제시합니다.
+      - 제목: 침대 위에서 눈물을 훔치며 본 내동생 결혼식
+        작가: 신지혜
+        주소: https://brunch.co.kr/@smol/13
+        설명: 👰 언택트 시대의 혁신적인 결혼식 경험을 UX 관점에서 생생하게 풀어낸 감동적이고 실용적인 온라인 결혼식 이야기!
+    
+    Frontend:
+      - 제목: 당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께)
+        작가: 정현수
+        주소: https://junghyeonsu.com/posts/daangn-tech-meetup-retrospect/
+        설명: 🎤 발표 준비부터 실전까지의 상세한 노하우를 담은 실용적인 글로, 발표를 앞둔 사람들에게 장표 제작, 발표 기법, 마인드셋까지 종합적인 인사이트를 제공합니다.
+      - 제목: Web Workers, AI 모델을 브라우저의 백그라운드에서 실행하면 앱 성능이 좋아질까?
+        주소: https://pkw-may.tistory.com/65
+        작가: 박경원
+        설명: 🚀 AI 모델의 백그라운드 실행의 장단점을 실험적으로 탐구하며, 실시간 이미지 추론에서는 메인 스레드가 더 효율적일 수 있음을 깨달은 인사이트 있는 글입니다.
+      - 제목: 함수는 어디까지 접근 가능한가? - Closure와 this 이해하기
+        주소: https://www.oooooroblog.com/posts/90-js-this-closure
+        작가: 조예진
+        설명: 🧠 자바스크립트의 스코프, 클로저, this의 동작 원리를 깊이 있게 이해할 수 있는 심도 있는 기술 블로그 포스트로, 개발자의 JavaScript 기본기를 탄탄하게 다질 수 있는 글입니다.
+      - 제목: Shadow DOM으로 스타일 충돌 해결하기
+        주소: https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom
+        작가: 강주혁
+        설명: 🎨 웹 컴포넌트의 스타일 격리를 위한 Shadow DOM의 개념과 활용법을 명확하게 설명한 유용한 글입니다.

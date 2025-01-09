@@ -1,6 +1,7 @@
 import { guideSource } from '@/src/lib/source';
 import type { DocsLayoutProps } from 'fumadocs-ui/layouts/docs';
 import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
+import Link from 'next/link';
 
 /**
  * Shared layout configurations
@@ -11,7 +12,7 @@ import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
  */
 export const baseOptions: BaseLayoutProps = {
   nav: {
-    title: '글또',
+    children: <img src="/logo.svg" alt="logo" className="w-[32px]" draggable={false} />,
   },
   links: [
     {
@@ -35,7 +36,11 @@ export const baseOptions: BaseLayoutProps = {
 export const docsOptions: DocsLayoutProps = {
   tree: guideSource.pageTree,
   nav: {
-    title: "글또",
+    children: (
+      <Link href="/">
+        <img src="/logo.svg" alt="logo" className="w-[32px]" draggable={false} />
+      </Link>
+    ),
   },
   sidebar: {
     tabs: [

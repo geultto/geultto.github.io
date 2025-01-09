@@ -1,8 +1,8 @@
 import { Feed } from 'feed';
 
-import type { Author } from '../types';
+import type { Author } from '../types/author';
 
-export function generateFeed(options: {
+interface FeedOptions {
   title: string;
   description: string;
   posts: Array<{
@@ -12,7 +12,9 @@ export function generateFeed(options: {
     url: string;
     author?: Author;
   }>;
-}) {
+}
+
+export function generateFeed(options: FeedOptions) {
   const feed = new Feed({
     title: options.title,
     description: options.description,
@@ -36,4 +38,4 @@ export function generateFeed(options: {
   }
 
   return feed;
-} 
+}

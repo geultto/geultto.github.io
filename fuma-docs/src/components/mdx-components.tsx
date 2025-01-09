@@ -9,6 +9,7 @@ import { Answer } from "./Answer";
 import { Divider } from "./Divider";
 import { ProfileCard } from "./ProfileCard";
 import { HintTooltip } from "./HintTooltip";
+import { Curation } from "./Curation";
 
 export const mdxComponents = {
   ...defaultMdxComponents,
@@ -20,6 +21,7 @@ export const mdxComponents = {
   Folder,
   Files,
   AtomIcon,
+  Curation,
   Question,
   Answer,
   Divider,

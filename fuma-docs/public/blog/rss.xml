@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>글또 블로그</title>
+        <link>https://geultto.github.io/</link>
+        <description>글또 블로그 RSS 피드</description>
+        <lastBuildDate>Thu, 09 Jan 2025 08:54:34 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>ko</language>
+        <copyright>Copyright © 2025 글쓰는 또라이</copyright>
+        <item>
+            <title><![CDATA[오픈소스 기여 시리즈 1, MDN 오거나이저 상철님을 만나다 🚀]]></title>
+            <link>https://geultto.github.io/blog/1ilsang-interview</link>
+            <guid>https://geultto.github.io/blog/1ilsang-interview</guid>
+            <pubDate>Thu, 09 Jan 2025 08:54:34 GMT</pubDate>
+            <description><![CDATA[MDN 한국어 번역 작업에 기여하고 계신 MDN 오거나이저 상철님을 만나 이야기를 나눠보았습니다 🥳]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Blog]]></title>
+            <link>https://geultto.github.io/blog/</link>
+            <guid>https://geultto.github.io/blog/</guid>
+            <pubDate>Thu, 09 Jan 2025 08:54:34 GMT</pubDate>
+            <description><![CDATA[Your first document]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hello Blog]]></title>
+            <link>https://geultto.github.io/blog/test</link>
+            <guid>https://geultto.github.io/blog/test</guid>
+            <pubDate>Thu, 09 Jan 2025 08:54:34 GMT</pubDate>
+            <description><![CDATA[하이요]]></description>
+        </item>
+    </channel>
+</rss>

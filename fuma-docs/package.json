@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "yarn generate-rss && next build",
     "dev": "next dev",
     "start": "next start",
-    "postinstall": "fumadocs-mdx"
+    "postinstall": "fumadocs-mdx",
+    "generate-rss": "yarn vite-node ./scripts/generate-rss.ts",
+    "crawling-curation": "yarn vite-node ./scripts/crawling-curation.ts"
   },
   "dependencies": {
     "@content-collections/core": "^0.8.0",
@@ -15,9 +17,11 @@
     "@fumadocs/content-collections": "^1.1.6",
     "@radix-ui/react-avatar": "^1.1.2",
     "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-tooltip": "^1.1.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "feed": "^4.2.2",
+    "framer-motion": "^11.16.1",
     "fumadocs-core": "14.7.0",
     "fumadocs-mdx": "11.2.2",
     "fumadocs-ui": "14.7.0",
@@ -38,6 +42,7 @@
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.2",
+    "vite-node": "^2.1.8"
   }
 }

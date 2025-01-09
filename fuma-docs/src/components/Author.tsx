@@ -41,13 +41,13 @@ export default function Author({ name }: AuthorProps) {
       </Avatar>
       
       <div>
-        <h3 className="font-medium">{authorInfo.name}</h3>
-        <p className="text-sm text-gray-500">{authorInfo.title}</p>
+        <h3 className="font-medium text-sm">{authorInfo.name}</h3>
+        <p className="text-xs text-gray-500">{authorInfo.title}</p>
         
         {authorInfo.socials && (
-          <div className="flex gap-2 mt-2">
+          <div className="flex gap-1">
             {authorInfo.socials.github && (
-              <Button variant="link" asChild className="p-1">
+              <Button variant="link" asChild className="p-1 text-xs">
                 <a
                   href={`https://github.com/${authorInfo.socials.github}`}
                   target="_blank"
@@ -58,7 +58,7 @@ export default function Author({ name }: AuthorProps) {
               </Button>
             )}
             {authorInfo.socials.linkedin && (
-              <Button variant="destructive">
+              <Button variant="link" asChild className="p-1 text-xs">
                 <a
                   href={`https://linkedin.com/in/${authorInfo.socials.linkedin}`}
                   target="_blank"
@@ -69,7 +69,7 @@ export default function Author({ name }: AuthorProps) {
               </Button>
             )}
             {authorInfo.socials.blog && (
-              <Button variant="link" asChild className="p-1">
+              <Button variant="link" asChild className="p-1 text-xs">
                 <a
                   href={authorInfo.socials.blog}
                   target="_blank"
