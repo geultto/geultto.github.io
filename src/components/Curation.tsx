@@ -1,40 +1,16 @@
+"use client";
+
 import * as React from "react";
 
-import yaml from "yaml";
+import type { CurationMetadata } from "@/schemas/curation";
+import type { CurationYml, CurationContent } from "@/src/types/curation";
+import type { Author, Authors } from "@/src/types/author";
 
-import styles from "./Curation.module.css";
-import type { CurationMetadata } from "@site/schemas/curation";
-
-export interface CurationContent {
-  제목: string;
-  주소: string;
-  작가: string;
-  직군: string;
-  설명: string;
-}
+import curationYml from "@/curation.yml";
+import authorsYml from "@/authors.yml";
+import curation10 from "@/__metadata__/curation-10.json";
 
 type JobTitle = "PMPO" | "Frontend" | "Backend" | "Data" | "Fullstack" | "AIML" | "Infra";
-
-export interface CurationYml {
-  [글또기수: string]: {
-    [회차: string]: {
-      AIML: CurationContent[];
-      PMPO: CurationContent[];
-      Frontend: CurationContent[];
-      Backend: CurationContent[];
-      Data: CurationContent[];
-      Fullstack: CurationContent[];
-      Infra: CurationContent[];
-    };
-  };
-}
-
-interface Author {
-  name: string;
-  title: string;
-  url: string;
-  image_url: string;
-}
 
 interface CurationProps {
   /**
@@ -56,7 +32,15 @@ function toOrdinal(n: number) {
   return n + (s[(v - 20) % 10] || s[v] || s[0]);
 }
 
-const CurationContext = React.createContext({ curation: null, authors: null, metadata: null });
+const CurationContext = React.createContext<{
+  curation: CurationYml | null;
+  authors: { [name: string]: Author } | null;
+  metadata: CurationMetadata[] | null;
+}>({
+  curation: null,
+  authors: null,
+  metadata: null,
+});
 
 /**
  * @example
@@ -66,115 +50,91 @@ export const Curation = ({ 회차, 기수 = 10, 직군 }: CurationProps) => {
   const ordinaled회차 = toOrdinal(회차);
   const ordinaled기수 = toOrdinal(기수);
 
-  const [curation, setCuration] = React.useState<CurationYml>(null);
-  const [authors, setAuthors] = React.useState<{ [name: string]: Author }>(null);
-  const [curationMetadata, setCurationMetadata] = React.useState<CurationMetadata>(null);
-
-  // load curation-{기수}-{회차}.json
-  React.useEffect(() => {
-    const loadJson = async () => {
-      try {
-        const response = await fetch(`/__metadata__/curation-${기수}-${회차}.json`);
-        const json = await response.json();
-        setCurationMetadata(json);
-      } catch (error) {
-        console.error("Error loading the __metadata__ file:", error);
-      }
-    };
-    loadJson();
-  }, [기수, 회차]);
-
-  React.useEffect(() => {
-    const loadYamlFile = async () => {
-      try {
-        const response = await fetch("/curation.yml");
-        const text = await response.text();
-        const data = yaml.parse(text);
-        setCuration(data);
-      } catch (error) {
-        console.error("Error loading the Curation YAML file:", error);
-      }
-    };
-    loadYamlFile();
-  }, []);
-
-  React.useEffect(() => {
-    const loadYamlFile = async () => {
-      try {
-        const response = await fetch("/authors.yml");
-        const text = await response.text();
-        const data = yaml.parse(text);
-        setAuthors(data);
-      } catch (error) {
-        console.error("Error loading the Author YAML file:", error);
-      }
-    };
-    loadYamlFile();
-  }, []);
-
-  if (!curation || !authors) {
-    return <div>Loading...</div>;
-  }
+  const curation = curationYml as CurationYml;
+  const authors = authorsYml as Authors;
+  const curationMetadatas = curation10 as CurationMetadata[];
 
   return (
-    <CurationContext.Provider value={{ curation, authors, metadata: curationMetadata }}>
-      <React.Suspense fallback={<div>Loading...</div>}>
-        {직군 ? (
-          <>
-            <h2>{직군}</h2>
-            {curation[ordinaled기수]?.[ordinaled회차]?.[직군]?.map((content) => (
-              <CurationContent key={content.제목} {...content} />
-            ))}
-          </>
-        ) : (
-          <>
-            {Object.entries(curation[ordinaled기수]?.[ordinaled회차]).map(([jobTitle, contents]) => (
-              <div key={jobTitle} className={styles.curationContentContainer}>
-                <h2>{jobTitle}</h2>
-                {contents.map((content) => (
-                  <CurationContent key={content.제목} {...content} />
-                ))}
-              </div>
-            ))}
-          </>
-        )}
-      </React.Suspense>
+    <CurationContext.Provider value={{ curation, authors, metadata: curationMetadatas }}>
+      {직군 ? (
+        <>
+          <h2 className="text-2xl font-bold mb-4">{직군}</h2>
+          {curation[ordinaled기수]?.[ordinaled회차]?.[직군]?.map((content) => (
+            <Content key={content.제목} {...content} />
+          ))}
+        </>
+      ) : (
+        <>
+          {Object.entries(curation[ordinaled기수]?.[ordinaled회차]).map(([jobTitle, contents]) => (
+            <div key={jobTitle} className="mb-8">
+              <h2 className="text-2xl font-bold mb-4">{jobTitle}</h2>
+              {contents.map((content) => (
+                <Content key={content.제목} {...content} />
+              ))}
+            </div>
+          ))}
+        </>
+      )}
     </CurationContext.Provider>
   );
 };
 
-const CurationContent = (props: CurationContent) => {
+const Content = (props: CurationContent) => {
   const { 제목, 주소, 작가, 설명 } = props;
   const authors = React.useContext(CurationContext).authors;
   const metadata = React.useContext(CurationContext).metadata as CurationMetadata[];
-  const author = authors[작가];
-  const thumbnail = metadata?.find((m) => m.author === 작가)?.ogImage;
-
+  const author = authors?.[작가];
+  const thumbnail = metadata?.find((m) => m.originalTitle === 제목)?.ogImage;
 
   return (
-    <div className={styles.curationContent}>
+      <div className="border rounded-lg p-4 mb-4 shadow-sm hover:shadow-md transition-shadow">
       {author ? (
         <>
-          <div className={styles.authorContainer}>
-            <img className={styles.authorImg} src={author.image_url} alt={author.name} />
-            <a href={author.url} target="_blank" rel="noreferrer">
+          <div className="flex items-center gap-2 mb-2">
+            <img 
+              className="w-8 h-8 rounded-full object-cover"
+              src={author.image_url} 
+              alt={author.name} 
+            />
+            <a 
+              href={author.url}
+              className="text-blue-600 hover:text-blue-800 transition-colors"
+              target="_blank" 
+              rel="noreferrer"
+            >
               {author.name}
             </a>
-            님의
+            <span>님의</span>
           </div>
-          <a className={styles.curationContentLink} href={주소} target="_blank" rel="noreferrer">
+          <a 
+            className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors block mb-2"
+            href={주소} 
+            target="_blank" 
+            rel="noreferrer"
+          >
             {제목}
           </a>
-          {thumbnail && <img className={styles.curationContentThumbnail} src={thumbnail} alt={author.name} />}
-          <p>{설명}</p>
+          {thumbnail && (
+            <img 
+              className="w-full h-48 object-cover rounded-md mb-2"
+              src={thumbnail} 
+              alt={author.name} 
+            />
+          )}
+          <p className="text-gray-600">{설명}</p>
         </>
       ) : (
         <>
-          <span>{작가}님의</span>
-          <a className={styles.curationContentLink} href={주소} target="_blank" rel="noreferrer">
+          <span className="block mb-2">{작가}님의</span>
+          <a 
+            className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors block mb-2"
+            href={주소} 
+            target="_blank" 
+            rel="noreferrer"
+          >
             {제목}
           </a>
-          <p>{설명}</p>
+          <p className="text-gray-600">{설명}</p>
         </>
       )}
     </div>
