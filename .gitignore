@@ -6,6 +6,10 @@
 .content-collections
 .source
 
+# Generated files (기존 유지)
+.docusaurus
+.cache-loader
+
 # test & build
 /coverage
 /.next/
