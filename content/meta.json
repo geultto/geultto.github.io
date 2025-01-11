@@ -1,0 +1,5 @@
+{
+  "title": "글또",
+  "root": true,
+  "pages": ["guide", "blog", "curation"]
+}

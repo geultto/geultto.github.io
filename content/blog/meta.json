@@ -1,0 +1,5 @@
+{
+  "title": "블로그",
+  "pages": ["open-source", "writing", "recommended"],
+  "defaultOpen": true
+}
