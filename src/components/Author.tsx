@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/src/components/ui/avatar";
-import { Button } from "@/src/components/ui/button"
+import { Button } from "@/src/components/ui/button";
 
 import type { Authors } from "@/src/types/author";
 
@@ -39,20 +39,16 @@ export default function Author({ name }: AuthorProps) {
         <AvatarImage src={authorInfo.image_url} alt={authorInfo.name} />
         <AvatarFallback>{authorInfo.name.charAt(0)}</AvatarFallback>
       </Avatar>
-      
+
       <div>
         <h3 className="font-medium text-sm">{authorInfo.name}</h3>
         <p className="text-xs text-gray-500">{authorInfo.title}</p>
-        
+
         {authorInfo.socials && (
           <div className="flex gap-1">
             {authorInfo.socials.github && (
               <Button variant="link" asChild className="p-1 text-xs">
-                <a
-                  href={`https://github.com/${authorInfo.socials.github}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={`https://github.com/${authorInfo.socials.github}`} target="_blank" rel="noopener noreferrer">
                   GitHub
                 </a>
               </Button>
@@ -70,11 +66,7 @@ export default function Author({ name }: AuthorProps) {
             )}
             {authorInfo.socials.blog && (
               <Button variant="link" asChild className="p-1 text-xs">
-                <a
-                  href={authorInfo.socials.blog}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <a href={authorInfo.socials.blog} target="_blank" rel="noopener noreferrer">
                   Blog
                 </a>
               </Button>

@@ -1,9 +1,4 @@
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/src/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/src/components/ui/tooltip";
 
 import type * as React from "react";
 
@@ -22,9 +17,7 @@ export function HintTooltip({ children, content }: HintTooltipProps) {
             <sup className="text-primary-dark text-xs">!</sup>
           </span>
         </TooltipTrigger>
-        <TooltipContent sideOffset={5}>
-          {content}
-        </TooltipContent>
+        <TooltipContent sideOffset={5}>{content}</TooltipContent>
       </Tooltip>
     </TooltipProvider>
   );

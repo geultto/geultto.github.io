@@ -56,25 +56,29 @@ export const Curation = ({ 회차, 기수 = 10, 직군 }: CurationProps) => {
 
   return (
     <CurationContext.Provider value={{ curation, authors, metadata: curationMetadatas }}>
-      {직군 ? (
-        <>
-          <h2 className="text-2xl font-bold mb-4">{직군}</h2>
-          {curation[ordinaled기수]?.[ordinaled회차]?.[직군]?.map((content) => (
-            <Content key={content.제목} {...content} />
-          ))}
-        </>
-      ) : (
-        <>
-          {Object.entries(curation[ordinaled기수]?.[ordinaled회차]).map(([jobTitle, contents]) => (
-            <div key={jobTitle} className="mb-8">
-              <h2 className="text-2xl font-bold mb-4">{jobTitle}</h2>
-              {contents.map((content) => (
-                <Content key={content.제목} {...content} />
-              ))}
-            </div>
-          ))}
-        </>
-      )}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto px-4">
+        {직군 ? (
+          <>
+            <h2 className="text-3xl font-bold mb-4 col-span-full">{직군}</h2>
+            {curation[ordinaled기수]?.[ordinaled회차]?.[직군]?.map((content) => (
+              <Content key={content.제목} {...content} />
+            ))}
+          </>
+        ) : (
+          <>
+            {Object.entries(curation[ordinaled기수]?.[ordinaled회차]).map(([jobTitle, contents]) => (
+              <div key={jobTitle} className="col-span-full">
+                <h2 className="text-3xl font-bold mb-4">{jobTitle}</h2>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {contents.map((content) => (
+                    <Content key={content.제목} {...content} />
+                  ))}
+                </div>
+              </div>
+            ))}
+          </>
+        )}
+      </div>
     </CurationContext.Provider>
   );
 };
@@ -87,56 +91,37 @@ const Content = (props: CurationContent) => {
   const thumbnail = metadata?.find((m) => m.originalTitle === 제목)?.ogImage;
 
   return (
-      <div className="border rounded-lg p-4 mb-4 shadow-sm hover:shadow-md transition-shadow">
-      {author ? (
-        <>
-          <div className="flex items-center gap-2 mb-2">
-            <img 
-              className="w-8 h-8 rounded-full object-cover"
-              src={author.image_url} 
-              alt={author.name} 
-            />
-            <a 
-              href={author.url}
-              className="text-blue-600 hover:text-blue-800 transition-colors"
-              target="_blank" 
-              rel="noreferrer"
-            >
-              {author.name}
-            </a>
-            <span>님의</span>
+    <a href={주소} target="_blank" rel="noreferrer" className="no-underline">
+      <div className="flex flex-col rounded-xl transition-all hover:shadow-sm border border-gray-100">
+        {/* 썸네일 이미지 */}
+        {thumbnail ? (
+          <div className="aspect-[4/3] w-full h-full">
+            <img className="w-full h-full object-cover rounded-xl" src={thumbnail} alt={제목} draggable={false} />
           </div>
-          <a 
-            className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors block mb-2"
-            href={주소} 
-            target="_blank" 
-            rel="noreferrer"
-          >
-            {제목}
-          </a>
-          {thumbnail && (
-            <img 
-              className="w-full h-48 object-cover rounded-md mb-2"
-              src={thumbnail} 
-              alt={author.name} 
-            />
+        ) : (
+          <div className="aspect-[4/3] w-full h-full bg-gray-100 rounded-xl" />
+        )}
+
+        {/* 컨텐츠 */}
+        <div className="flex flex-col px-4 mt-4 mb-4">
+          <h3 className="text-xl font-bold mb-3 line-clamp-2">{제목}</h3>
+          <p className="text-gray-600 text-sm line-clamp-3">{설명}</p>
+
+          {/* 작가 정보 */}
+          {author ? (
+            <div className="flex items-center h-8">
+              <img
+                className="w-8 h-8 object-cover overflow-hidden rounded-full border-white"
+                src={author.image_url}
+                alt={author.name}
+              />
+              <span className="text-sm text-gray-500 ml-2">{author?.name || 작가}</span>
+            </div>
+          ) : (
+            <span className="text-gray-500 text-sm">{작가}</span>
           )}
-          <p className="text-gray-600">{설명}</p>
-        </>
-      ) : (
-        <>
-          <span className="block mb-2">{작가}님의</span>
-          <a 
-            className="text-lg font-medium text-gray-900 hover:text-blue-600 transition-colors block mb-2"
-            href={주소} 
-            target="_blank" 
-            rel="noreferrer"
-          >
-            {제목}
-          </a>
-          <p className="text-gray-600">{설명}</p>
-        </>
-      )}
-    </div>
+        </div>
+      </div>
+    </a>
   );
 };
