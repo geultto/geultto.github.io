@@ -28,7 +28,7 @@ export default function DocsListPage() {
     <div className="flex flex-col gap-4">
       {sortedPages.map((page) => (
         <Link href={page.url} key={page.url} className="no-underline">
-          <Card key={page.url} className="hover:bg-gray-100 transition-all">
+          <Card key={page.url} className="hover:bg-gray-50 dark:hover:bg-gray-900 transition-all">
             <CardHeader className="flex flex-col gap-2">
               <CardTitle>{page.data.title}</CardTitle>
               <CardDescription className="flex gap-2 items-center h-full">
@@ -49,7 +49,9 @@ export default function DocsListPage() {
                 </div>
                 <span>{page.data.updatedAt ? `Last updated: ${page.data.updatedAt}` : page.data.createdAt}</span>
               </CardDescription>
-              {page.data.description && <span className="text-sm text-gray-800">{page.data.description}</span>}
+              {page.data.description && (
+                <span className="text-sm text-gray-800 dark:text-gray-200">{page.data.description}</span>
+              )}
               {page.data.tags && (
                 <div className="flex gap-2 flex-wrap mt-4">
                   {page.data.tags.map((tag) => (
