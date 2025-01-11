@@ -23,11 +23,16 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
+
+      - name: Build content collections
+        run: yarn content-collections:build
+
+      - name: Generate RSS
+        run: yarn generate-rss
+
       - name: Build website
         run: yarn build
 
-      # Popular action to deploy to GitHub Pages:
-      # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
