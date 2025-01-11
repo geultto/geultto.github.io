@@ -9,7 +9,7 @@ import type { Authors } from "@/src/types/author";
 import authorsYaml from "../../authors.yml";
 
 // TODO: 페이지 컴포넌트 공통화 혹은 추상화
-export const BlogListPage = () => {
+export default function BlogListPage() {
   // Index page는 제외
   const removedPages = blogSource.getPages().filter((page) => page.slugs.length !== 0);
 
@@ -63,4 +63,4 @@ export const BlogListPage = () => {
       ))}
     </div>
   );
-};
+}

@@ -10,9 +10,9 @@ import { Divider } from "./Divider";
 import { ProfileCard } from "./ProfileCard";
 import { HintTooltip } from "./HintTooltip";
 import { Curation } from "./Curation";
-import { BlogListPage } from "../pages/BlogListPage";
-import { CurationListPage } from "../pages/CurationListPage";
-import { DocsListPage } from "../pages/DocsListPage";
+import BlogListPage from "../pages/BlogListPage";
+import CurationListPage from "../pages/CurationListPage";
+import DocsListPage from "../pages/DocsListPage";
 
 export const mdxComponents = {
   ...defaultMdxComponents,
