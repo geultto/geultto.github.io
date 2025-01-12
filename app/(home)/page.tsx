@@ -12,7 +12,7 @@ export default function HomePage() {
 
         <p>- 최종 수정 : 2024년 9월 30일</p>
 
-        <div className="flex flex-col gap-2 p-4 rounded-xl bg-blue-50 text-blue-900">
+        <div className="flex flex-col gap-2 p-4 rounded-xl bg-blue-50 dark:bg-blue-950 text-blue-900 dark:text-blue-50">
           <span className="font-bold text-lg">글또 추후 기수 공지</span>
           <span>글또는 10기까지 운영될 예정입니다(25년 3월까지 10기 운영)</span>
           <span>추가 모집을 받고 있지 않고 있습니다</span>

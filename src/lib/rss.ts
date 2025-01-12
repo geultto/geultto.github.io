@@ -1,6 +1,6 @@
-import { Feed } from 'feed';
+import { Feed } from "feed";
 
-import type { Author } from '../types/author';
+import type { Author } from "../types/author";
 
 interface FeedOptions {
   title: string;
@@ -18,10 +18,10 @@ export function generateFeed(options: FeedOptions) {
   const feed = new Feed({
     title: options.title,
     description: options.description,
-    id: 'https://geultto.github.io/',
-    link: 'https://geultto.github.io/',
-    language: 'ko',
-    copyright: `Copyright © ${new Date().getFullYear()} 글쓰는 또라이`
+    id: "https://geultto.github.io/",
+    link: "https://geultto.github.io/",
+    language: "ko",
+    copyright: `Copyright © ${new Date().getFullYear()} 글쓰는 또라이`,
   });
 
   for (const post of options.posts) {
@@ -30,10 +30,14 @@ export function generateFeed(options: FeedOptions) {
       description: post.description,
       date: post.date,
       link: post.url,
-      author: post.author ? [{
-        name: post.author.name,
-        link: post.author.url
-      }] : undefined
+      author: post.author
+        ? [
+            {
+              name: post.author.name,
+              link: post.author.url,
+            },
+          ]
+        : undefined,
     });
   }
 
