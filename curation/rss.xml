@@ -4,7 +4,7 @@
         <title>글또 큐레이션</title>
         <link>https://geultto.github.io/</link>
         <description>글또 큐레이션 RSS 피드</description>
-        <lastBuildDate>Sat, 11 Jan 2025 16:12:38 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Jan 2025 03:11:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -36,12 +36,6 @@
             <guid>https://geultto.github.io/curation/10th/4th</guid>
             <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[10기 4회차에 글또에서 선정된 글을 소개합니다.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[큐레이션 홈]]></title>
-            <link>https://geultto.github.io/curation/</link>
-            <guid>https://geultto.github.io/curation/</guid>
-            <pubDate>Sat, 11 Jan 2025 16:12:38 GMT</pubDate>
         </item>
     </channel>
 </rss>
