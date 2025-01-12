@@ -92,20 +92,24 @@ const Content = (props: CurationContent) => {
 
   return (
     <a href={주소} target="_blank" rel="noreferrer" className="no-underline">
-      <div className="flex flex-col rounded-xl transition-all hover:shadow-sm border border-gray-100">
+      <div className="flex flex-col h-full rounded-xl transition-all hover:shadow-sm border border-gray-100 dark:border-gray-900">
         {/* 썸네일 이미지 */}
         {thumbnail ? (
-          <div className="aspect-[4/3] w-full h-full">
-            <img className="w-full h-full object-cover rounded-xl" src={thumbnail} alt={제목} draggable={false} />
+          <div className="aspect-[4/3] w-full h-full max-h-[243px]">
+            <img className="w-full h-full object-cover rounded-xl m-0" src={thumbnail} alt={제목} draggable={false} />
           </div>
         ) : (
-          <div className="aspect-[4/3] w-full h-full bg-gray-100 rounded-xl" />
+          <div className="aspect-[4/3] w-full h-full bg-gray-100 dark:bg-gray-900 rounded-xl p-4 max-h-[243px]">
+            <div className="flex justify-center items-center w-full h-full text-gray-500 dark:text-gray-400 text-sm">
+              {제목}
+            </div>
+          </div>
         )}
 
         {/* 컨텐츠 */}
         <div className="flex flex-col px-4 mt-4 mb-4">
-          <h3 className="text-xl font-bold mb-3 line-clamp-2">{제목}</h3>
-          <p className="text-gray-600 text-sm line-clamp-3">{설명}</p>
+          <h3 className="text-xl font-bold mb-2 mt-2">{제목}</h3>
+          <p className="text-gray-600 text-sm">{설명}</p>
 
           {/* 작가 정보 */}
           {author ? (
