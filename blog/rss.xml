@@ -4,11 +4,17 @@
         <title>글또 블로그</title>
         <link>https://geultto.github.io/</link>
         <description>글또 블로그 RSS 피드</description>
-        <lastBuildDate>Thu, 16 Jan 2025 12:09:52 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 14:36:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
         <copyright>Copyright © 2025 글쓰는 또라이</copyright>
+        <item>
+            <title><![CDATA[글또(개발자 글쓰기 모임) 소개]]></title>
+            <link>https://geultto.github.io/blog/geultto-summary</link>
+            <guid>https://geultto.github.io/blog/geultto-summary</guid>
+            <pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[오픈소스 기여 시리즈 1, MDN 오거나이저 상철님을 만나다 🚀]]></title>
             <link>https://geultto.github.io/blog/open-source/1ilsang-interview</link>
@@ -43,12 +49,6 @@
             <guid>https://geultto.github.io/blog/writing/curation-first</guid>
             <pubDate>Sun, 22 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[글또 큐레이션에 선정 기준 소개 & 글쓰기 동기부여를 하기 위한 글]]></description>
-        </item>
-        <item>
-            <title><![CDATA[글또(개발자 글쓰기 모임) 소개]]></title>
-            <link>https://geultto.github.io/blog/writing/geultto-summary</link>
-            <guid>https://geultto.github.io/blog/writing/geultto-summary</guid>
-            <pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
