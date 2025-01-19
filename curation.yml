@@ -294,7 +294,7 @@
         주소: https://junior-datalist.tistory.com/399
         작가: 임성후
         설명: 🔄 글또와 함께한 성장의 여정, 네 번째 회사로 도전하며 개인적 성장과 새로운 기술 학습, 그리고 Go 언어 경험을 바탕으로 성공적인 이직을 이뤄낸 감동적인 커리어 이야기를 소개합니다!
-      - 제목: [Golang] Defer 를 알아보자
+      - 제목: (Golang) Defer 를 알아보자
         주소: https://hugehoo-blog.vercel.app/blog/Go/get%20deeper%20in%20defer
         작가: 임성후
         설명: 🔍 Go 언어의 defer는 함수 종료 시 자원 해제와 코드 가독성을 높이는 강력한 기능으로, 리소스 관리와 예외 처리가 필요하다면 꼭 한번 살펴보시기 바랍니다.
@@ -324,7 +324,7 @@
         주소: https://d5ng-blog.vercel.app/JavaScript/reflow
         작가: 이동현
         설명: 🔍 브라우저의 Reflow 동작을 Performance 분석을 통해 심층적으로 파헤치고, 비동기/동기식 Reflow의 차이점과 최적화 방안을 실제 사례와 함께 상세히 설명한 기술 아티클입니다.
-      - 제목: [Gravidot 0.1.0] 다같이 아이디어를 터치해볼까요? 🗯️🤏🎶
+      - 제목: (Gravidot 0.1.0) 다같이 아이디어를 터치해볼까요? 🗯️🤏🎶
         주소: https://medium.com/@howyoujini/gravidot-0-1-0-다같이-아이디어를-터치해볼까요-️-f814499cd39c
         작가: 홍유진
         설명: 🎨 멀티터치로 아이디어를 연결하고 실시간 협업이 가능한 브레인스토밍 서비스 Gravidot을 직접 개발한 과정과 기술적 도전, 창의력 증진을 위한 인터페이스 구현 경험을 상세히 공유한 개발 이야기!
