@@ -284,6 +284,10 @@
         주소: https://brunch.co.kr/@hnote/157
         작가: 이소희a
         설명: 🌟 2024년을 돌아보며, 일과 글과 책에 대한 열정으로 꾸준히 성장하고 자기계발에 힘쓴 한 해였던 작가의 진솔하고 감동적인 회고 에세이로, 개인의 성장과 도전 과정을 생생하게 느낄 수 있는 인사이트 가득한 글입니다.
+      - 제목: Savitzky-Golay(사비츠키 골레이) 필터
+        주소: https://infatigablemente.tistory.com/entry/Savitzky-Golay%EC%82%AC%EB%B9%84%EC%B8%A0%ED%82%A4-%EA%B3%A8%EB%A0%88%EC%9D%B4-%ED%95%84%ED%84%B0
+        작가: 송민혜
+        설명: 📊 센서 데이터의 노이즈를 효과적으로 제거하면서도 중요한 특징은 보존할 수 있는 Savitzky-Golay 필터에 대해, 직관적인 이해와 실제 구현 방법까지 상세히 설명한 유용한 가이드입니다.
 
     Backend:
       - 제목: 네 번째 회사에 이르기 까지
@@ -294,6 +298,18 @@
         주소: https://hugehoo-blog.vercel.app/blog/Go/get%20deeper%20in%20defer
         작가: 임성후
         설명: 🔍 Go 언어의 defer는 함수 종료 시 자원 해제와 코드 가독성을 높이는 강력한 기능으로, 리소스 관리와 예외 처리가 필요하다면 꼭 한번 살펴보시기 바랍니다.
+      - 제목: 나의 Github Copilot 활용법 & Tip (for IntelliJ)
+        주소: https://velog.io/@wisepine/나의-Github-Copilot-활용법-Tip-for-IntelliJ
+        작가: 김혜송
+        설명: 🤖 IntelliJ에서 GitHub Copilot을 효과적으로 활용하는 방법을 상세히 소개한 글로, 특히 백엔드 개발자를 위한 실용적인 15가지 유즈케이스와 주의사항을 통해 AI 코딩 어시스턴트를 현명하게 활용하는 방법을 배울 수 있습니다.
+      - 제목: Big Ball of Mud 탈출을 위한 발버둥
+        주소: https://medium.com/@woojin8787/big-ball-of-mud-%ED%83%88%EC%B6%9C%EC%9D%84-%EC%9C%84%ED%95%9C-%EB%B0%9C%EB%B2%84%EB%91%A5-e24ed216c3c0
+        작가: 천진우
+        설명: 🚧 소프트웨어 개발의 늪에서 탈출하기 위한 실용적이고 현실적인 Big Ball of Mud 극복 전략을 배울 수 있는 깊이 있는 기술 에세이로, 실제 현장에서 겪는 기술적 부채와 복잡성 문제를 생생하게 풀어낸 성찰적 이야기입니다.
+      - 제목: 내가 Bloc를 이해한 방법
+        주소: https://velog.io/@aquashdw/내가-Bloc를-이해한-방법
+        작가: 박지호
+        설명: 🎮 Flutter Bloc로 지뢰찾기 게임 개발 경험기: 프론트엔드에서 백엔드 같은 상태 관리의 매력을 발견한 개발자의 흥미로운 기술 여정을 소개합니다!
 
     Frontend:
       - 제목: CSS의 새 로고 Color: “rebeccapurple”에 관한 이야기.
@@ -304,24 +320,24 @@
         주소: https://seri-log.netlify.app/web_font_optimization/
         작가: 박세리
         설명: 💡 웹 폰트 로딩 속도를 획기적으로 개선하고, 사용자 경험을 높이기 위한 서브셋 폰트 최적화 방법을 상세히 소개하는 기술 블로그 포스트로, 폰트 용량을 80% 줄이고 로딩 시간을 획기적으로 단축한 실전 최적화 사례를 배울 수 있습니다. 
-      - 제목:
-        주소:
-        작가:
-        설명:
-      - 제목:
-        주소:
-        작가:
-        설명:
-      - 제목:
-        주소:
-        작가:
-        설명:
+      - 제목: Reflow 딥다이브 (feat. Performance 분석)
+        주소: https://d5ng-blog.vercel.app/JavaScript/reflow
+        작가: 이동현
+        설명: 🔍 브라우저의 Reflow 동작을 Performance 분석을 통해 심층적으로 파헤치고, 비동기/동기식 Reflow의 차이점과 최적화 방안을 실제 사례와 함께 상세히 설명한 기술 아티클입니다.
+      - 제목: [Gravidot 0.1.0] 다같이 아이디어를 터치해볼까요? 🗯️🤏🎶
+        주소: https://medium.com/@howyoujini/gravidot-0-1-0-다같이-아이디어를-터치해볼까요-️-f814499cd39c
+        작가: 홍유진
+        설명: 🎨 멀티터치로 아이디어를 연결하고 실시간 협업이 가능한 브레인스토밍 서비스 Gravidot을 직접 개발한 과정과 기술적 도전, 창의력 증진을 위한 인터페이스 구현 경험을 상세히 공유한 개발 이야기!
+      - 제목: NEXT_PUBLIC_ 환경변수를 빌드 이후에 수정할 순 없나? 함께 알아보자.
+        주소: https://velog.io/@bbbjihan/NEXTPUBLIC-환경변수를-빌드-이후에-수정할-순-없나-함께-알아보자
+        작가: 박지한
+        설명: 🌐 Next.js 환경변수의 런타임 설정 방법을 깊이 있게 탐구하고, 빌드 이후 환경변수 주입의 다양한 접근법을 실제 사례와 함께 상세히 소개하는 기술적이고 실용적인 가이드 포스트입니다.
 
     Infra:
-      - 제목:
-        주소:
-        작가:
-        설명:
+      - 제목: Amazon MSK 커넥션 끊김 이슈 디버깅 (feat. Nest.js, IRSA)
+        주소: https://custom-li.tistory.com/220
+        작가: 이용우
+        설명: 🕵️ Amazon MSK 커넥션 끊김 이슈를 Nest.js와 IRSA 환경에서 발생한 실제 디버깅 과정과 해결 방법을 상세히 공유하는 기술적으로 깊이 있는 문제 해결 가이드입니다.
     
   6th:
   7th:
