@@ -213,3 +213,13 @@
     linkedin: hodong-lee
     github: nauco
     blog: https://nauco.tistory.com/
+
+전희선:
+  name: 전희선
+  title: Data Engineer
+  url: https://github.com/heehehe
+  image_url: https://github.com/heehehe.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/heeseon-cheon/
+    blog: https://heehehe-ds.tistory.com/
