@@ -341,11 +341,11 @@
     
   6th:
     Fullstack:
-      - 제목: "2025년으로 넘어가는 문턱에서, 일터의 소로. | 봄가을"
+      - 제목: "2025년으로 넘어가는 문턱에서, 일터의 소로."
         주소: https://springfall.cc/article/2025-01/thoreau
         작가: 김태훈
         설명: 🌱 2024년의 회고와 2025년의 목표를 담은 글로, 자본주의와 기술 발전 속에서 진정한 삶의 가치를 찾아가는 여정을 '일터의 소로'라는 책을 통해 깊이 있게 성찰한 이야기입니다.
-      - 제목: 안전하게 무한 루프 탈출하기 - Handling SIGTERM in kubernetes with python - LittleMobs
+      - 제목: 안전하게 무한 루프 탈출하기 - Handling SIGTERM in kubernetes with python
         주소: https://littlemobs.com/blog/safe-loop-termination/
         작가: 김인호
         설명: 🚦 쿠버네티스 환경에서 Python 프로세스의 안전한 무한 루프 종료 방법을 배우고, SIGTERM/SIGINT 핸들링을 통해 리소스 정리와 우아한 종료를 구현하는 실용적인 가이드입니다.
@@ -359,7 +359,7 @@
         주소: https://velog.io/@h-go-getter/Goodbye-2024%EB%85%84-Hello-2025%EB%85%84
         작가: 장회정
         설명: 📝 2024년 회고를 통해 시간관리와 목표달성 전략을 배울 수 있는 글로, 우선순위에 따른 시간 투자와 자동화 시스템 도입으로 성과를 이룬 경험담이 상세히 담겨있어 2025년 계획 수립에 도움이 될 만한 글입니다.
-      - 제목: 가상의 게임 데이터로 살펴보는 이중차분법 (feat. 🧙 법사야캐요) — 데이터 탐험 노트
+      - 제목: 가상의 게임 데이터로 살펴보는 이중차분법 (feat. 🧙 법사야캐요)
         주소: https://blessedby-clt.tistory.com/83
         작가: 조슬지
         설명: 🧙 통계의 마법 같은 이중차분법을 게임 데이터로 쉽고 재미있게 배울 수 있는 마법 같은 튜토리얼로, 복잡한 통계 개념을 게임 예시를 통해 직관적으로 이해할 수 있는 흥미로운 학습 자료입니다!
@@ -377,7 +377,7 @@
         주소: https://devpanpan.tistory.com/115
         작가: 하이현
         설명: 🕵️ Git의 숨겨진 기능을 활용해 잃어버린 커밋을 복구하는 놀라운 방법들을 소개합니다! 개발자들이 실수로 삭제한 커밋을 되살리는 세 가지 핵심 기술(커밋 해시, git reflog, git fsck)을 알려드립니다.
-      - 제목: "[Kotlin] 돌려줘요 static. Kotlin 에는 Java 의 static 키워드가 없다. 대신… | by allocProc | Jan, 2025 | Medium"
+      - 제목: "[Kotlin] 돌려줘요 static. Kotlin 에는 Java 의 static 키워드가 없다. 대신…"
         주소: https://jaeyeong951.medium.com/kotlin-%EB%8F%8C%EB%A0%A4%EC%A4%98%EC%9A%94-static-866f31091466
         작가: 김재영
         설명: 🤔 Kotlin의 companion object를 사용하게 된 배경과 설계 철학을 이해하고 싶은 분들에게 추천하는 글로, "everything is object" 관점에서 static 대신 object 키워드를 채택한 이유를 상세히 설명합니다.
@@ -387,7 +387,7 @@
         설명: 🚀 Token Gradient Descent를 활용해 LLM의 글자수를 정밀하게 조절하는 혁신적인 방법으로, 멀티스레딩과 지수 백오프 전략을 결합하여 데이터셋의 품질을 획기적으로 개선한 기술적 접근 방식을 소개합니다.
 
     Frontend:
-      - 제목: normalize 메서드를 이용해 유니코드 문자열 정규화하기 - 재그지그의 개발 블로그
+      - 제목: normalize 메서드를 이용해 유니코드 문자열 정규화하기
         주소: https://wormwlrm.github.io/2024/12/30/String-Normalize.html
         작가: 정종윤
         설명: 🔠 JavaScript에서 유니코드 문자열을 정규화하는 normalize 메서드의 4가지 방식(NFD, NFC, NFKD, NFKC)을 이해하고 활용하는 방법을 상세히 설명한 유익한 글로, 국제화된 웹 애플리케이션 개발 시 문자열 처리에 도움이 됩니다.
