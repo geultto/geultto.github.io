@@ -223,3 +223,15 @@
   socials:
     linkedin: https://www.linkedin.com/in/heeseon-cheon/
     blog: https://heehehe-ds.tistory.com/
+
+송경근:
+  name: 송경근
+  title: 글또 운영진 / Software Engineer @ 42dot
+  url: https://github.com/songkg7
+  image_url: https://github.com/songkg7.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/songkg7/
+    github: songkg7
+    blog: https://haril.dev
+
