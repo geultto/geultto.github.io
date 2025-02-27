@@ -4,7 +4,7 @@
         <title>글또 블로그</title>
         <link>https://geultto.github.io/</link>
         <description>글또 블로그 RSS 피드</description>
-        <lastBuildDate>Tue, 25 Feb 2025 16:19:37 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 27 Feb 2025 01:43:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -14,6 +14,12 @@
             <link>https://geultto.github.io/blog/geultto-summary</link>
             <guid>https://geultto.github.io/blog/geultto-summary</guid>
             <pubDate>Mon, 15 Apr 2024 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[글쓰기에 진심인 4장님들 (with.쓸모또, 딴지또, 글읽었또)]]></title>
+            <link>https://geultto.github.io/blog/interview-four-channel-leaders</link>
+            <guid>https://geultto.github.io/blog/interview-four-channel-leaders</guid>
+            <pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[오픈소스 기여 시리즈 1, MDN 오거나이저 상철님을 만나다 🚀]]></title>
