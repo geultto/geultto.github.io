@@ -141,7 +141,7 @@
         설명: 🌳 제한된 범위의 정수 응답 데이터에 결정트리가 적합한 이유와 비모수적 모델로서 어떤 특징을 가지고 있는지 설명하는 유익한 글입니다.
     
     Backend:
-      - 제목: Hibernate 의 ‘불편한’ 편의 기능들.
+      - 제목: Hibernate 의 '불편한' 편의 기능들.
         주소: https://monday9pm.com/hibernate-%EC%9D%98-%EB%B6%88%ED%8E%B8%ED%95%9C-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EB%93%A4-06a1fbc7492a/
         작가: 최현구
         설명: 🤔 Hibernate의 편의성이 오히려 불편함을 초래할 수 있다는 점을 ActionQueue의 SQL 정렬과 JPQL의 즉시 flush 현상을 통해 설명하며, 실용적 대안으로 queryDSL과 직접 SQL 작성을 추천합니다.
@@ -312,7 +312,7 @@
         설명: 🎮 Flutter Bloc로 지뢰찾기 게임 개발 경험기 - 프론트엔드에서 백엔드 같은 상태 관리의 매력을 발견한 개발자의 흥미로운 기술 여정을 소개합니다!
 
     Frontend:
-      - 제목: CSS의 새 로고 Color - “rebeccapurple”에 관한 이야기.
+      - 제목: CSS의 새 로고 Color - "rebeccapurple"에 관한 이야기.
         주소: https://velog.io/@ainochi95/CSS%EC%9D%98-%EC%83%88-%EB%A1%9C%EA%B3%A0-Color-rebeccapurple%EC%97%90-%EA%B4%80%ED%95%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0
         작가: 강민석
         설명: 💜 CSS의 새 로고 컬러 'rebeccapurple'에 담긴 감동적인 이야기 - 6살의 나이로 세상을 떠난 에릭 마이어의 딸 레베카를 기리기 위해 만들어진 색상이 10년 만에 CSS의 공식 로고 컬러가 되기까지의 여정을 소개합니다.
@@ -342,7 +342,7 @@
   6th:
     Fullstack:
       - 제목: "2025년으로 넘어가는 문턱에서, 일터의 소로."
-        주소: https://springfall.cc/article/2025-01/thoreau
+        주소: https://springfall.cc/article/2025/01/thoreau
         작가: 김태훈
         설명: 🌱 2024년의 회고와 2025년의 목표를 담은 글로, 자본주의와 기술 발전 속에서 진정한 삶의 가치를 찾아가는 여정을 '일터의 소로'라는 책을 통해 깊이 있게 성찰한 이야기입니다.
       - 제목: 안전하게 무한 루프 탈출하기 - Handling SIGTERM in kubernetes with python
@@ -405,14 +405,77 @@
         설명: 🏗️ 클린 아키텍처의 핵심 원칙을 통해 소프트웨어 개발의 유연성과 유지보수성을 높이는 아키텍처 설계 방법을 깊이 있게 탐구하고, 프로젝트 특성에 맞는 최적의 아키텍처를 찾아가는 여정을 소개합니다.
 
     iOS:
-      - 제목: 12월 23일을 끝으로 운영을 종료합니다(블로그아님)
-        주소: https://velog.io/@kimscastle/12%EC%9B%94-23%EC%9D%BC%EC%9D%84-%EB%81%9D%EC%9C%BC%EB%A1%9C-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%A2%85%EB%A3%8C%ED%95%A9%EB%8B%88%EB%8B%A4
-        작가: 김의성
-        설명: "💭 젠티 프로젝트 1년간의 회고록: 단 한 명의 유저를 위한 업데이트부터 팀의 가치와 설득의 중요성까지, 스타트업 경험을 통해 배운 진정한 개발자의 자세와 성장 스토리를 담은 글입니다."
+      - 제목: "@Published와 CurrentValueSubject는 똑같은 거 아닌가요?"
+        주소: https://medium.com/@radiantchoi/published와-currentvaluesubject는-똑같은-거-아닌가요-1747d56f9245
+        작가: 최경민
+        설명: 🧐 Swift Combine에서 @Published와 CurrentValueSubject의 업데이트 타이밍 차이를 알아야 하는 이유 - 의도치 않은 사이드 이펙트를 방지하고 반응형 프로그래밍의 정확성을 높일 수 있는 중요한 기술적 인사이트를 제공합니다.
+
+    AIML:
+      - 제목: GPU OOM과 이별하는 법
+        주소: https://pizzathiefz.github.io/posts/gpu-out-of-memory/
+        작가: 손영신
+        설명: 🍯 GPU 메모리 부족(OOM) 문제를 해결하기 위한 다양한 방법들을 상세히 설명한 글로, 메모리 모니터링부터 Mixed Precision Training까지 실용적인 해결책을 코드와 함께 제시합니다.
+      - 제목: LLM을 활용한 행동 분석 - 손톱 물어뜯기 탐지의 새로운 접근법
+        주소: https://rimo.tistory.com/47
+        작가: 손정균
+        설명: 🤖 LLM과 컴퓨터 비전을 활용한 손톱 물어뜯기 행동 탐지 기술에 대한 새로운 접근법을 소개하는 글로, AI 기술의 실생활 적용 사례를 확인할 수 있어 추천합니다.
+
   7th:
-  8th:
-  9th:
-  10th:
-  11th:
-  12th:
-  
+    Backend:
+      - 제목: servlet filter 를 활용해 불필요한 요청 원천 차단하기
+        주소: https://hyeon9mak.github.io/block-request-using-the-servlet-filter/
+        작가: 최현구
+        설명: 🛡️ 서버의 불필요한 요청을 효율적으로 차단하는 방법을 소개하는 글로, Servlet Filter를 활용해 애플리케이션 서버 진입 전에 스팸 봇이나 크롤링 봇의 요청을 차단하는 상세한 구현 방법을 설명합니다.
+      - 제목: AWS 서버리스로 구현한 논문 요약 서비스 개발기
+        주소: https://doxxx.dev/blog/2025/01/19/medical-paper-summarization-service-with-aws-serverless
+        작가: 김도율
+        설명: 🚀 AWS 서버리스로 의학 논문 요약 서비스를 구현한 실제 개발 경험을 상세히 공유하며, Textract와 Bedrock을 활용한 텍스트 추출/요약 파이프라인부터 검색/구독 시스템까지 서버리스 아키텍처의 장단점과 사례를 배울 수 있는 유익한 기술 블로그입니다.
+      - 제목: HikariCP를 이해하면 풀 사이즈 설정이 보인다
+        주소: https://myvelop.tistory.com/250
+        작가: 박종혁
+        설명: 💡 Spring Boot의 기본 커넥션 풀인 HikariCP의 내부 동작 원리와 최적의 풀 사이즈 설정 방법을 이해하여 DB 성능을 최적화할 수 있는 실용적인 가이드
+      - 제목: 장애 회고를 도입하며 고민한 것들
+        주소: https://velog.io/@jghff700/장애-회고를-도입하며-느낀-점들
+        작가: 장영환
+        설명: 🚨 소프트웨어 개발 팀의 장애 대응과 회고 문화를 배우고 싶다면, 장애를 성장의 기회로 전환하는 혁신적인 접근 방식과 체계적인 장애 관리 프로세스를 소개하는 글입니다!
+
+    Frontend:
+      - 제목: Finite State Machine(유한 상태 기계)을 활용해 복잡한 퍼널 관리하기
+        주소: https://gamguma.dev/post/2025/01/state-machine
+        작가: 서준환
+        설명: 🔄 복잡한 다단계 폼과 퍼널 관리를 위해 유한 상태 기계(FSM)를 활용하여 상태 전환을 명시적이고 예측 가능하게 만들고, 코드의 가독성과 유지보수성을 크게 개선할 수 있는 강력한 상태 관리 패턴을 소개합니다.
+      - 제목: Next.js 블로그 SEO 개선 과정
+        주소: https://blog.huns.site/blog/posts/dev/research/improve-seo-of-my-blog
+        작가: 박승훈
+        설명: 🔍 SEO 최적화에 관심있는 개발자라면 Next.js 블로그의 실제 검색엔진 최적화 과정과 적용 사례를 상세히 살펴볼 수 있는 유익한 글입니다.
+      - 제목: React Fiber Architecture. 수 천 개의 UI 요소들을 합리적인 성능으로 업데이트하기
+        주소: https://medium.com/@howyoujini/react-fiber-architecture-b41ca01c9d21
+        작가: 홍유진
+        설명: 🤔 React의 Fiber Architecture가 수천 개의 UI 요소를 효율적으로 처리하는 방법을 이해하고 싶다면, Stack Reconciler의 한계와 Fiber의 점진적 렌더링, 우선순위 관리 기능을 상세히 설명한 이 글을 추천합니다.
+      - 제목: 재귀 컴포넌트와 BFS로 약관 동의 기능을 구현해보자
+        주소: https://velog.io/@ubin_ing/agreement-with-recursive-and-bfs
+        작가: 박우빈
+        설명: 🌳 재귀 컴포넌트와 BFS를 활용해 깊이 제한 없는 약관 동의 기능을 React로 구현하며, 단 한 번의 렌더링과 유연한 상태 관리로 프론트엔드 요구사항을 효율적으로 해결하는 혁신적인 접근 방식을 소개합니다!
+      - 제목: 영어로도 볼 수 있는 Next.js 블로그 만들기
+        주소: https://witch.work/posts/blog-auto-translation
+        작가: 김성현a
+        설명: 🌐 Next.js 블로그를 AI 번역으로 다국어 지원하고, 효율적인 번역 워크플로우를 구축하여 글로벌 독자들에게 콘텐츠를 제공하는 혁신적인 블로그 개선 프로젝트입니다.
+
+    iOS:
+      - 제목: "@Published와 CurrentValueSubject는 똑같은 거 아닌가요?"
+        주소: https://medium.com/@radiantchoi/published와-currentvaluesubject는-똑같은-거-아닌가요-1747d56f9245
+        작가: 최경민
+        설명: 🧐 Swift Combine에서 @Published와 CurrentValueSubject의 업데이트 타이밍 차이를 알아야 하는 이유 - 의도치 않은 사이드 이펙트를 방지하고 반응형 프로그래밍의 정확성을 높일 수 있는 중요한 기술적 인사이트를 제공합니다.
+
+    Data:
+      - 제목: GPU OOM과 이별하는 법
+        주소: https://pizzathiefz.github.io/posts/gpu-out-of-memory/
+        작가: 손영신
+        설명: 🍯 GPU 메모리 부족(OOM) 문제를 해결하기 위한 다양한 방법들을 상세히 설명한 글로, 메모리 모니터링부터 Mixed Precision Training까지 실용적인 해결책을 코드와 함께 제시합니다.
+
+    AIML:
+      - 제목: LLM을 활용한 행동 분석 - 손톱 물어뜯기 탐지의 새로운 접근법
+        주소: https://rimo.tistory.com/47
+        작가: 손정균
+        설명: 🤖 LLM과 컴퓨터 비전을 활용한 손톱 물어뜯기 행동 탐지 기술에 대한 새로운 접근법을 소개하는 글로, AI 기술의 실생활 적용 사례를 확인할 수 있어 추천합니다.
+
