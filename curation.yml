@@ -342,7 +342,7 @@
   6th:
     Fullstack:
       - 제목: "2025년으로 넘어가는 문턱에서, 일터의 소로."
-        주소: https://springfall.cc/article/2025/01/thoreau
+        주소: https://springfall.cc/article/2025-01/thoreau
         작가: 김태훈
         설명: 🌱 2024년의 회고와 2025년의 목표를 담은 글로, 자본주의와 기술 발전 속에서 진정한 삶의 가치를 찾아가는 여정을 '일터의 소로'라는 책을 통해 깊이 있게 성찰한 이야기입니다.
       - 제목: 안전하게 무한 루프 탈출하기 - Handling SIGTERM in kubernetes with python
@@ -405,20 +405,10 @@
         설명: 🏗️ 클린 아키텍처의 핵심 원칙을 통해 소프트웨어 개발의 유연성과 유지보수성을 높이는 아키텍처 설계 방법을 깊이 있게 탐구하고, 프로젝트 특성에 맞는 최적의 아키텍처를 찾아가는 여정을 소개합니다.
 
     iOS:
-      - 제목: "@Published와 CurrentValueSubject는 똑같은 거 아닌가요?"
-        주소: https://medium.com/@radiantchoi/published와-currentvaluesubject는-똑같은-거-아닌가요-1747d56f9245
-        작가: 최경민
-        설명: 🧐 Swift Combine에서 @Published와 CurrentValueSubject의 업데이트 타이밍 차이를 알아야 하는 이유 - 의도치 않은 사이드 이펙트를 방지하고 반응형 프로그래밍의 정확성을 높일 수 있는 중요한 기술적 인사이트를 제공합니다.
-
-    AIML:
-      - 제목: GPU OOM과 이별하는 법
-        주소: https://pizzathiefz.github.io/posts/gpu-out-of-memory/
-        작가: 손영신
-        설명: 🍯 GPU 메모리 부족(OOM) 문제를 해결하기 위한 다양한 방법들을 상세히 설명한 글로, 메모리 모니터링부터 Mixed Precision Training까지 실용적인 해결책을 코드와 함께 제시합니다.
-      - 제목: LLM을 활용한 행동 분석 - 손톱 물어뜯기 탐지의 새로운 접근법
-        주소: https://rimo.tistory.com/47
-        작가: 손정균
-        설명: 🤖 LLM과 컴퓨터 비전을 활용한 손톱 물어뜯기 행동 탐지 기술에 대한 새로운 접근법을 소개하는 글로, AI 기술의 실생활 적용 사례를 확인할 수 있어 추천합니다.
+      - 제목: 12월 23일을 끝으로 운영을 종료합니다(블로그아님)
+        주소: https://velog.io/@kimscastle/12%EC%9B%94-23%EC%9D%BC%EC%9D%84-%EB%81%9D%EC%9C%BC%EB%A1%9C-%EC%9A%B4%EC%98%81%EC%9D%84-%EC%A2%85%EB%A3%8C%ED%95%A9%EB%8B%88%EB%8B%A4
+        작가: 김의성
+        설명: "💭 젠티 프로젝트 1년간의 회고록: 단 한 명의 유저를 위한 업데이트부터 팀의 가치와 설득의 중요성까지, 스타트업 경험을 통해 배운 진정한 개발자의 자세와 성장 스토리를 담은 글입니다."
 
   7th:
     Backend:
