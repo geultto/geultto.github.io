@@ -13,7 +13,7 @@ import { Curation } from "./Curation";
 import BlogListPage from "../pages/BlogListPage";
 import CurationListPage from "../pages/CurationListPage";
 import DocsListPage from "../pages/DocsListPage";
-
+import { StoryCarousel } from "./StoryCarousel";
 export const mdxComponents = {
   ...defaultMdxComponents,
   Tab,
@@ -33,4 +33,5 @@ export const mdxComponents = {
   BlogListPage,
   CurationListPage,
   DocsListPage,
+  StoryCarousel,
 };
