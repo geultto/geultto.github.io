@@ -9,7 +9,7 @@
         작가: 신지혜
         주소: https://brunch.co.kr/@smol/13
         설명: 👰 언택트 시대의 혁신적인 결혼식 경험을 UX 관점에서 생생하게 풀어낸 감동적이고 실용적인 온라인 결혼식 이야기!
-    
+
     Frontend:
       - 제목: 당근 테크밋업 발표를 하고 (발표를 앞둔 모든 분께)
         작가: 정현수
@@ -27,7 +27,7 @@
         주소: https://kangju.dev/posts/solving-style-conflicts-with-shadow-dom
         작가: 강주혁
         설명: 🎨 웹 컴포넌트의 스타일 격리를 위한 Shadow DOM의 개념과 활용법을 명확하게 설명한 유용한 글입니다.
-        
+
     Backend:
       - 제목: Redis의 Increment는 왜 원자적으로 동작하는 것일까?
         주소: https://strong-park.tistory.com/entry/Redis%EC%9D%98-Increment%EB%8A%94-%EC%99%9C-%EC%9B%90%EC%9E%90%EC%A0%81%EC%9C%BC%EB%A1%9C-%EB%8F%99%EC%9E%91%ED%95%98%EB%8A%94-%EA%B2%83%EC%9D%BC%EA%B9%8C
@@ -41,7 +41,7 @@
         주소: https://yatta.tistory.com/10
         작가: 이종은
         설명: 🎯 Stream의 지연 연산 특성을 이해하고 성능 최적화를 위한 핵심 메커니즘을 학습할 수 있는 깊이 있는 기술 가이드입니다.
-        
+
     Data:
       - 제목: Airflow를 활용해서 API로 데이터 수집하기
         주소: https://velog.io/@chltpdus48/Airflow%EB%A5%BC-%ED%99%9C%EC%9A%A9%ED%95%B4%EC%84%9C-API%EB%A1%9C-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%88%98%EC%A7%91%ED%95%98%EA%B8%B0
@@ -51,7 +51,7 @@
         주소: https://brunch.co.kr/@hnote/154
         작가: 이소희a
         설명: 🤖 AI의 기술적, 사회적 영향을 깊이 있게 탐구하며, 마이크로소프트 연구원의 비판적 시각으로 AI의 숨겨진 위험성과 윤리적 문제를 통찰력 있게 분석한 책입니다.
-        
+
     Fullstack:
       - 제목: 소프트웨어 파괴의 미학
         주소: https://kciter.so/posts/the-aesthetics-of-destroying-software/
@@ -72,7 +72,7 @@
         주소: https://habwa.tistory.com/entry/SEO-%EA%B2%80%EC%83%89-%EC%97%94%EC%A7%84-%EC%B5%9C%EC%A0%81%ED%99%94-24%EB%85%84-%EB%B2%84%EC%A0%84BERT%EB%A5%BC-%EA%B3%81%EB%93%A4%EC%9D%B8
         설명: 🔍 SEO의 9가지 핵심 요소를 체계적으로 정리하고 BERT를 고려한 자연스러운 콘텐츠 작성법까지 상세히 설명한 유익한 글로, 웹사이트 최적화를 위한 실용적인 가이드라인을 제공합니다.
         작가: 임지환
-    
+
     Frontend:
       - 제목: 모바일에서 연속 입력시 값이 무시되는 이유(feat. click, touch, pointer event)
         주소: https://mong-blog.tistory.com/entry/%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%97%90%EC%84%9C-%EC%97%B0%EC%86%8D-%EC%9E%85%EB%A0%A5%EC%8B%9C-%EA%B0%92%EC%9D%B4-%EB%AC%B4%EC%8B%9C%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0feat-touch-pointer-event
@@ -81,8 +81,8 @@
       - 제목: JavaScript에서 이진 데이터 이해하기 - ArrayBuffer, TypedArray, Blob, File
         주소: https://bichoninthefront.vercel.app/2024-jsBinaryDataTypes
         설명: 💡 이진 데이터 처리를 위한 JavaScript의 다양한 타입(ArrayBuffer, TypedArray, Blob, File)을 상세히 설명하여 웹 개발자가 파일 처리와 데이터 조작에 필요한 핵심 개념을 이해하기 쉽게 정리한 유용한 글입니다.
-        작가: 김민지a 
-        
+        작가: 김민지a
+
     Backend:
       - 제목: 팩트체크와 나
         주소: https://proofby.ac/misinformation/
@@ -116,13 +116,13 @@
         주소: https://libertbaek.tistory.com/entry/FastAPI%EC%99%80-Dependency-Injector
         설명: 🛠️ FastAPI와 Dependency Injector를 활용하여 Python 웹 애플리케이션의 의존성 관리와 테스트 용이성을 개선하는 방법을 상세히 설명한 기술 가이드입니다.
         작가: 백승주
-        
+
     AIML:
       - 제목: Kubernetes - 파드의 리소스 자원 사용량을 제한시켜보자
         주소: https://techblog-history-younghunjo1.tistory.com/585
         설명: 💡 쿠버네티스에서 파드의 리소스 사용량을 제한하고 관리하는 방법을 상세히 설명하며, requests/limits를 통한 오버커밋과 QoS 클래스를 활용한 우선순위 설정, ResourceQuota/LimitRange를 통한 네임스페이스별 자원 관리까지 실무에 필요한 핵심 개념들을 체계적으로 다룬 유용한 글입니다.
         작가: 조영훈
-        
+
     Fullstack:
       - 제목: 음악 검색 시스템 만들기
         주소: https://kciter.so/posts/music-recognition-system/
@@ -132,14 +132,14 @@
         주소: https://velog.io/@langoustine/abstraction-to-testability
         설명: 🎯 추상화를 통해 외부 시스템과의 결합도를 낮추고, 테스트 용이성을 높여 더 유연하고 확장 가능한 애플리케이션 구조를 만드는 사례입니다.
         작가: 문태준
-        
+
   3rd:
     AIML:
       - 제목: 결정트리 모델(Decision Tree)이 나의 문제를 해결해줄 수 있을까?
         주소: https://woocosmos.github.io/decision-tree/
         작가: 우연수
         설명: 🌳 제한된 범위의 정수 응답 데이터에 결정트리가 적합한 이유와 비모수적 모델로서 어떤 특징을 가지고 있는지 설명하는 유익한 글입니다.
-    
+
     Backend:
       - 제목: Hibernate 의 '불편한' 편의 기능들.
         주소: https://monday9pm.com/hibernate-%EC%9D%98-%EB%B6%88%ED%8E%B8%ED%95%9C-%ED%8E%B8%EC%9D%98-%EA%B8%B0%EB%8A%A5%EB%93%A4-06a1fbc7492a/
@@ -161,7 +161,7 @@
         주소: https://imksh.com/128/
         작가: 강승현
         설명: 🤔 주니어 개발자의 퇴사 고민을 건강, 자기 효능감, 성장이라는 3가지 관점에서 분석하며 신중한 결정을 돕는 실용적인 조언글
-    
+
     Data:
       - 제목: Garbage In, Garbage Out! 당신의 데이터 믿을만한가요?
         주소: https://suminii.tistory.com/entry/Garbage-In-Garbage-Out-%EB%8B%B9%EC%8B%A0%EC%9D%98-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%AF%BF%EC%9D%84%EB%A7%8C%ED%95%9C%EA%B0%80%EC%9A%94/
@@ -175,7 +175,7 @@
         주소: https://www.actionspeak.kr/blog/guide/abt/
         작가: 조해창
         설명: 📊 A/B 테스트로 팝업의 효과를 객관적으로 측정하여 데이터 기반의 의사결정을 할 수 있도록 GTM, GA4, BigQuery, Tableau를 활용한 상세한 분석 가이드를 제공합니다.
-    
+
     Frontend:
       - 제목: JS 탐구생활 - 클로저 시리즈 1. 클로저란 무엇인가?
         주소: https://witch.work/posts/javascript-closure-deep-dive-application/
@@ -193,18 +193,18 @@
         주소: https://sungpaks.github.io/draggable-and-auto-walking-character-chrome-extension/
         작가: 조성훈
         설명: 🎮 드래그 앤 드롭으로 움직이고 랜덤하게 걷는 모션을 보여주는 귀여운 햄버거 캐릭터를 크롬 확장프로그램으로 구현한 재미있는 프로젝트입니다.
-    
+
     Fullstack:
       - 제목: 데이터 스트림이 무엇이냐는 질문에 제대로 대답해보기
         주소: https://velog.io/@broccolism/%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B4%EB%83%90%EB%8A%94-%EC%A7%88%EB%AC%B8%EC%97%90-%EC%A0%9C%EB%8C%80%EB%A1%9C-%EB%8C%80%EB%8B%B5%ED%95%B4%EB%B3%B4%EA%B8%B0/
         작가: 손영인
         설명: 🔄 데이터 스트림의 개념과 특징을 명확하게 설명한 글로, 변경 이벤트의 연속성과 무한한 데이터 처리라는 핵심을 이해하기 쉽게 고스톱 예시와 함께 설명하여 추천합니다.
-    
+
     Infra:
       - 제목: 싱글톤에 대한 오해
         주소: https://eeeasycode.github.io/do_you_know_singleton/
         작가: 이창민
-        설명: 🔍 정적 팩토리 메서드 패턴만으로는 싱글톤이 보장되지 않는다는 오해를 바로잡고, NestJS와 Spring Core의 싱글톤 객체 관리 방식을 상세히 분석한 유익한 글입니다.  
+        설명: 🔍 정적 팩토리 메서드 패턴만으로는 싱글톤이 보장되지 않는다는 오해를 바로잡고, NestJS와 Spring Core의 싱글톤 객체 관리 방식을 상세히 분석한 유익한 글입니다.
   4th:
     AIML:
       - 제목: LLM Evaluation이 중요한 이유
@@ -214,8 +214,8 @@
       - 제목: 코딩테스트를 위한 대표 유형 중급 알고리즘 정리(by.백준 플래티넘)
         주소: https://velog.io/@8804who/%EC%BD%94%EB%94%A9%ED%85%8C%EC%8A%A4%ED%8A%B8%EB%A5%BC-%EC%9C%84%ED%95%9C-%EB%8C%80%ED%91%9C-%EC%9C%A0%ED%98%95-%EC%A4%91%EA%B8%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A6%ACby.%EB%B0%B1%EC%A4%80-%ED%94%8C%EB%9E%98%ED%8B%B0%EB%84%98
         작가: 김주성
-        설명: 🚀 코딩테스트 준비의 핵심 알고리즘들을 중급 수준에서 체계적으로 정리하여, 다익스트라/플로이드워셜/크루스칼/스위핑/위상정렬 등 핵심 알고리즘을 실전 예제와 함께 상세히 설명한 유용한 학습 자료입니다.   
-        
+        설명: 🚀 코딩테스트 준비의 핵심 알고리즘들을 중급 수준에서 체계적으로 정리하여, 다익스트라/플로이드워셜/크루스칼/스위핑/위상정렬 등 핵심 알고리즘을 실전 예제와 함께 상세히 설명한 유용한 학습 자료입니다.
+
     Backend:
       - 제목: 해시 자료구조와 HashMap이 해시 충돌을 해결하는 방법 | Codongmin
         주소: https://dongmin-sim.github.io/posts/hash-data-structure/
@@ -232,7 +232,7 @@
       - 제목: 카드 발동 제네릭 와일드카드?(feat. 이펙티브 자바)
         주소: https://velog.io/@prettylee620/%EC%B9%B4%EB%93%9C-%EB%B0%9C%EB%8F%99-%EC%A0%9C%EB%84%A4%EB%A6%AD-%EC%99%80%EC%9D%BC%EB%93%9C%EC%B9%B4%EB%93%9Cfeat.-%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C-%EC%9E%90%EB%B0%94
         작가: 이금주
-        설명: 🚀 제네릭의 핵심은 타입 안전성을 높이고 코드 재사용성을 강화하는 자바의 강력한 타입 시스템 기능으로, 컴파일 시점에 타입 검사를 통해 런타임 오류를 사전에 방지하는 중요한 개념입니다.     
+        설명: 🚀 제네릭의 핵심은 타입 안전성을 높이고 코드 재사용성을 강화하는 자바의 강력한 타입 시스템 기능으로, 컴파일 시점에 타입 검사를 통해 런타임 오류를 사전에 방지하는 중요한 개념입니다.
 
     Data:
       - 제목: 3달 간의 SQL스터디를 마무리하며... (부제 모더레이터로써의 스터디 후기)
@@ -319,7 +319,7 @@
       - 제목: 웹 폰트 로드 시간 줄이기
         주소: https://seri-log.netlify.app/web_font_optimization/
         작가: 박세리
-        설명: 💡 웹 폰트 로딩 속도를 획기적으로 개선하고, 사용자 경험을 높이기 위한 서브셋 폰트 최적화 방법을 상세히 소개하는 기술 블로그 포스트로, 폰트 용량을 80% 줄이고 로딩 시간을 획기적으로 단축한 실전 최적화 사례를 배울 수 있습니다. 
+        설명: 💡 웹 폰트 로딩 속도를 획기적으로 개선하고, 사용자 경험을 높이기 위한 서브셋 폰트 최적화 방법을 상세히 소개하는 기술 블로그 포스트로, 폰트 용량을 80% 줄이고 로딩 시간을 획기적으로 단축한 실전 최적화 사례를 배울 수 있습니다.
       - 제목: Reflow 딥다이브 (feat. Performance 분석)
         주소: https://d5ng-blog.vercel.app/JavaScript/reflow
         작가: 이동현
@@ -338,7 +338,7 @@
         주소: https://custom-li.tistory.com/220
         작가: 이용우
         설명: 🕵️ Amazon MSK 커넥션 끊김 이슈를 Nest.js와 IRSA 환경에서 발생한 실제 디버깅 과정과 해결 방법을 상세히 공유하는 기술적으로 깊이 있는 문제 해결 가이드입니다.
-    
+
   6th:
     Fullstack:
       - 제목: "2025년으로 넘어가는 문턱에서, 일터의 소로."
@@ -391,7 +391,7 @@
         주소: https://wormwlrm.github.io/2024/12/30/String-Normalize.html
         작가: 정종윤
         설명: 🔠 JavaScript에서 유니코드 문자열을 정규화하는 normalize 메서드의 4가지 방식(NFD, NFC, NFKD, NFKC)을 이해하고 활용하는 방법을 상세히 설명한 유익한 글로, 국제화된 웹 애플리케이션 개발 시 문자열 처리에 도움이 됩니다.
-      - 제목: Next.js 캐싱 때문에 Axios 인터셉터를 포기하라고? Axios adapter 설정으로 Next.js caching 지원 받기 
+      - 제목: Next.js 캐싱 때문에 Axios 인터셉터를 포기하라고? Axios adapter 설정으로 Next.js caching 지원 받기
         주소: https://velog.io/@bbbjihan/Next.js-캐싱-때문에-Axios-인터셉터를-포기하라고-Axios-adapter-설정으로-Next.js-caching-지원-받기
         작가: 박지한
         설명: 🔧 Next.js의 캐싱 기능을 포기하지 않고도 Axios의 편리한 기능을 함께 사용할 수 있는 방법을 소개하는 글로, Axios adapter 설정을 통해 Next.js의 캐싱 지원을 받는 실용적인 해결책을 제시합니다.
@@ -469,3 +469,65 @@
         작가: 손정균
         설명: 🤖 LLM과 컴퓨터 비전을 활용한 손톱 물어뜯기 행동 탐지 기술에 대한 새로운 접근법을 소개하는 글로, AI 기술의 실생활 적용 사례를 확인할 수 있어 추천합니다.
 
+  9th:
+    PMPO:
+      - 제목: 조직문화를 바꾸는 힘, <리더의 돕는 법> 서평
+        주소: https://blog.naver.com/khun-/223754418099
+        작가: 최병훈
+        설명: 📚 리더십의 새로운 관점을 제시하는 <리더의 돕는 법>은 '도움'이라는 행위가 조직 문화와 팀워크의 핵심임을 강조하며, 위상 차이를 인정하고 겸손한 질문으로 접근하는 리더의 돕는 기술을 통해 진정한 변화를 이끌어낼 수 있다고 소개합니다.
+
+    Frontend:
+      - 제목: 프론트&모바일 반상회 참여 회고
+        주소: https://blog.huns.site/blog/posts/personal/diary/geultto-10th-village-neighborhood-meeting
+        작가: 박승훈
+        설명: 🤝 개발자들의 성장과 네트워킹을 위한 글또 커뮤니티의 생생한 후기와 인사이트를 통해 개발 커뮤니티의 힘과 협업의 가치를 배울 수 있는 감동적인 회고 글입니다.
+      - 제목: TanStack Query, 왜 필요할까? 내부 원리를 파헤치고 직접 만들어보기
+        주소: https://www.reese-log.com/tanstack-query-internals-and-implementation
+        작가: 안예지
+        설명: 🌟 TanStack Query의 내부 원리와 직접 구현을 통해 비동기 상태 관리의 핵심을 이해할 수 있는 글입니다. Race Condition 방지, 중복 요청 처리, 캐싱 등 실제 개발에서 마주치는 문제들의 해결 방법을 상세히 설명하고 있어, 라이브러리를 더 효과적으로 활용하고자 하는 개발자에게 추천합니다.
+      - 제목: 에셋 이미지의 동적 로드와 빌드 최적화
+        주소: https://mong-blog.tistory.com/entry/%EC%97%90%EC%85%8B-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%9D%98-%EB%8F%99%EC%A0%81-%EB%A1%9C%EB%93%9C%EC%99%80-%EB%B9%8C%EB%93%9C-%EC%B5%9C%EC%A0%81%ED%99%94
+        작가: 금정민
+        설명: 📦 웹 애플리케이션의 성능을 높이는 에셋 동적 로드 최적화 방법을 소개합니다! 불필요한 이미지 번들링을 줄이고 효율적인 리소스 관리 전략을 배울 수 있는 핵심 가이드입니다.
+      - 제목: ESLint는 어떻게 코드를 분석할까요?
+        주소: https://1lsang.vercel.app/posts/eslint-01
+        작가: 박일상
+        설명: 🧐 ESLint의 코드 분석 과정과 동작 원리를 이해하고 싶다면, Parser를 통한 AST 생성부터 Rule 적용, 결과 출력까지의 단계별 작동 방식을 상세히 설명한 이 글을 추천합니다.
+      - 제목: 위성 궤도 데이터(TLE) 정규 표현식으로 유효성 검증하기
+        주소: https://velog.io/@sprare06/%EC%9C%84%EC%84%B1-%EA%B6%A4%EB%8F%84-%EB%8D%B0%EC%9D%B4%ED%84%B0TLE-%EC%A0%95%EA%B7%9C-%ED%91%9C%ED%98%84%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EC%9C%A0%ED%9A%A8%EC%84%B1-%EA%B2%80%EC%A6%9D%ED%95%98%EA%B8%B0
+        작가: 박지윤
+        설명: 🛰️ 위성 궤도 데이터(TLE)의 복잡한 구조와 유효성 검증 방법을 정규 표현식으로 쉽고 명확하게 설명하여, 우주 데이터 분석에 관심 있는 개발자와 과학 기술 enthusiast들에게 꼭 읽어볼 만한 심도 있는 기술 가이드입니다.
+
+    Backend:
+      - 제목: 제네릭이 작동하지 않는다
+        주소: https://imksh.com/133
+        작가: 강승현
+        설명: 🔍 제네릭과 다형성의 충돌 문제를 해결하며 유연한 설계를 고민해볼 수 있는 글로, Spring Boot에서 타입 기반 매칭을 활용하거나 유지보수성 높은 코드 구조에 관심 있는 개발자에게 추천합니다.
+      - 제목: 문자 인코딩의 역사를 알아보자
+        주소: https://www.romedev.me/post/incoding_history
+        작가: 임원기
+        설명: 🌐 문자 인코딩의 역사를 통해 인류의 소통 방식 진화와 디지털 시대의 문자 표준화 과정을 알아보는 흥미로운 기술 여정을 소개합니다!
+      - 제목: Go에서 메모리 할당 없이 문자열 빠르게 변환하기
+        주소: https://www.winterjung.dev/zero-allocation-string-and-bytes-conversion-in-go/
+        작가: 정겨울
+        설명: 🚀 Go에서 메모리 할당 없이 문자열을 빠르게 변환하는 방법을 소개합니다. 성능 최적화와 메모리 효율성을 높이고 싶은 개발자들에게 유용한 unsafe 패키지 기법을 알려드립니다.
+      - 제목: ANN을 이용한 벡터 유사도 검색
+        주소: https://velog.io/@jghff700/ANN%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EB%B2%A1%ED%84%B0-%EC%9C%A0%EC%82%AC%EB%8F%84-%EA%B2%80%EC%83%89
+        작가: 장영환
+        설명: 📍 벡터 유사도 검색의 최적화 방법을 PCA와 LSH를 통해 상세히 설명한 글로, 대규모 데이터 환경에서 검색 성능을 향상시키는 방법을 코드와 함께 실용적으로 소개하고 있어 검색 시스템 구현에 관심 있는 개발자들에게 추천합니다.
+      - 제목: API 요청 당 쿼리 개수를 알고 싶어 라이브러리까지 만든 이야기 — 라이브러리 제작
+        주소: https://medium.com/@hyeon9mak/api-%EC%9A%94%EC%B2%AD-%EB%8B%B9-%EC%BF%BC%EB%A6%AC-%EA%B0%9C%EC%88%98%EB%A5%BC-%EC%95%8C%EA%B3%A0-%EC%8B%B6%EC%96%B4-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EA%B9%8C%EC%A7%80-%EB%A7%8C%EB%93%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0-%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC-%EC%A0%9C%EC%9E%91-de39f0d27351
+        작가: 최현구
+        설명: 🕵️ API 요청 당 쿼리 개수를 자동으로 측정하고 로깅하는 라이브러리를 직접 개발하여, 개발자들이 쉽게 성능 병목 지점을 파악할 수 있도록 도와주는 혁신적인 오픈소스 라이브러리 제작 이야기입니다.
+
+    AIML:
+      - 제목: Transformer, 도대체 그게 뭔데 - Transformer 편 (2)
+        주소: https://login-data.tistory.com/36
+        작가: 곽승예
+        설명: 🤖 트랜스포머 구조를 상세히 설명한 글로, 인코더의 출력을 활용해 자연스러운 문장을 생성하는 과정과 Masked Multi-Head Attention의 역할을 이해하기 쉽게 설명하여 트랜스포머 모델의 전체 구조를 파악하는데 도움이 되는 글입니다.
+
+    Fullstack:
+      - 제목: Python으로 kubernetes 노드 선택 기능을 개발하는 방법
+        주소: https://littlemobs.com/blog/kubernetes-node-selection-with-python/
+        작가: 김인호
+        설명: 🔧 Python으로 Kubernetes 노드 선택 기능을 개발하는 방법을 배우며, Node Affinity와 Label을 활용해 특정 노드에만 pod를 배포하는 기능 구현과 실제 운영 시 고려해야 할 동기화, GC 등의 이슈를 상세히 다룬 실용적인 가이드입니다.
