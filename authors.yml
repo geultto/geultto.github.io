@@ -245,3 +245,14 @@
     linkedin: wormwlrm
     github: wormwlrm
     blog: https://wormwlrm.github.io/
+
+최현구:
+  name: 최현구
+  title: Backend Engineer
+  url: https://hyeon9mak.github.io
+  image_url: https://github.com/hyeon9mak.png
+  page: true
+  socials:
+    linkedin: hyeon9mak
+    github: hyeon9mak
+    blog: https://hyeon9mak.github.io
