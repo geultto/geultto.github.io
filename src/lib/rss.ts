@@ -21,7 +21,7 @@ export function generateFeed(options: FeedOptions) {
     id: "https://geultto.github.io/",
     link: "https://geultto.github.io/",
     language: "ko",
-    copyright: `Copyright © ${new Date().getFullYear()} 글쓰는 또라이`,
+    copyright: `Copyright © ${new Date().getFullYear()} 글또`,
   });
 
   for (const post of options.posts) {
