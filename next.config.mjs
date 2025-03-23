@@ -1,16 +1,17 @@
-import { withContentCollections } from '@content-collections/next';
+import { withContentCollections } from "@content-collections/next";
 
 // const withMDX = createMDX();
 
 /** @type {import('next').NextConfig} */
 const config = {
-  output: 'export',
+  output: "export",
   reactStrictMode: true,
+  trailingSlash: true,
   images: { unoptimized: true },
   webpack: (config) => {
     config.module.rules.push({
       test: /\.ya?ml$/,
-      use: 'yaml-loader',
+      use: "yaml-loader",
     });
     return config;
   },
