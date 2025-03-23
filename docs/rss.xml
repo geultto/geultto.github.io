@@ -4,11 +4,11 @@
         <title>글또 문서</title>
         <link>https://geultto.github.io/</link>
         <description>글또 문서 RSS 피드</description>
-        <lastBuildDate>Sun, 23 Mar 2025 10:47:33 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 23 Mar 2025 10:56:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
-        <copyright>Copyright © 2025 글쓰는 또라이</copyright>
+        <copyright>Copyright © 2025 글또</copyright>
         <item>
             <title><![CDATA[글또의 다양한 활동]]></title>
             <link>https://geultto.github.io/docs/activities</link>
