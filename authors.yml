@@ -151,7 +151,7 @@
 
 임지환:
   name: 임지환
-  title: Product Manager 
+  title: Product Manager
   url: https://habwa.tistory.com/
   image_url: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png
   page: true
@@ -234,6 +234,17 @@
     linkedin: https://www.linkedin.com/in/songkg7/
     github: songkg7
     blog: https://haril.dev
+
+정종윤:
+  name: 정종윤
+  title: Front-End Developer
+  url: https://github.com/wormwlrm
+  image_url: https://github.com/wormwlrm.png
+  page: true
+  socials:
+    linkedin: wormwlrm
+    github: wormwlrm
+    blog: https://wormwlrm.github.io/
 
 최현구:
   name: 최현구
