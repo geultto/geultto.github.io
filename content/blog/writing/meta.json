@@ -1,5 +1,5 @@
 {
-  "title": "글쓰기",
-  "pages": ["curation-first", "feedback"],
+  "title": "큐레이션",
+  "pages": ["curation-first"],
   "defaultOpen": true
 }
