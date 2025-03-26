@@ -1,7 +1,7 @@
-import { docsSource } from '@/src/lib/source';
-import type { DocsLayoutProps } from 'fumadocs-ui/layouts/docs';
-import type { BaseLayoutProps } from 'fumadocs-ui/layouts/shared';
-import Link from 'next/link';
+import { docsSource } from "@/src/lib/source";
+import type { DocsLayoutProps } from "fumadocs-ui/layouts/docs";
+import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
+import Link from "next/link";
 
 /**
  * Shared layout configurations
@@ -16,9 +16,9 @@ export const baseOptions: BaseLayoutProps = {
   },
   links: [
     {
-      text: '가이드 문서',
-      url: '/docs',
-      active: 'nested-url',
+      text: "가이드",
+      url: "/docs",
+      active: "nested-url",
     },
     {
       text: "블로그",
@@ -56,6 +56,6 @@ export const docsOptions: DocsLayoutProps = {
         title: "큐레이션",
         url: "/curation",
       },
-    ]
+    ],
   },
 };
