@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "글또",
     images: [
       {
-        url: "https://geultto.github.io/og.png",
+        url: "https://geultto.github.io/geultto-social-card.png",
         width: 1200,
         height: 630,
         alt: "글또 로고",
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     description: "글쓰는 개발자 모임, 글또입니다",
     site: "@geultto",
     creator: "@geultto",
-    images: ["https://geultto.github.io/og.png"],
+    images: ["https://geultto.github.io/geultto-social-card.png"],
   },
 };
 

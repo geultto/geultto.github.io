@@ -61,11 +61,20 @@ export async function generateMetadata(props: any) {
       url,
       siteName: "글또",
       type: "article",
+      images: [
+        {
+          url: "https://geultto.github.io/geultto-social-card.png",
+          width: 1200,
+          height: 630,
+          alt: "글또 소셜 카드",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
+      images: ["https://geultto.github.io/geultto-social-card.png"],
     },
   } satisfies Metadata;
 }
