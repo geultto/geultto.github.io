@@ -47,7 +47,7 @@ createdAt: 2025-02-16
 <p style={{ color: 'gray', fontSize: '15px' }}>글빼미 피드백 AWS 아키텍처</p>
 </center>
 
-글빼미 피드백 기능의 워크플로우는 매우 간단합니다. 글을 제출하고 검수를 위한 Github Actions가 실행되면, 제출된 글에서 파싱된 텍스트가 API Gateway를 거쳐 Lambda 함수로 전달됩니다. 이 과정을 거쳐 개인화된 피드백이 생성됩니다.
+글빼미 피드백 기능의 워크플로우는 매우 간단합니다. 글을 제출하고 검수를 위한 GitHub Actions가 실행되면, 제출된 글에서 파싱된 텍스트가 API Gateway를 거쳐 Lambda 함수로 전달됩니다. 이 과정을 거쳐 개인화된 피드백이 생성됩니다.
 피드백 생성에는 Amazon Bedrock의 `Anthropic Claude 3.5 Haiku` 모델이 활용됩니다. 글또 서비스 내 다양한 LLM 기능들은 각각 독립된 Lambda 함수로 구현되어 있으며, 피드백 기능은 `/feedback` 라우트를 통해 제공됩니다.
 
 ## 🎚️ 피드백 강도 설정 기능
