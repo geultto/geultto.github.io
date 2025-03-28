@@ -4,11 +4,18 @@
         <title>글또 블로그</title>
         <link>https://geultto.github.io/</link>
         <description>글또 블로그 RSS 피드</description>
-        <lastBuildDate>Wed, 26 Mar 2025 02:25:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 28 Mar 2025 02:31:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
         <copyright>Copyright © 2025 글또</copyright>
+        <item>
+            <title><![CDATA[🦉 글또의 제출 글 검수 자동화 봇: 글빼미를 소개합니다!]]></title>
+            <link>https://geultto.github.io/blog/geultto-owl/introduction</link>
+            <guid>https://geultto.github.io/blog/geultto-owl/introduction</guid>
+            <pubDate>Fri, 28 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[E2E 테스트 기반 제출 글 검수 자동화 아키텍처 구현기]]></description>
+        </item>
         <item>
             <title><![CDATA[639명이 참여한 글또 10기의 활동 중간 점검 설문 결과]]></title>
             <link>https://geultto.github.io/blog/geultto-story/geultto-10th-midterm-retrospective</link>
