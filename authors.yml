@@ -256,3 +256,14 @@
     linkedin: hyeon9mak
     github: hyeon9mak
     blog: https://hyeon9mak.github.io
+
+배지훈:
+  name: 배지훈
+  title: Software Engineer
+  url: https://github.com/BaeJi77
+  image_url: https://github.com/BaeJi77.png
+  page: true
+  socials:
+    linkedin: https://www.linkedin.com/in/baeji77/
+    github: https://github.com/BaeJi77
+    blog: https://baeji77.github.io/
