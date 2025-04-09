@@ -664,3 +664,68 @@
         작가: 김인호
         설명: 🎯 코딩 테스트 준비의 핵심을 한 눈에! 알고리즘 문제 유형 파악과 효율적인 학습 전략으로 합격의 지름길을 안내하는 실전 가이드북
 
+  11th:
+    Frontend:
+      - 제목: 어떻게 서버에 요청을 최적으로 보낼까? 배치 작업부터 제너레이터까지
+        주소: https://witch.work/ko/posts/blog-api-call-optimization
+        작가: 김성현a
+        설명: 🤹‍♀️ 서버 요청의 효율성과 안정성을 높이기 위해, 배치 처리와 작업 큐, 제너레이터를 활용한 최적의 요청 관리 방법을 탐구하는 실용적인 가이드입니다.
+      - 제목: React 컴포넌트 Unmount시에 CSS 애니메이션 적용하기
+        주소: https://1lsang.vercel.app/posts/presence
+        작가: 박일상
+        설명: 🎬 React 컴포넌트의 Unmount시 애니메이션 처리가 어려운 이유와 해결방법을 상세히 설명한 글로, Radix UI의 Presence 컴포넌트 분석을 통해 애니메이션 이벤트와 내부 상태 기반의 언마운트 제어로 자연스러운 Exit 애니메이션을 구현하는 방법을 배울 수 있습니다.
+      - 제목: CSS interpolate-size 기반 아코디언,  JS보다 빠를까? 실측 성능 테스트
+        주소: https://mong-blog.tistory.com/entry/CSS-interpolate-size-%EA%B8%B0%EB%B0%98-%EC%95%84%EC%BD%94%EB%94%94%EC%96%B8-JS%EB%B3%B4%EB%8B%A4-%EB%B9%A0%EB%A5%BC%EA%B9%8C-%EC%8B%A4%EC%B8%A1-%EC%84%B1%EB%8A%A5-%ED%85%8C%EC%8A%A4%ED%8A%B8
+        작가: 금정민
+        설명: 🧪 CSS interpolate-size 기반 아코디언이 JS 방식보다 CPU 부하가 적고 렌더링 최적화에 효율적이라는 것을 실측 성능 테스트를 통해 입증한 유익한 글입니다.
+      - 제목: 피그마 무료 플랜에서 컬러 코드 추출 자동화하기! (feat. Figmable CLI 배포)
+        주소: https://velog.io/@byungsker/Figmable-CLI-%EB%B0%B0%ED%8F%AC%EB%AC%B4%EB%A3%8C%ED%94%8C%EB%9E%9C%EC%97%90%EC%84%9C-%ED%94%BC%EA%B7%B8%EB%A7%88-rest-api%EB%A1%9C-%ED%86%A0%ED%81%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0#51-varibaleslocal-%EC%82%AC%EC%9A%A9-%EB%B6%88%EA%B0%80
+        작가: 이병우
+        설명: 🎨 피그마 무료 플랜에서 컬러 코드를 자동으로 추출하고 CSS에 쉽게 적용할 수 있는 Figmable CLI로 디자인 시스템 동기화의 번거로움을 해결하세요!
+
+    Backend:
+      - 제목: Spring Boot JAR에서 진짜 main()은 따로 있다?
+        주소: https://velog.io/@byeolhaha/Jar%EC%9D%98-Main-method%EA%B0%80-%EB%82%B4%EA%B0%80-%EB%A7%8C%EB%93%A0-Main-method%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC%EA%B3%A0
+        작가: 김별
+        설명: 🚀 Spring Boot JAR의 실행 구조와 Nested JAR 방식을 이해하고 싶다면, Java의 기본 ClassLoader 한계부터 Spring Boot의 해결책까지 상세히 설명된 이 글을 통해 JAR 파일의 내부 동작 원리를 파악할 수 있습니다.
+      - 제목: MySQL 데드락 발생 프로시저 개선기 | 내가 그린
+        주소: https://jeonje.github.io/posts/geultto-mysql-deadlock-improvement/
+        작가: 이전제
+        설명: 🔐 MySQL 데드락 발생 프로시저를 어플리케이션 로직으로 전환하여 트랜잭션 처리 시간을 85% 단축하고, 성능과 코드 품질을 동시에 개선한 혁신적인 기술 개선 사례를 소개합니다!
+      - 제목: 라이브러리의 로그가 왜 안 찍힐까 - 기술을 기술하다
+        주소: https://dreamsh19.github.io/maven/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC%EC%9D%98-%EB%A1%9C%EA%B7%B8%EA%B0%80-%EC%99%9C-%EC%95%88-%EC%B0%8D%ED%9E%90%EA%B9%8C/
+        작가: 한승헌
+        설명: 🕵️ SLF4J 로깅 문제의 숨겨진 비밀- 의존성 버전 충돌로 인한 로그 미출력 현상을 파헤치고, Maven의 의존성 관리 메커니즘을 깊이 있게 탐구하여 해결 방법을 제시하는 기술 블로그 포스트입니다.
+      - 제목: 쿼리튜닝 이전에 고려해야 할 것들
+        주소: https://velog.io/@jghff700/thins-to-consider-before-query-tuning
+        작가: 장영환
+        설명: 🎛️ MAU 1,000만 규모의 실제 서비스 경험을 바탕으로, 쿼리 튜닝이 필요한 시점과 핵심 지표(North Star) 기반의 최적화 프로세스를 상세히 설명한 실용적인 가이드입니다.
+      - 제목: Git 이전의 버전 관리 시스템은 어땠을까?
+        주소: https://www.romedev.me/post/version-control-before-git
+        작가: 임원기
+        설명: 🕰️ Git 이전의 버전 관리 시스템의 진화 과정을 시대별로 추적하며, 소프트웨어 개발의 역사적 변천과 기술 발전을 이해할 수 있는 흥미로운 기술 역사 탐험 글입니다!
+
+    iOS:
+      - 제목: 서버 없이 로컬 데이터 관리 하고 싶어요.
+        주소: https://playground-coding.tistory.com/120
+        작가: 김서현
+        설명: 💾 서버 없이 로컬 데이터를 안전하고 효율적으로 관리하고 싶은 개발자를 위한 CoreData 완벽 가이드로, 개인 프로젝트에서 데이터베이스 운영 비용과 복잡성을 획기적으로 줄일 수 있는 핵심 솔루션을 소개합니다!
+
+    Data:
+      - 제목: 고민을 해결해가는 여정에 대한 기록 (부제 - 데싸 경력 4년차의 대학원 고민)
+        주소: https://nado-coding.tistory.com/42
+        작가: 김희주
+        설명: 🤔 데이터 분석가의 대학원 진학 고민을 체계적으로 정리하며 자신의 진정한 욕망과 가치를 발견해가는 여정을 담은 글로, 비슷한 고민을 하는 사람들에게 도움이 될 만한 통찰을 제공합니다.
+
+    AIML:
+      - 제목: [LLM-MT 시리즈] 초월번역기를 만들어 보자
+        주소: https://velog.io/@judy_choi/LLM-MT-%EC%8B%9C%EB%A6%AC%EC%A6%88-%EC%B4%88%EC%9B%94%EB%B2%88%EC%97%AD%EA%B8%B0%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%9E%90
+        작가: 최민주
+        설명: 🌟 LLM 멀티 에이전트를 활용한 초월번역기 개발로, 기존 기계번역의 한계를 뛰어넘어 문화적 뉘앙스와 창의적 번역을 구현하는 혁신적인 AI 번역 프로젝트를 소개합니다!
+
+    Fullstack:
+      - 제목: libuv 기여를 통한 Node.js IPC 성능 개선기
+        주소: https://www.verycosy.net/posts/2025/03/nodejs-ipc-performance-via-libuv-contribution
+        작가: 장진호
+        설명: 🔟 Node.js IPC 성능 문제를 해결하기 위해 10년된 이슈를 파고들어 macOS의 Unix Domain Socket 버퍼 크기 제한을 발견하고 libuv 수정으로 최대 4배 성능 개선을 이뤄낸 흥미로운 디버깅 여정을 상세히 소개한 글입니다.
+
