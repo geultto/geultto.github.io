@@ -679,7 +679,7 @@
         작가: 금정민
         설명: 🧪 CSS interpolate-size 기반 아코디언이 JS 방식보다 CPU 부하가 적고 렌더링 최적화에 효율적이라는 것을 실측 성능 테스트를 통해 입증한 유익한 글입니다.
       - 제목: 피그마 무료 플랜에서 컬러 코드 추출 자동화하기! (feat. Figmable CLI 배포)
-        주소: https://velog.io/@byungsker/Figmable-CLI-%EB%B0%B0%ED%8F%AC%EB%AC%B4%EB%A3%8C%ED%94%8C%EB%9E%9C%EC%97%90%EC%84%9C-%ED%94%BC%EA%B7%B8%EB%A7%88-rest-api%EB%A1%9C-%ED%86%A0%ED%81%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0#51-varibaleslocal-%EC%82%AC%EC%9A%A9-%EB%B6%88%EA%B0%80
+        주소: https://velog.io/@byungsker/Figmable-CLI-%EB%B0%B0%ED%8F%AC%EB%AC%B4%EB%A3%8C%ED%94%8C%EB%9E%9C%EC%97%90%EC%84%9C-%ED%94%BC%EA%B7%B8%EB%A7%88-rest-api%EB%A1%9C-%ED%86%A0%ED%81%B0-%EA%B0%80%EC%A0%B8%EC%98%A4%EA%B8%B0
         작가: 이병우
         설명: 🎨 피그마 무료 플랜에서 컬러 코드를 자동으로 추출하고 CSS에 쉽게 적용할 수 있는 Figmable CLI로 디자인 시스템 동기화의 번거로움을 해결하세요!
 
