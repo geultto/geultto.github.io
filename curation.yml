@@ -688,7 +688,7 @@
         주소: https://velog.io/@byeolhaha/Jar%EC%9D%98-Main-method%EA%B0%80-%EB%82%B4%EA%B0%80-%EB%A7%8C%EB%93%A0-Main-method%EA%B0%80-%EC%95%84%EB%8B%88%EB%9D%BC%EA%B3%A0
         작가: 김별
         설명: 🚀 Spring Boot JAR의 실행 구조와 Nested JAR 방식을 이해하고 싶다면, Java의 기본 ClassLoader 한계부터 Spring Boot의 해결책까지 상세히 설명된 이 글을 통해 JAR 파일의 내부 동작 원리를 파악할 수 있습니다.
-      - 제목: MySQL 데드락 발생 프로시저 개선기 | 내가 그린
+      - 제목: MySQL 데드락 발생 프로시저 개선기
         주소: https://jeonje.github.io/posts/geultto-mysql-deadlock-improvement/
         작가: 이전제
         설명: 🔐 MySQL 데드락 발생 프로시저를 어플리케이션 로직으로 전환하여 트랜잭션 처리 시간을 85% 단축하고, 성능과 코드 품질을 동시에 개선한 혁신적인 기술 개선 사례를 소개합니다!
