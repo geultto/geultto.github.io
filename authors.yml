@@ -257,6 +257,17 @@
     github: hyeon9mak
     blog: https://hyeon9mak.github.io
 
+배지훈:
+  name: 배지훈
+  title: Software Engineer
+  url: https://github.com/BaeJi77
+  image_url: https://github.com/BaeJi77.png
+  page: true
+  socials:
+    linkedin: baeji77/
+    github: BaeJi77
+    blog: https://baeji77.github.io/
+
 임정:
   name: 임정
   title: Data Analyst
