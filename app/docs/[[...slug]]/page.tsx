@@ -43,13 +43,38 @@ export async function generateStaticParams() {
 
 // NOTE: This is a workaround to fix the type error.
 // biome-ignore lint/suspicious/noExplicitAny: <explanation>
-export function generateMetadata(props: any) {
+export async function generateMetadata(props: any) {
   const { slug } = props.params as { slug?: string[] };
   const page = docsSource.getPage(slug);
   if (!page) notFound();
 
+  const title = page.data.title;
+  const description = page.data.description;
+  const url = `https://geultto.github.io/docs/${slug?.join("/") || ""}`;
+
   return {
-    title: page.data.title,
-    description: page.data.description,
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      url,
+      siteName: "글또",
+      type: "article",
+      images: [
+        {
+          url: "https://geultto.github.io/geultto-social-card.png",
+          width: 1200,
+          height: 630,
+          alt: "글또 소셜 카드",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["https://geultto.github.io/geultto-social-card.png"],
+    },
   } satisfies Metadata;
 }
