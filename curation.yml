@@ -728,4 +728,75 @@
         주소: https://www.verycosy.net/posts/2025/03/nodejs-ipc-performance-via-libuv-contribution
         작가: 장진호
         설명: 🔟 Node.js IPC 성능 문제를 해결하기 위해 10년된 이슈를 파고들어 macOS의 Unix Domain Socket 버퍼 크기 제한을 발견하고 libuv 수정으로 최대 4배 성능 개선을 이뤄낸 흥미로운 디버깅 여정을 상세히 소개한 글입니다.
+  
+  12th:
+    All:
+      - 제목: 글또 1~10기. 7년의 커뮤니티 운영 회고
+        주소: https://zzsza.github.io/diary/2025/03/30/geultto-operation-retrospective/
+        작가: 변성윤
+        설명: 🌳 7년간 13명으로 시작해 639명까지 성장한 개발자들의 글쓰기 커뮤니티 '글또'의 7년 성장 여정과 커뮤니티 운영의 진솔한 이야기를 담은 감동적인 회고록으로, 커뮤니티의 힘과 사람의 소중함을 배울 수 있는 필독 글입니다.
+  
+    PMPO:
+      - 제목: 제품 개발 없이 제품의 가능성을 검증할 수 있을까?
+        주소: https://brunch.co.kr/@userexperience/22
+        작가: 허유정
+        설명: 💡 MVP 없이도 회고 습관 형성 서비스의 가능성을 검증한 실험 과정과 결과를 소개한 글로, 제품 개발 전 가설 검증이 필요한 분들에게 실용적인 인사이트를 제공합니다.
+      - 제목: 눈물의 글또 회고 - 글 쓰러 왔을 뿐인데, 이것 다 뭐에요?(positive)
+        주소: https://chaerangja.tistory.com/43
+        작가: 김채은
+        설명: 💝 글또 활동을 통해 글쓰기 습관과 따뜻한 인연을 얻은 소중한 경험을 회고하며, 커뮤니티의 가치와 사람과의 연결이 가져다 준 긍정적인 변화를 진솔하게 담아낸 글입니다.
+        
+    Frontend:
+      - 제목: Cursor와 Figma로 경험하는 Model Context Protocol(MCP)
+        주소: https://www.reese-log.com/cursor-figma-model-context-protocol
+        작가: 안예지
+        설명: 🔧 Cursor와 Figma로 MCP를 체험하며, AI와 디자인/개발의 혁신적인 통합 방식을 배우고 미래 기술의 잠재력을 직접 확인할 수 있는 흥미로운 가이드입니다!
+      - 제목: Node.js 아키텍처 및 동작 분석
+        주소: https://1ilsang.dev/posts/nodejs-architecture-dive
+        작가: 이상철
+        설명: 🔍 Node.js의 내부 구조와 동작 원리를 깊이 있게 이해하고 싶은 개발자를 위해, V8 엔진과 libuv의 협업으로 비동기 JavaScript 런타임의 마법을 이해할 수 있는 놀라운 기술 여행 가이드!
+      - 제목: 2023~2025, 무엇을 했고 배웠고 돌아보았고 어떤 결심을 했는가
+        주소: https://witch.work/ko/posts/geultto-recollection
+        작가: 김성현a
+        설명: 🌱 개발자의 2년간의 여정을 돌아보며 커피챗을 통해 얻은 인사이트와 성장 과정을 진솔하게 풀어낸 글로, 자신을 찾아가는 과정에서의 시행착오와 깨달음을 통해 독자들에게 공감과 용기를 전하는 이야기입니다.
+      - 제목: [글또 10기 회고] 안녕은 영원한 헤어짐은 아니겠지요~
+        주소: https://velog.io/@sprare06/%EA%B8%80%EB%98%90-10%EA%B8%B0-%ED%9A%8C%EA%B3%A0
+        작가: 박지윤
+        설명: 📝 글또 활동을 통해 따뜻한 개발자 네트워킹과 꾸준한 글쓰기를 경험한 회고록으로, 6개월간 12개의 글을 작성하고 53명의 개발자와 만나며 성장한 여정을 진솔하게 담아낸 글입니다.
+        
+    Backend:
+      - 제목: [글또] ISFJ가 말해주는 커피챗 A to Z
+        주소: https://justsora.tistory.com/187
+        작가: 김소라
+        설명: 🤝 용기 있는 성장을 위한 진솔한 가이드로, 커피챗을 망설이는 사람들에게 실제 경험을 바탕으로 한 구체적인 준비 과정과 진행 방법을 통해 얻을 수 있는 인사이트와 성장 경험을 공유합니다!
+      - 제목: Hash Table 최적화: 40년만의 한계 돌파
+        주소: https://velog.io/@jghff700/hash-table-time-complexity-optimization
+        작가: 장영환
+        설명: 🥔 해시 테이블의 40년 된 성능 한계를 학부생 Andrew Krapivin이 혁신적으로 돌파하며, 최악의 경우 시간복잡도를 O(n)에서 O(log² x)로 개선한 놀라운 연구 성과를 소개합니다!
+      - 제목: 예외는 던져져야 할까?
+        주소: https://velog.io/@aryumka/%EC%98%88%EC%99%B8%EB%8A%94-%EB%8D%98%EC%A0%B8%EC%A0%B8%EC%95%BC-%ED%95%A0%EA%B9%8C
+        작가: 유아름
+        설명: 🚨 개발자들이 꼭 알아야 할 예외 처리의 핵심 가이드: 시스템 실패는 빠르게 던지고, 비즈니스 로직 오류는 명시적인 값으로 처리하여 코드의 신뢰성과 가독성을 높이는 현대적인 예외 처리 전략을 소개합니다!
+
+    Data:
+      - 제목: [월데노] 헬스장 만 1년차, 애플 건강 데이터로 전 후 비교하기
+        주소: https://0-lab.tistory.com/57
+        작가: 김영지
+        설명: 💪 1년간의 헬스장 운동 효과를 애플워치 건강 데이터로 분석한 결과, 운동의 긍정적인 효과를 수치로 확인할 수 있는 흥미로운 분석 글입니다.
+      - 제목: 글쓰기 모임의 효능_개발자 커뮤니티 글또에서 겪은 일들
+        주소: https://brunch.co.kr/@hnote/164
+        작가: 이소희a
+        설명: ✍️ 글또에서 얻은 11가지 소중한 경험을 통해 글쓰기의 성장과 네트워킹의 가치를 생생하게 전달하는 글입니다.
+
+    Infra:
+      - 제목: README.md만 수정했는데 ArgoCD가 파드를 재배포해요… 이거 진짜에요?(Diffing Customization)
+        주소: https://hackjsp.tistory.com/82
+        작가: 장성필
+        설명: 🔄 ArgoCD의 Diffing Customization을 통해 README.md 수정 시 불필요한 파드 재배포 문제를 해결하고, GitOps 워크플로우의 효율성을 높이는 핵심 기술을 소개합니다!
+        
+    Fullstack:
+      - 제목: 1단 로켓을 분리합니다. 굿바이 글또!
+        주소: https://daco2020.tistory.com/891
+        작가: 김은찬
+        설명: 🚀 글또 10기의 마지막을 장식하는 감동적인 회고록! 1단 로켓처럼 자신을 더 높은 곳으로 이끌어준 글또와의 작별을 아쉬움과 감사함으로 전하는 글입니다.
 
