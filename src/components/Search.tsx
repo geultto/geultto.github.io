@@ -8,8 +8,7 @@ import { useDocsSearch } from 'fumadocs-core/search/client';
 export default function CustomSearchDialog(props: SharedProps): React.ReactElement {
   // 검색 설정 - 서버에서 모든 검색 로직 처리
   const { query, search, setSearch } = useDocsSearch({
-    type: 'fetch',
-    api: '/api/search',
+    type: 'static',
   });
   
   function handleSearchChange(rawQuery: string) {

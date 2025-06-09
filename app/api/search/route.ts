@@ -84,9 +84,10 @@ const koreanEnglishTokenizer = {
   }
 };
 
+export const revalidate = false;
 
 
-export const { GET } = createFromSource(mergedSource, undefined,{
+export const { staticGET: GET } = createFromSource(mergedSource, undefined,{
   tokenizer: koreanEnglishTokenizer, // ← 이건 허용됨
   search: {
     mode: "fulltext"
