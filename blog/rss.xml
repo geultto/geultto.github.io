@@ -4,7 +4,7 @@
         <title>글또 블로그</title>
         <link>https://geultto.github.io/</link>
         <description>글또 블로그 RSS 피드</description>
-        <lastBuildDate>Sat, 14 Jun 2025 04:20:28 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 Jun 2025 02:34:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
@@ -68,6 +68,12 @@
             <guid>https://geultto.github.io/blog/open-source/jasonkang14-interview</guid>
             <pubDate>Mon, 30 Dec 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[비즈니스 문제 해결을 위해 주도적으로 기여하시는 병진님을 만나 이야기를 나눠보았습니다 🥳]]></description>
+        </item>
+        <item>
+            <title><![CDATA[커뮤니티 유저 행동 분석: 어떤 사용자가 계속 들어올까?]]></title>
+            <link>https://geultto.github.io/blog/project-eagle/geultto-retention-1</link>
+            <guid>https://geultto.github.io/blog/project-eagle/geultto-retention-1</guid>
+            <pubDate>Mon, 16 Jun 2025 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[취업, 이직 준비에 도움 되는 사이트 모음]]></title>
