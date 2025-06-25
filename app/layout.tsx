@@ -1,5 +1,4 @@
 import "./global.css";
-import { RootProvider } from "fumadocs-ui/provider";
 import { Inter } from "next/font/google";
 import type { ReactNode } from "react";
 import type { Metadata, Viewport } from "next";
@@ -33,8 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ko" className={inter.className} suppressHydrationWarning>
       <body className="flex flex-col min-h-screen">
-        <Providers />
-        <RootProvider>{children}</RootProvider>
+        <Providers >{children}</Providers>
       </body>
     </html>
   );
